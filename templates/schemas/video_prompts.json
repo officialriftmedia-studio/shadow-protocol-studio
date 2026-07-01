@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VideoPrompts",
+  "type": "object",
+  "required": ["prompts"],
+  "properties": {
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_id", "prompt", "duration_seconds", "style"],
+        "properties": {
+          "scene_id": { "type": "integer" },
+          "prompt": { "type": "string", "minLength": 10 },
+          "duration_seconds": { "type": "integer", "minimum": 1, "maximum": 60 },
+          "style": { "type": "string" },
+          "camera_motion": { "type": "string" }
+        }
+      }
+    }
+  }
+}

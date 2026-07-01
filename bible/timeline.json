@@ -1,0 +1,9 @@
+{
+  "$schema": "../templates/schemas/bible/timeline.json",
+  "meta": {
+    "description": "Canonical timeline of events in the Shadow Protocol universe",
+    "version": "1.0.0",
+    "last_updated": null
+  },
+  "events": []
+}

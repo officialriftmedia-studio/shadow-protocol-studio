@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BibleOrganizations",
+  "type": "object",
+  "required": ["meta", "organizations"],
+  "properties": {
+    "meta": { "$ref": "characters.json#/properties/meta" },
+    "organizations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type", "appears_in"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "appears_in": { "type": "array", "items": { "type": "string" } },
+          "description": { "type": "string" },
+          "members": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

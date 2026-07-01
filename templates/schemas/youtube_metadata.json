@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "YouTubeMetadata",
+  "type": "object",
+  "required": ["title", "description", "tags", "category", "visibility"],
+  "properties": {
+    "title": { "type": "string", "maxLength": 100 },
+    "description": { "type": "string", "maxLength": 5000 },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 20
+    },
+    "category": { "type": "string" },
+    "language": { "type": "string" },
+    "visibility": { "type": "string", "enum": ["public", "unlisted", "private"] },
+    "playlist": { "type": "string" },
+    "end_screen_elements": { "type": "array" },
+    "cards": { "type": "array" }
+  }
+}

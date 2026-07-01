@@ -1,0 +1,21 @@
+{
+  "$schema": "../templates/schemas/workflow.json",
+  "name": "default",
+  "description": "Full end-to-end pipeline from story idea to YouTube metadata",
+  "stages": [
+    { "name": "memory_resolver", "agent": "agents/memory_resolver.py", "input": [], "output": "resolved_references.json" },
+    { "name": "story_idea", "agent": "agents/story_idea.py", "input": ["bible/*.json", "resolved_references.json"], "output": "story_idea.md" },
+    { "name": "production_package", "agent": "agents/production_package.py", "input": ["story_idea.md"], "output": "production_package.json" },
+    { "name": "outline", "agent": "agents/outline.py", "input": ["production_package.json"], "output": "outline.json" },
+    { "name": "script", "agent": "agents/script.py", "input": ["outline.json"], "output": "script_section_*.md" },
+    { "name": "script_review", "agent": "agents/script_review.py", "input": ["script_section_*.md"], "output": "review.md" },
+    { "name": "scene_breakdown", "agent": "agents/scene_breakdown.py", "input": ["script_section_*.md", "review.md"], "output": "scene_breakdown.json" },
+    { "name": "image_prompt", "agent": "agents/image_prompt.py", "input": ["scene_breakdown.json"], "output": "image_prompts.json" },
+    { "name": "video_prompt", "agent": "agents/video_prompt.py", "input": ["scene_breakdown.json"], "output": "video_prompts.json" },
+    { "name": "voiceover", "agent": "agents/voiceover.py", "input": ["script_section_*.md", "scene_breakdown.json"], "output": "voiceover_segments.json" },
+    { "name": "thumbnail", "agent": "agents/thumbnail.py", "input": ["scene_breakdown.json"], "output": "thumbnail_prompt.txt" },
+    { "name": "metadata", "agent": "agents/metadata.py", "input": ["scene_breakdown.json", "production_package.json"], "output": "youtube_metadata.json" },
+    { "name": "validation", "agent": "agents/validation.py", "input": ["*.json", "*.md"], "output": "validation_report.json" },
+    { "name": "memory_update", "agent": "agents/memory_update.py", "input": ["production_package.json", "scene_breakdown.json"], "output": null }
+  ]
+}

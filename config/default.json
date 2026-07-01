@@ -1,0 +1,31 @@
+{
+  "project": {
+    "name": "Shadow Protocol Studio",
+    "version": "0.1.0",
+    "description": "AI-native automated YouTube production studio"
+  },
+  "llm": {
+    "provider": "${LLM_PROVIDER}",
+    "model": "${LLM_MODEL}",
+    "temperature": 0.7,
+    "max_tokens": 4096,
+    "timeout_seconds": 120
+  },
+  "pipeline": {
+    "max_retries": 3,
+    "retry_delay_seconds": 5,
+    "concurrent_agents": false
+  },
+  "storage": {
+    "projects_dir": "./projects",
+    "memory_dir": "./memory",
+    "templates_dir": "./templates",
+    "prompts_dir": "./prompts",
+    "bible_dir": "./bible"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "json",
+    "output_dir": "./memory/logs"
+  }
+}

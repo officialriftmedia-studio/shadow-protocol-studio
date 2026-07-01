@@ -1,0 +1,9 @@
+{
+  "$schema": "../templates/schemas/bible/locations.json",
+  "meta": {
+    "description": "Canonical location registry for the Shadow Protocol universe",
+    "version": "1.0.0",
+    "last_updated": null
+  },
+  "locations": []
+}

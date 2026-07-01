@@ -1,0 +1,58 @@
+{
+  "$schema": "paths.schema.json",
+  "description": "Template path mappings for pipeline stage outputs",
+  "stages": {
+    "story_idea": {
+      "input": [],
+      "output": "story_idea.md"
+    },
+    "production_package": {
+      "input": ["story_idea.md"],
+      "output": "production_package.json"
+    },
+    "outline": {
+      "input": ["production_package.json"],
+      "output": "outline.json"
+    },
+    "script": {
+      "input": ["outline.json"],
+      "output": "script_section_{n}.md"
+    },
+    "script_review": {
+      "input": ["script_section_*.md"],
+      "output": "review.md"
+    },
+    "scene_breakdown": {
+      "input": ["script_section_*.md", "review.md"],
+      "output": "scene_breakdown.json"
+    },
+    "image_prompt": {
+      "input": ["scene_breakdown.json"],
+      "output": "image_prompts.json"
+    },
+    "video_prompt": {
+      "input": ["scene_breakdown.json"],
+      "output": "video_prompts.json"
+    },
+    "voiceover": {
+      "input": ["script_section_*.md", "scene_breakdown.json"],
+      "output": "voiceover_segments.json"
+    },
+    "thumbnail": {
+      "input": ["scene_breakdown.json"],
+      "output": "thumbnail_prompt.txt"
+    },
+    "metadata": {
+      "input": ["scene_breakdown.json", "production_package.json"],
+      "output": "youtube_metadata.json"
+    },
+    "validation": {
+      "input": ["production_package.json", "outline.json", "scene_breakdown.json", "image_prompts.json", "video_prompts.json", "voiceover_segments.json", "youtube_metadata.json"],
+      "output": "validation_report.json"
+    },
+    "memory_update": {
+      "input": ["production_package.json", "scene_breakdown.json"],
+      "output": null
+    }
+  }
+}

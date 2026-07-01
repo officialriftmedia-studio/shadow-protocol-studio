@@ -1,0 +1,14 @@
+{
+  "$schema": "../templates/schemas/workflow.json",
+  "name": "batch",
+  "description": "Process multiple episodes sequentially with cross-episode continuity",
+  "extends": "default",
+  "mode": "batch",
+  "parallel": false,
+  "episodes": [],
+  "cross_episode_validation": {
+    "enabled": true,
+    "check_continuity": true,
+    "output": "cross_episode_report.json"
+  }
+}

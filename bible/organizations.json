@@ -1,0 +1,9 @@
+{
+  "$schema": "../templates/schemas/bible/organizations.json",
+  "meta": {
+    "description": "Canonical organization registry for the Shadow Protocol universe",
+    "version": "1.0.0",
+    "last_updated": null
+  },
+  "organizations": []
+}

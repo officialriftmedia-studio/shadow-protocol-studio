@@ -1,0 +1,9 @@
+{
+  "$schema": "../templates/schemas/bible/unresolved_mysteries.json",
+  "meta": {
+    "description": "Tracking of open questions and loose threads across episodes",
+    "version": "1.0.0",
+    "last_updated": null
+  },
+  "mysteries": []
+}

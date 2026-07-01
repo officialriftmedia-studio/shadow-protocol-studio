@@ -1,0 +1,14 @@
+{
+  "$schema": "../templates/schemas/workflow.json",
+  "name": "recovery",
+  "description": "Retry workflow with exponential backoff after agent failure",
+  "extends": "default",
+  "max_retries": 3,
+  "retry_delay_base_seconds": 5,
+  "backoff_multiplier": 2.0,
+  "on_failure": {
+    "action": "generate_error_report",
+    "output": "error_report.json",
+    "human_readable": "error_report.md"
+  }
+}

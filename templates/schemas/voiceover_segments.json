@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VoiceoverSegments",
+  "type": "object",
+  "required": ["segments"],
+  "properties": {
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_id", "segment_index", "text", "estimated_duration_seconds"],
+        "properties": {
+          "scene_id": { "type": "integer" },
+          "segment_index": { "type": "integer" },
+          "text": { "type": "string", "minLength": 1 },
+          "voice_id": { "type": "string" },
+          "estimated_duration_seconds": { "type": "number" },
+          "delivery_notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

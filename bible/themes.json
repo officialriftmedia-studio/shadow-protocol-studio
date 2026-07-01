@@ -1,0 +1,40 @@
+{
+  "$schema": "../templates/schemas/bible/themes.json",
+  "meta": {
+    "description": "Core thematic registry for the Shadow Protocol universe",
+    "version": "1.0.0",
+    "last_updated": null
+  },
+  "themes": [
+    {
+      "id": "perception_vs_reality",
+      "name": "Perception vs. Reality",
+      "description": "The line between what is real and what is manufactured is the central battleground of the series."
+    },
+    {
+      "id": "hidden_systems",
+      "name": "Hidden Systems of Power",
+      "description": "Invisible networks control visible outcomes. The true enemy is never fully visible."
+    },
+    {
+      "id": "identity_collapse",
+      "name": "Identity Collapse",
+      "description": "Protagonists whose sense of self unravels as they uncover the truth."
+    },
+    {
+      "id": "surveillance_state",
+      "name": "Surveillance State",
+      "description": "Omnipresent observation as both a tool of control and a source of paranoia."
+    },
+    {
+      "id": "moral_ambiguity",
+      "name": "Moral Ambiguity",
+      "description": "No pure heroes or villains — only people making choices in impossible circumstances."
+    },
+    {
+      "id": "the_system_survives",
+      "name": "The System Always Survives",
+      "description": "Even when a battle is won, the larger machine continues to operate."
+    }
+  ]
+}

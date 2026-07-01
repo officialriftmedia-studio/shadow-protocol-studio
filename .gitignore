@@ -1,0 +1,41 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated assets (episode outputs)
+projects/*/image_assets/
+projects/*/video_assets/
+projects/*/audio_assets/
+
+# Large generated files
+*.mp4
+*.wav
+*.png
+*.jpg
+
+# Memory caches
+memory/*.pkl
+memory/*.db
+
+# API keys
+.env.local
+*.key
+
+# Build
+dist/
+build/
+*.egg-info/

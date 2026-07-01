@@ -1,0 +1,9 @@
+{
+  "$schema": "../templates/schemas/bible/characters.json",
+  "meta": {
+    "description": "Canonical character registry for the Shadow Protocol universe",
+    "version": "1.0.0",
+    "last_updated": null
+  },
+  "characters": []
+}

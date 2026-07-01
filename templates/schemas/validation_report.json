@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ValidationReport",
+  "type": "object",
+  "required": ["episode", "overall", "results"],
+  "properties": {
+    "episode": { "type": "string" },
+    "timestamp": { "type": ["string", "null"] },
+    "overall": { "type": "string", "enum": ["PASS", "FAIL"] },
+    "results": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "required": ["status"],
+          "properties": {
+            "status": { "type": "string", "enum": ["PASS", "FAIL", "SKIPPED"] },
+            "errors": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    }
+  }
+}

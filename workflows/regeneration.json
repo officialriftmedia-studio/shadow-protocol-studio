@@ -1,0 +1,14 @@
+{
+  "$schema": "../templates/schemas/workflow.json",
+  "name": "regeneration",
+  "description": "Resume pipeline from a specific stage, skipping completed stages",
+  "extends": "default",
+  "mode": "resume",
+  "resume_from": null,
+  "skip_completed": true,
+  "cache_check": {
+    "enabled": true,
+    "strategy": "hash_inputs",
+    "hash_file": ".input_hashes.json"
+  }
+}

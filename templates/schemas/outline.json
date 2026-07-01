@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Outline",
+  "type": "object",
+  "required": ["episode_id", "acts"],
+  "properties": {
+    "episode_id": { "type": "string" },
+    "title": { "type": ["string", "null"] },
+    "acts": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["act", "name", "scenes"],
+        "properties": {
+          "act": { "type": "integer" },
+          "name": { "type": "string" },
+          "scenes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["scene", "summary", "beats"],
+              "properties": {
+                "scene": { "type": "integer" },
+                "summary": { "type": "string" },
+                "beats": { "type": "array", "items": { "type": "object" } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
