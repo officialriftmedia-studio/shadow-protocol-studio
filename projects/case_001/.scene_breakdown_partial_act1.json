@@ -1,0 +1,192 @@
+[
+  {
+    "scene_number": 3,
+    "section": "act1",
+    "title": "The Digital Guardian",
+    "duration": 60,
+    "narrative_purpose": "Establish Elena's normal world as a senior cybersecurity analyst, meticulous and trusting in data. Introduce the clinical, ordered environment she operates within, highlighting her competence.",
+    "emotion": "Order, precision, calm confidence",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Wide, sterile shot opening, tightening to a focused close-up on Elena and her eyes reflecting screens. Geometric framing.",
+    "color_palette": "Muted grays, cool blues, clinical whites, blue screen glow.",
+    "lighting": "Cool, clinical overhead fluorescent, blue glow from monitors.",
+    "visual_motif": "Reflections in screens, complex data streams, lines of code.",
+    "music": "Subtle low-frequency drone, barely-there tension.",
+    "sound_effects": [
+      "Soft hum of server racks",
+      "Distant, muffled office chatter",
+      "Precise, rhythmic keyboard clicks"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Cut"
+  },
+  {
+    "scene_number": 4,
+    "section": "act1",
+    "title": "The First Glitch",
+    "duration": 50,
+    "narrative_purpose": "Introduce the initial, minor anomaly in Elena's personal data, showing her rational, dismissive reaction as she attempts a quick, confident correction.",
+    "emotion": "Mild irritation, analytical dismissal",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Close-up on Elena's monitor, then her face reflecting the screen, slight frown.",
+    "color_palette": "Cool blues and grays, with a subtle, momentary highlight of a single digit in red/orange.",
+    "lighting": "Clinical overhead, screen glow emphasizing the highlighted error.",
+    "visual_motif": "Highlighted data field, flickering screen text.",
+    "music": "Subtle drone intensifies very slightly, then fades back.",
+    "sound_effects": [
+      "Brief, almost subliminal, dissonant electronic chime",
+      "Deliberate keyboard clicks"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Cut"
+  },
+  {
+    "scene_number": 5,
+    "section": "act1",
+    "title": "Spreading Discrepancies",
+    "duration": 80,
+    "narrative_purpose": "Illustrate the escalation of the anomaly into a systematic, spreading alteration of Elena's digital identity across multiple platforms, increasing her unease and dawning paranoia.",
+    "emotion": "Growing unease, frustration, dawning paranoia",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office / Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Montage of close-ups on screens and Elena's increasingly agitated face. Handheld feel during apartment scenes to convey urgency.",
+    "color_palette": "Starts cool blue/green in office, shifts to warmer but starker light in apartment, flickering data glow.",
+    "lighting": "Office: cool blue/green screen glow, harsh overhead. Apartment: flickering data light, tense, isolating.",
+    "visual_motif": "Overwritten data, generic placeholders, subtly altered photos, reflections.",
+    "music": "High-pitched whine layers under ambient sounds, growing in intensity. Faint, distorted electronic echo.",
+    "sound_effects": [
+      "Faster, more agitated keyboard clicks",
+      "Subtle, high-pitched whine"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Cut"
+  },
+  {
+    "scene_number": 6,
+    "section": "act1",
+    "title": "Identity Not Found",
+    "duration": 70,
+    "narrative_purpose": "Deliver the inciting incident: Elena's complete digital erasure, shattering her foundation and establishing the central conflict of her lost identity. A moment of profound horror and despair.",
+    "emotion": "Disbelief, dawning horror, despair, isolation",
+    "location": "Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Close-up on Elena's face, bathed in harsh blue light. Slow, deliberate push-in on her face as the message appears. The empty space around the stark message feels vast, isolating.",
+    "color_palette": "Harsh, cold blue light from the monitor, reflecting starkly in her eyes.",
+    "lighting": "Harsh blue screen light, isolating, creating deep shadows.",
+    "visual_motif": "Stark text on screen, reflections of the message in her wide eyes.",
+    "music": "High-pitched whine peaks then abruptly cuts to absolute silence, followed by a low, sustained, ominous thrum.",
+    "sound_effects": [
+      "Elena's ragged breath (barely audible)",
+      "Absolute silence",
+      "Deep, ominous thrumming"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 18,
+    "section": "act1",
+    "title": "Guardian of the Digital Order",
+    "duration": 55,
+    "narrative_purpose": "Establish Elena's character as a highly capable cybersecurity analyst, deeply embedded in and trusting of the digital systems she oversees for OmniCorp.",
+    "emotion": "Confident, efficient, sterile, underlying tension",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Open on static wide, slow push into close-up on Elena, then tight on her eyes reflecting screens.",
+    "color_palette": "Muted grays, clinical whites, cool blues from screens",
+    "lighting": "Harsh overhead fluorescent, screen glow as primary light source",
+    "visual_motif": "Reflections in screens, geometric office architecture, data streams",
+    "music": "Subtle, low ambient drone",
+    "sound_effects": [
+      "Soft hum of server racks",
+      "Distant, muffled office chatter",
+      "Precise, rhythmic clicks of a mechanical keyboard"
+    ],
+    "transition_in": "Smash cut from black",
+    "transition_out": "Slow dissolve to next scene"
+  },
+  {
+    "scene_number": 19,
+    "section": "act1",
+    "title": "The First Glitch",
+    "duration": 45,
+    "narrative_purpose": "Introduce the initial, minor digital inconsistency in Elena's personal records, which she confidently dismisses as a simple system error.",
+    "emotion": "Slight irritation, analytical, dismissive",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Tight close-ups on screen displaying data, intercut with Elena's face reflecting the screen's glow.",
+    "color_palette": "Dominant screen blue, sterile office whites",
+    "lighting": "Screen glow, harsh overhead fluorescent",
+    "visual_motif": "Highlighted data fields, digital text, reflections",
+    "music": "Low ambient drone with a subtle, brief dissonant shift",
+    "sound_effects": [
+      "Brief, subliminal dissonant electronic chime",
+      "Deliberate keyboard clicks",
+      "Subtle drone intensification, then fade"
+    ],
+    "transition_in": "Dissolve from previous scene",
+    "transition_out": "Hard cut to montage"
+  },
+  {
+    "scene_number": 20,
+    "section": "act1",
+    "title": "The Digital Erasure Begins",
+    "duration": 70,
+    "narrative_purpose": "Illustrate the escalating and systematic nature of the digital alterations to Elena's identity, shifting her from confident analyst to frantic investigator, culminating in a disturbing discovery of altered personal history.",
+    "emotion": "Growing unease, paranoia, frantic energy, unsettling",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office / Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Dynamic montage of rapid cuts between screens and Elena's face. Handheld in apartment, close-ups on details.",
+    "color_palette": "Shifting from cool blue/sickly green (office) to warmer but stark apartment tones, dominated by screen light.",
+    "lighting": "Corporate: harsh overhead, sickly green screen glow. Apartment: flickering screen light, practical lamps casting deep shadows.",
+    "visual_motif": "Overwritten data, disappearing details, digital blur, reflections of a changing identity",
+    "music": "High-pitched whine building in intensity, distorted electronic layers",
+    "sound_effects": [
+      "Faster, agitated keyboard clicks",
+      "Subtle high-pitched whine growing",
+      "Faint, distorted electronic echo"
+    ],
+    "transition_in": "Hard cut from previous scene",
+    "transition_out": "Hard cut to next scene"
+  },
+  {
+    "scene_number": 21,
+    "section": "act1",
+    "title": "Identity Not Found",
+    "duration": 60,
+    "narrative_purpose": "Deliver the climax of the section, depicting Elena's ultimate digital erasure and the profound horror of realizing her entire identity has been systematically dismantled by the system she trusted.",
+    "emotion": "Disbelief, horror, existential dread, despair",
+    "location": "Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Extreme close-up on Elena's face, slow push-in, static shot on the stark 'IDENTITY NOT FOUND' message.",
+    "color_palette": "Harsh, cold blue from monitor, deep shadows in the background",
+    "lighting": "Solely screen light, casting stark, cold illumination on her face",
+    "visual_motif": "Stark text on screen, reflections of despair, empty digital space",
+    "music": "Abrupt silence, followed by a slowly building, deep, ominous thrum",
+    "sound_effects": [
+      "Abrupt silence",
+      "Elena's ragged breath (barely audible)",
+      "Deep, ominous thrumming"
+    ],
+    "transition_in": "Hard cut from previous scene",
+    "transition_out": "Fade to black"
+  }
+]

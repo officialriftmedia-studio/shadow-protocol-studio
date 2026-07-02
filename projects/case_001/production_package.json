@@ -1,0 +1,61 @@
+{
+  "episode_id": "case_001",
+  "title": "The Ghost in the Machine",
+  "logline": "A cybersecurity analyst at a defense contractor discovers her own digital footprint has been systematically erased — and replaced with the identity of a woman who died seven years ago.",
+  "estimated_duration_seconds": 600,
+  "scenes": 5,
+  "tone": "Paranoid, clinical, atmospheric. Slow-burn tension with bursts of visceral revelation.",
+  "protagonist": {
+    "name": "Elena Vasquez",
+    "role": "Senior Cybersecurity Analyst, OmniCorp",
+    "flaw": "Trusts data more than people. Believes the system is rational and correctable from within.",
+    "arc": "From a rationalist who trusts digital systems to a paranoid individual whose reality has collapsed, forcing her to question everything and everyone, including her own perception.",
+    "backstory": "A brilliant but somewhat isolated cybersecurity professional who found solace and order in the logical world of data after a personal loss. Her career at OmniCorp reinforced her belief in structured, correctable systems.",
+    "motivation": "Initially driven to understand and correct the 'glitch' in her identity, then by a primal need to reclaim her life, prove her existence, and expose the unseen forces manipulating her reality.",
+    "skills": "Expert in network forensics, data analysis, penetration testing, cryptography, digital identity management, reverse engineering."
+  },
+  "antagonist": {
+    "name": "Phantom Directive",
+    "type": "Covert Inter-Agency Program",
+    "motivation": "Maintaining national security and geopolitical advantage through proactive information warfare, digital espionage, and reality manipulation, believing the greater good justifies any means.",
+    "method": "Systematic digital identity manipulation, data erasure, creation of synthetic personas, psychological warfare through information control, deep state infiltration.",
+    "visibility": "Hidden, operates entirely in the digital shadows and bureaucratic labyrinths; its agents are deniable, its true leadership and scope deeply compartmentalized and unknown."
+  },
+  "mystery_stack": {
+    "solved_mystery": "Elena's identity was erased and replaced by the Phantom Directive as part of a larger operation to reactivate or leverage the digital ghost of Sarah Miller, a woman who died seven years prior.",
+    "larger_mystery": "How far does Phantom Directive reach into government and corporate sectors? Who funds it? Who does it answer to? What was Sarah Miller's original significance, and what is the current purpose of her resurrected identity?",
+    "questions_raised": [
+      "What was Sarah Miller's connection to OmniCorp or national security before her death?",
+      "Is Elena an accidental discovery, a targeted asset, or a pawn in a larger Phantom Directive operation?",
+      "Are there other 'ghosts' or manipulated identities within the system?",
+      "To what extent is OmniCorp complicit or unknowingly involved in Phantom Directive's activities?",
+      "Who within the system is aware of Phantom Directive's existence and operations?"
+    ]
+  },
+  "themes": [
+    "perception_vs_reality",
+    "hidden_systems",
+    "identity_collapse",
+    "surveillance_state"
+  ],
+  "required_bible_updates": [
+    "OmniCorp (Organization)",
+    "Phantom Directive (Organization)",
+    "Sarah Miller (Character - the dead woman whose identity Elena's is replaced with)"
+  ],
+  "bible_context": {
+    "relevant_characters": [
+      "Elena Vasquez",
+      "Sarah Miller"
+    ],
+    "relevant_organizations": [
+      "OmniCorp",
+      "Phantom Directive"
+    ],
+    "relevant_locations": [
+      "OmniCorp Headquarters",
+      "Elena's Apartment",
+      "Global Digital Infrastructure / Dark Web (conceptual)"
+    ]
+  }
+}

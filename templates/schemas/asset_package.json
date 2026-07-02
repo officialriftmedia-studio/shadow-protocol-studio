@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AssetPackage",
+  "type": "object",
+  "required": ["image_prompts", "video_prompts", "youtube_metadata", "thumbnail_prompt"],
+  "properties": {
+    "image_prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_id", "prompt", "style", "aspect_ratio"],
+        "properties": {
+          "scene_id": { "type": "integer" },
+          "prompt": { "type": "string", "minLength": 10 },
+          "negative_prompt": { "type": "string" },
+          "style": { "type": "string" },
+          "aspect_ratio": { "type": "string", "enum": ["16:9", "9:16", "1:1", "4:3"] }
+        }
+      }
+    },
+    "video_prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_id", "prompt", "duration_seconds", "style"],
+        "properties": {
+          "scene_id": { "type": "integer" },
+          "prompt": { "type": "string", "minLength": 10 },
+          "duration_seconds": { "type": "integer", "minimum": 1, "maximum": 60 },
+          "style": { "type": "string" },
+          "camera_motion": { "type": "string" }
+        }
+      }
+    },
+    "youtube_metadata": {
+      "type": "object",
+      "required": ["title", "description", "tags", "category", "visibility"],
+      "properties": {
+        "title": { "type": "string", "maxLength": 100 },
+        "description": { "type": "string", "maxLength": 5000 },
+        "tags": { "type": "array", "items": { "type": "string" }, "maxItems": 20 },
+        "category": { "type": "string" },
+        "language": { "type": "string" },
+        "visibility": { "type": "string", "enum": ["public", "unlisted", "private"] },
+        "playlist": { "type": "string" },
+        "end_screen_elements": { "type": "array" },
+        "cards": { "type": "array" }
+      }
+    },
+    "thumbnail_prompt": {
+      "type": "object",
+      "required": ["prompt"],
+      "properties": {
+        "prompt": { "type": "string", "minLength": 10 }
+      }
+    }
+  }
+}

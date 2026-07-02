@@ -1,0 +1,97 @@
+[
+  {
+    "scene_number": 1,
+    "section": "hook",
+    "title": "The Phantom Echo",
+    "duration": 75,
+    "narrative_purpose": "Establish Elena's present state of profound despair and isolation, immediately immersing the audience in the central mystery of her dissolving identity and the psychological impact.",
+    "emotion": "Dread, paranoia, despair, isolation",
+    "location": "Elena Vasquez's Apartment - Living Room",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Clinical observation, slow push, fragmented close-ups, wide shots emphasizing isolation",
+    "color_palette": "Stark blue-white (screens), deep oppressive shadows, desaturated tones",
+    "lighting": "Harsh screen-glow, deep shadows, single key light (implied by monitor light)",
+    "visual_motif": "Reflections (distorted), screens, wires, chaotic data",
+    "music": "Subliminal electronic drone, low bass pulse",
+    "sound_effects": [
+      "Computer fan hum",
+      "Distant siren",
+      "Ragged breathing",
+      "Mouse click"
+    ],
+    "transition_in": "Fade in from black",
+    "transition_out": "Narrator leads to fade to black"
+  },
+  {
+    "scene_number": 2,
+    "section": "hook",
+    "title": "Rewind to the Precipice",
+    "duration": 25,
+    "narrative_purpose": "Transition the narrative timeline to the past, setting up the origin story of Elena's crisis and building anticipation for the flashback.",
+    "emotion": "Anticipation, mystery, temporal shift",
+    "location": "Narrative Transition Space",
+    "characters": [],
+    "camera_style": "Static black screen",
+    "color_palette": "Pure black",
+    "lighting": "Absence of light",
+    "visual_motif": "None",
+    "music": "Electronic drone fades out",
+    "sound_effects": [
+      "Electronic drone fades out",
+      "Clean ambience",
+      "Digital chime"
+    ],
+    "transition_in": "From previous scene's narrator and fade out",
+    "transition_out": "Hard cut to new scene (flashback)"
+  },
+  {
+    "scene_number": 16,
+    "section": "hook",
+    "title": "Identity Not Found",
+    "duration": 75,
+    "narrative_purpose": "Introduce Elena Vasquez in a state of extreme distress, revealing the core conflict of her identity being erased, and establish the series' paranoid, tech-driven atmosphere.",
+    "emotion": "Paranoia, dread, despair, exhaustion, clinical detachment",
+    "location": "Elena Vasquez's Apartment - Living Room",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Tight shot on trembling hands, slow widen to reveal chaotic war room, close-up on distorted screen reflection (flickering glitch), pull back to wide shot emphasizing isolation. Inspired by Mr. Robot's precise, often isolating framing and True Detective's atmospheric wide shots.",
+    "color_palette": "Desaturated blues, stark blue-white screen glow, deep oppressive shadows, hints of warm amber from incidental lights",
+    "lighting": "Dominant harsh blue-white screen light, deep practical shadows, minimal ambient light. Reminiscent of Sicario's high contrast and selective illumination.",
+    "visual_motif": "Screens, reflections (especially distorted), data interfaces, wires, claustrophobic interiors",
+    "music": "Low, persistent electronic drone, subtle bass pulse, almost subliminal",
+    "sound_effects": [
+      "Computer fan hum",
+      "Subtle electronic drone (building)",
+      "Distant siren (fading)",
+      "Ragged breathing",
+      "Mouse click (sharp, isolated)"
+    ],
+    "transition_in": "Smash cut from black",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 17,
+    "section": "hook",
+    "title": "Three Days Earlier",
+    "duration": 25,
+    "narrative_purpose": "Provide a clear temporal transition to a flashback sequence, signaling a shift to the origin story of Elena's crisis.",
+    "emotion": "Anticipation, narrative shift, reflective",
+    "location": "Abstract (Narrative Transition)",
+    "characters": [],
+    "camera_style": "Fade to black, holding on black",
+    "color_palette": "Pure black",
+    "lighting": "Absence of light",
+    "visual_motif": "The void, temporal markers",
+    "music": "Electronic drone fades out, replaced by clean, sterile ambient tone",
+    "sound_effects": [
+      "Electronic drone fading",
+      "Clean, sterile ambience",
+      "Digital chime"
+    ],
+    "transition_in": "From black",
+    "transition_out": "Hard cut to new scene"
+  }
+]

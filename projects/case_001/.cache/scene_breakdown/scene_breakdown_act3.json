@@ -1,0 +1,58 @@
+{
+  "hash": "0d05af83696a62cf1eab53638c6d5847b81d8b065061ce449900e905e863be12",
+  "stage": "scene_breakdown",
+  "section": "act3",
+  "data": [
+    {
+      "scene_number": 28,
+      "section": "act3",
+      "title": "The Futility of Proof",
+      "duration": 75,
+      "narrative_purpose": "Elena presents irrefutable evidence of the 'Phantom Directive' and her identity theft to OmniCorp leadership, only to have it clinically dismissed as a psychological break, reinforcing the system's imperviousness and her profound isolation.",
+      "emotion": "Desperation, disbelief, paranoia, rising dread",
+      "location": "OmniCorp Headquarters - Executive Conference Room",
+      "characters": [
+        "Elena Vasquez",
+        "Committee Members (VO)"
+      ],
+      "camera_style": "Static wide shot establishing isolation, then tight on Elena's face, slow push during her dialogue, quick cuts to her trembling hands on evidence (Mindhunter style clinical framing)",
+      "color_palette": "Clinical whites, cool blues, stark grays, desaturated with high contrast",
+      "lighting": "Harsh overhead fluorescent lighting, creating sharp shadows and glare on the polished table, illuminating Elena with a cold, unforgiving light (Roger Deakins influence)",
+      "visual_motif": "Reflections (on table), screens (evidence), geometric patterns (room architecture)",
+      "music": "Low, almost imperceptible drone ambient, with a subtle, rising tension",
+      "sound_effects": [
+        "Sterile hum of fluorescents",
+        "Faint server whirr",
+        "Elena's keyboard clicks",
+        "Muffled, disembodied committee voices",
+        "Subtle pen click (dismissive)"
+      ],
+      "transition_in": "Hard cut from previous scene",
+      "transition_out": "Quick cuts of screen text, jarring system error sound (BLIP-BLIP-BLIP)"
+    },
+    {
+      "scene_number": 29,
+      "section": "act3",
+      "title": "The System's Echo",
+      "duration": 70,
+      "narrative_purpose": "Elena retreats to her apartment, utterly defeated and psychologically fractured. The constant, subtle presence of surveillance (the 'Watcher') underscores her permanent entrapment and the system's indifferent endurance.",
+      "emotion": "Despair, profound paranoia, resignation, psychological collapse",
+      "location": "Elena Vasquez's Apartment",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Static wide shots emphasizing the oppressive nature of her apartment, then fragmented reflections of Elena across multiple screens (Mr. Robot style). Slow zoom on her vacant stare.",
+      "color_palette": "Muted, desaturated blues and grays, with a faint, sickly green from the screens",
+      "lighting": "Low, ambient light from multiple screens, casting shifting, fractured shadows. Sparse, clinical lighting, perhaps a single practical lamp emphasizing her isolation.",
+      "visual_motif": "Screens, reflections, shadows, subtle flickers",
+      "music": "Oppressive silence broken by a low, sustained bass pulse that mimics a heartbeat or a distant machine, almost subliminal",
+      "sound_effects": [
+        "Low drone of screens",
+        "Elena's shallow breathing",
+        "Faint electronic whisper/clicking (Watcher)"
+      ],
+      "transition_in": "Smash cut from jarring system error sounds and quick screen flashes",
+      "transition_out": "Fade to black, leaving the faint electronic whisper lingering"
+    }
+  ]
+}

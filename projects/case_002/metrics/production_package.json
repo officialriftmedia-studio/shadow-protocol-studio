@@ -1,0 +1,14 @@
+{
+  "stage": "production_package",
+  "status": "failed",
+  "start_time": "2026-07-01T20:19:41.715551+00:00",
+  "end_time": "2026-07-01T20:20:08.136762+00:00",
+  "duration_seconds": 26.42,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "total_tokens": 0,
+  "llm_calls": 0,
+  "cost_usd": 0.0,
+  "output_files": [],
+  "error": "Agent exited with code 1"
+}

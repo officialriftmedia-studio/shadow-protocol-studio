@@ -1,0 +1,12 @@
+{
+  "case_id": "case_001",
+  "script": "script/script.md",
+  "scene_breakdown": "scene_breakdown.json",
+  "image_prompts": "image_prompts.json",
+  "video_prompts": "video_prompts.json",
+  "voiceover_segments": "voiceover_segments.json",
+  "youtube_metadata": "youtube_metadata.json",
+  "thumbnail_prompt": "thumbnail_prompt.txt",
+  "generated_at": "",
+  "version": ""
+}

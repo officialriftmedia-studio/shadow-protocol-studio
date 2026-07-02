@@ -1,0 +1,16 @@
+{
+  "stage": "outline",
+  "status": "success",
+  "start_time": "2026-07-02T14:42:12.728832+00:00",
+  "end_time": "2026-07-02T14:42:33.540679+00:00",
+  "duration_seconds": 20.81,
+  "prompt_tokens": 3055,
+  "completion_tokens": 0,
+  "total_tokens": 3055,
+  "llm_calls": 1,
+  "cost_usd": 0.001242,
+  "output_files": [
+    "outline.json"
+  ],
+  "error": null
+}

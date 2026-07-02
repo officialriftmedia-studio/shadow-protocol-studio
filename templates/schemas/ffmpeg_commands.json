@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FFmpegCommands",
+  "type": "object",
+  "required": ["scenes", "concat_command", "final_output"],
+  "properties": {
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_number", "commands"],
+        "properties": {
+          "scene_number": { "type": "integer" },
+          "commands": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type", "description", "command"],
+              "properties": {
+                "type": { "type": "string" },
+                "description": { "type": "string" },
+                "command": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "minItems": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "concat_command": {
+      "type": "object",
+      "required": ["type", "description", "command"],
+      "properties": {
+        "type": { "type": "string" },
+        "description": { "type": "string" },
+        "command": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      }
+    },
+    "final_output": { "type": "string" }
+  }
+}

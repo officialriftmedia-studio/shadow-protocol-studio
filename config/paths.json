@@ -26,29 +26,49 @@
       "input": ["script_section_*.md", "review.md"],
       "output": "scene_breakdown.json"
     },
-    "image_prompt": {
-      "input": ["scene_breakdown.json"],
+    "asset_package": {
+      "input": ["scene_breakdown.json", "production_package.json"],
       "output": "image_prompts.json"
-    },
-    "video_prompt": {
-      "input": ["scene_breakdown.json"],
-      "output": "video_prompts.json"
     },
     "voiceover": {
       "input": ["script_section_*.md", "scene_breakdown.json"],
       "output": "voiceover_segments.json"
     },
-    "thumbnail": {
-      "input": ["scene_breakdown.json"],
-      "output": "thumbnail_prompt.txt"
+    "image_generator": {
+      "input": ["image_prompts.json"],
+      "output": "assets/images/"
     },
-    "metadata": {
-      "input": ["scene_breakdown.json", "production_package.json"],
-      "output": "youtube_metadata.json"
+    "voice_generator": {
+      "input": ["voiceover_segments.json"],
+      "output": "assets/voice/"
     },
     "validation": {
       "input": ["production_package.json", "outline.json", "scene_breakdown.json", "image_prompts.json", "video_prompts.json", "voiceover_segments.json", "youtube_metadata.json"],
       "output": "validation_report.json"
+    },
+    "timeline_builder": {
+      "input": ["scene_breakdown.json"],
+      "output": "render/timeline.json"
+    },
+    "render_builder": {
+      "input": ["render/timeline.json"],
+      "output": "render/ffmpeg_commands.json"
+    },
+    "render_executor": {
+      "input": ["render/ffmpeg_commands.json"],
+      "output": "render/final_video.mp4"
+    },
+    "publish_package_builder": {
+      "input": ["render/final_video.mp4", "youtube_metadata.json"],
+      "output": "publish/upload_package/"
+    },
+    "quality_control": {
+      "input": ["publish/publish_manifest.json", "render/render_manifest.json"],
+      "output": "publish/quality_report.json"
+    },
+    "release_manager": {
+      "input": ["publish/quality_report.json", "publish/publish_manifest.json"],
+      "output": "publish/publishing_report.md"
     },
     "memory_update": {
       "input": ["production_package.json", "scene_breakdown.json"],

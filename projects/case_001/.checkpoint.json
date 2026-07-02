@@ -1,0 +1,38 @@
+{
+  "completed": [
+    "production_package",
+    "outline",
+    "script_review",
+    "scene_breakdown_hook",
+    "scene_breakdown_act1",
+    "scene_breakdown_act2",
+    "scene_breakdown_act3",
+    "scene_breakdown_ending",
+    "scene_breakdown_cliffhanger",
+    "scene_breakdown"
+  ],
+  "metadata": {
+    "production_package": {
+      "tokens": 2398,
+      "cost": 0.000748,
+      "calls": 1
+    },
+    "outline": {
+      "tokens": 3055,
+      "cost": 0.001242,
+      "calls": 1
+    },
+    "script_review": {
+      "tokens": 27669,
+      "cost": 0.00499,
+      "calls": 3
+    },
+    "scene_breakdown": {
+      "tokens": 19131,
+      "cost": 0.005128,
+      "calls": 5,
+      "sections_completed": 6,
+      "total_scenes": 31
+    }
+  }
+}

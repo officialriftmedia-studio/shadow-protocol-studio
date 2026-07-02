@@ -1,0 +1,54 @@
+{
+  "$schema": "stage_models.schema.json",
+  "description": "Per-stage provider/model overrides. The pipeline checks this file first; falls back to LLM_PROVIDER/LLM_MODEL env vars.",
+  "defaults": {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash"
+  },
+  "stages": {
+    "production_package": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "outline": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "script": {
+      "provider": "gemini",
+      "model": "gemini-2.5-pro"
+    },
+    "script_review": {
+      "provider": "gemini",
+      "model": "gemini-2.5-pro"
+    },
+    "scene_breakdown": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "image_prompt": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "video_prompt": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "voiceover": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "metadata": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "thumbnail": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    },
+    "asset_package": {
+      "provider": "ollama",
+      "model": "qwen3:14b"
+    }
+  }
+}

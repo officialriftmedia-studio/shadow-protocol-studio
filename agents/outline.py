@@ -1,61 +1,55 @@
 #!/usr/bin/env python3
-"""Agent 5: Outline — produces a 3-act structured outline."""
+"""Agent: Outline — produces a 3-act structured outline from the production package."""
 
 from __future__ import annotations
+import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from agents.lib.agent_base import AgentBase
-from shadow_protocol.lib.file_utils import write_json, read_json
+from agents.lib.agent_base import AgentBase, AgentError
 
 
 class OutlineAgent(AgentBase):
     name = "outline"
 
     def run(self) -> int:
-        pkg_path = self.input_dir / "production_package.json"
-        if not pkg_path.exists():
-            return self.fail("PKG_NOT_FOUND", "production_package.json is required")
+        stage = "outline"
+        if self.is_done(stage):
+            print(f"  SKIP: {stage} already completed")
+            return 0
 
-        pkg = read_json(pkg_path)
-        outline = self._build_outline(pkg)
-        out_path = self.output_dir / "outline.json"
-        write_json(out_path, outline)
-        print(f"[Outline] Written to {out_path}")
+        prompt = self.load_prompt("outline")
+        pkg = self.read_json("production_package.json")
+
+        context = json.dumps({"production_package": pkg}, indent=2)
+
+        try:
+            result = self.run_with_retry(
+                lambda: self.call_llm(
+                    system_prompt=prompt,
+                    user_prompt=f"Generate a 3-act outline from this production package:\n\n{context}",
+                    schema_rel_path="outline.json",
+                    response_format="json",
+                ),
+                label="Outline generation",
+            )
+        except AgentError as e:
+            return self.fail(e.code, e.args[0])
+
+        self.write_json("outline.json", result)
+        self.save_checkpoint(stage)
+        print(f"  Wrote outline.json")
         return 0
-
-    def _build_outline(self, pkg: dict) -> dict:
-        return {
-            "episode_id": pkg.get("episode_id"),
-            "title": pkg.get("title"),
-            "acts": [
-                {
-                    "act": 1,
-                    "name": "The Inciting Collapse",
-                    "scenes": [{"scene": 1, "summary": "", "beats": []}],
-                },
-                {
-                    "act": 2,
-                    "name": "Descent Into the System",
-                    "scenes": [{"scene": 2, "summary": "", "beats": []}],
-                },
-                {
-                    "act": 3,
-                    "name": "The Truth That Changes Nothing",
-                    "scenes": [{"scene": 3, "summary": "", "beats": []}],
-                },
-            ],
-        }
 
 
 def run(input_dir: str, output_dir: str, config: dict) -> int:
-    agent = OutlineAgent(input_dir, output_dir, config)
+    agent = OutlineAgent(input_dir, config)
     return agent.run()
 
 
 if __name__ == "__main__":
-    import json
     _, input_dir, output_dir, config_path = sys.argv
     config = json.load(open(config_path))
+    config["root"] = str(Path(config_path).parent.parent.parent)
     sys.exit(run(input_dir, output_dir, config))

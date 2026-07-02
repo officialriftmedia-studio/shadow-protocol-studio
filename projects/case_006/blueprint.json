@@ -1,0 +1,26 @@
+{
+  "episode_id": "case_006",
+  "title": "The Vanishing Point",
+  "logline": "An archivist at the National Photo Archive notices historical photographs subtly changing \u2014 buildings appearing, people disappearing \u2014 and realizes someone is editing the past in real-time.",
+  "protagonist": {
+    "name": "Nina Okafor",
+    "role": "Senior Archivist, National Historical Photo Archive",
+    "flaw": "Clings to evidence of the past as immutable truth. The idea that history can be rewritten paralyzes her."
+  },
+  "antagonist_system": "The Revision Desk \u2014 a media manipulation program using AI to retroactively alter visual historical records.",
+  "central_mystery": "Who is changing the photographs, and what version of history are they trying to create?",
+  "larger_mystery": "How far back does the revision go? Are digital files the only things being altered?",
+  "themes": [
+    "perception_vs_reality",
+    "identity_collapse",
+    "hidden_systems"
+  ],
+  "tone": "Meditative, unsettling, lyrical. The fragility of recorded truth.",
+  "estimated_duration_seconds": 540,
+  "total_scenes": 5,
+  "inspirations": [
+    "The Report",
+    "Blow-Up",
+    "Zola's La B\u00eate Humaine"
+  ]
+}

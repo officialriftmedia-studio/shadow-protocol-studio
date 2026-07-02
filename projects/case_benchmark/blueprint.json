@@ -1,0 +1,19 @@
+{
+  "episode_id": "case_benchmark",
+  "title": "Benchmark Episode",
+  "logline": "A test episode for benchmarking pipeline performance.",
+  "protagonist": {
+    "name": "Bench User",
+    "role": "tester",
+    "flaw": "impatience"
+  },
+  "antagonist_system": "the test suite",
+  "central_mystery": "Why is the pipeline slow?",
+  "larger_mystery": "Can we make it faster?",
+  "themes": [
+    "optimization",
+    "testing"
+  ],
+  "tone": "clinical",
+  "inspirations": []
+}

@@ -1,0 +1,16 @@
+
+  Section: act1
+    CHECKPOINT: scene_breakdown_act1 — 4 scenes, LLM: 1 calls, 4403 tokens (prompt=3125 + completion=1278), $0.0012
+
+  Section: act2
+    CHECKPOINT: scene_breakdown_act2 — 6 scenes, LLM: 2 calls, 9990 tokens (prompt=6690 + completion=3300), $0.0030
+
+  Section: act3
+    CHECKPOINT: scene_breakdown_act3 — 2 scenes, LLM: 3 calls, 13489 tokens (prompt=9408 + completion=4081), $0.0039
+
+  Section: ending
+    CHECKPOINT: scene_breakdown_ending — 1 scenes, LLM: 4 calls, 16297 tokens (prompt=11756 + completion=4541), $0.0045
+
+  Section: cliffhanger
+    CHECKPOINT: scene_breakdown_cliffhanger — 1 scenes, LLM: 5 calls, 19131 tokens (prompt=14112 + completion=5019), $0.0051
+  Wrote scene_breakdown.json (31 total scenes)

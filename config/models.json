@@ -2,36 +2,39 @@
   "$schema": "models.schema.json",
   "description": "Model registry for all providers used in the pipeline",
   "providers": {
+    "gemini": {
+      "chat": {
+        "gemini-2.5-pro": {
+          "max_tokens": 65536,
+          "cost_per_1k_input": 0,
+          "cost_per_1k_output": 0
+        },
+        "gemini-2.5-flash": {
+          "max_tokens": 65536,
+          "cost_per_1k_input": 0,
+          "cost_per_1k_output": 0
+        }
+      }
+    },
+
     "openai": {
       "chat": {
-        "gpt-4o": { "max_tokens": 16384, "cost_per_1k_input": 0.01, "cost_per_1k_output": 0.03 },
-        "gpt-4o-mini": { "max_tokens": 16384, "cost_per_1k_input": 0.0025, "cost_per_1k_output": 0.01 }
-      }
-    },
-    "anthropic": {
-      "chat": {
-        "claude-opus-4": { "max_tokens": 8192, "cost_per_1k_input": 0.015, "cost_per_1k_output": 0.075 },
-        "claude-sonnet-4": { "max_tokens": 8192, "cost_per_1k_input": 0.003, "cost_per_1k_output": 0.015 }
-      }
-    },
-    "elevenlabs": {
-      "voiceover": {
-        "eleven_multilingual_v2": { "max_chars": 10000 }
-      }
-    },
-    "midjourney": {
-      "image": {
-        "midjourney-v6": { "aspect_ratios": ["16:9", "9:16", "1:1"] }
-      }
-    },
-    "runway": {
-      "video": {
-        "gen-3": { "max_duration_seconds": 10 }
+        "gpt-4o": {
+          "max_tokens": 16384,
+          "cost_per_1k_input": 0.01,
+          "cost_per_1k_output": 0.03
+        },
+        "gpt-4o-mini": {
+          "max_tokens": 16384,
+          "cost_per_1k_input": 0.0025,
+          "cost_per_1k_output": 0.01
+        }
       }
     }
   },
+
   "defaults": {
-    "chat": "gpt-4o",
+    "chat": "gemini-2.5-pro",
     "voiceover": "eleven_multilingual_v2",
     "image": "midjourney-v6",
     "video": "gen-3"

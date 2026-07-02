@@ -1,0 +1,26 @@
+{
+  "episode_id": "case_010",
+  "title": "The Long Game",
+  "logline": "A historian discovers that 200-year-old Masonic lodge records contain coded entries that precisely predict every major stock market crash \u2014 and the next prediction is tomorrow.",
+  "protagonist": {
+    "name": "Dr. Helena Ross",
+    "role": "Professor of Historical Cryptography, Oxford University",
+    "flaw": "Academic detachment. She believes she can observe the darkness without being consumed by it."
+  },
+  "antagonist_system": "The Long Game \u2014 a centuries-old trans-generational cabal using coded historical records to coordinate economic manipulation across generations.",
+  "central_mystery": "Who wrote the predictions, and how could they possibly be accurate 200 years later?",
+  "larger_mystery": "What is the Long Game's endgame? A final event the cabal has been orchestrating for centuries.",
+  "themes": [
+    "hidden_systems",
+    "perception_vs_reality",
+    "the_system_survives"
+  ],
+  "tone": "Epic, philosophical, methodical. The weight of centuries of hidden orchestration.",
+  "estimated_duration_seconds": 840,
+  "total_scenes": 7,
+  "inspirations": [
+    "The Da Vinci Code",
+    "National Treasure",
+    "The Order"
+  ]
+}

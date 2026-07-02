@@ -1,0 +1,26 @@
+{
+  "episode_id": "case_002",
+  "title": "The Dead Letter Office",
+  "logline": "A postal inspector discovers classified letters arriving with postmarks from before the sender died \u2014 and the return addresses belong to people who never existed.",
+  "protagonist": {
+    "name": "Marcus Cole",
+    "role": "Senior Postal Inspector, USPS Office of Investigations",
+    "flaw": "Obsessive attention to detail that blinds him to the bigger picture. Believes every anomaly has a rational explanation."
+  },
+  "antagonist_system": "The Dead Letter Office \u2014 a covert communication network routing intelligence through undeliverable mail infrastructure.",
+  "central_mystery": "Who is sending letters from the dead, and what are they trying to communicate?",
+  "larger_mystery": "How deep does the mail-based covert network go? Who built it and who controls the dead drops?",
+  "themes": [
+    "perception_vs_reality",
+    "hidden_systems",
+    "surveillance_state"
+  ],
+  "tone": "Forensic, atmospheric, methodical. The banality of bureaucratic evil.",
+  "estimated_duration_seconds": 540,
+  "total_scenes": 5,
+  "inspirations": [
+    "The Conversation",
+    "Tinker Tailor Soldier Spy",
+    "The Wire"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "episode_id": "case_007",
+  "title": "The Echo Chamber",
+  "logline": "An acoustic engineer discovers inaudible messages hidden in the background noise of every government building in the capital \u2014 a ghost network speaking to no one.",
+  "protagonist": {
+    "name": "Leo Chen",
+    "role": "Acoustic Engineer, National Audio Forensics Lab",
+    "flaw": "Hears patterns where none exist. His greatest strength is also his blind spot \u2014 he finds meaning in noise."
+  },
+  "antagonist_system": "The Echo Chamber \u2014 a audio steganography network embedding commands in ambient environmental noise across government facilities.",
+  "central_mystery": "Who embedded the messages, who is supposed to hear them, and what do they say?",
+  "larger_mystery": "What happens when the messages are activated? What action do they trigger?",
+  "themes": [
+    "hidden_systems",
+    "surveillance_state",
+    "perception_vs_reality",
+    "the_system_survives"
+  ],
+  "tone": "Technical, paranoid, immersive. The paranoia of hearing what others cannot.",
+  "estimated_duration_seconds": 600,
+  "total_scenes": 5,
+  "inspirations": [
+    "Blow Out",
+    "The Conversation",
+    "Enemy of the State"
+  ]
+}

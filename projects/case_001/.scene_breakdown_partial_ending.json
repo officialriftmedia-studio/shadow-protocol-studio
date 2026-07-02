@@ -1,0 +1,56 @@
+[
+  {
+    "scene_number": 15,
+    "section": "ending",
+    "title": "A Solitary Truth",
+    "duration": 75,
+    "narrative_purpose": "To illustrate Elena's ultimate isolation and the system's enduring power, despite her uncovering the truth, leaving her truth dismissed as delusion and her under perpetual surveillance.",
+    "emotion": "Paranoia, despair, isolation, quiet dread",
+    "location": "Elena Vasquez's Apartment - Living Room / Bedroom",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static on Elena at desk, close-up on hand, rapid montage of unsettling flashes (blurry photo, sterile hallway, distorted reflection, unblinking eye), slow pan as Elena moves, static hold on empty room.",
+    "color_palette": "Desaturated blues and grays from screen glow, deep shadows, brief clinical white during montage.",
+    "lighting": "Low, moody ambient light, harsh blue screen glow, pockets of deep shadow, brief cold fluorescent in montage.",
+    "visual_motif": "Screens, reflections, shadows, the solitary flickering pixel.",
+    "music": "Drone ambient, low bass pulse, high-frequency tone.",
+    "sound_effects": [
+      "hum of electronics",
+      "distant city drone",
+      "high-frequency tone",
+      "flickering pixel click",
+      "Elena's slow footsteps",
+      "door creak"
+    ],
+    "transition_in": "Hard cut",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 30,
+    "section": "ending",
+    "title": "Solitary Truth",
+    "duration": 75,
+    "narrative_purpose": "To depict the psychological aftermath of Elena's discoveries, showing her isolation and the system's indifferent endurance, solidifying the theme that knowing the truth doesn't grant freedom.",
+    "emotion": "Despair, paranoia, resignation, dread",
+    "location": "Elena Vasquez's Apartment - Living Room",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static wide shot establishing the disarray, then close on Elena's gaunt face reflecting screens. Handheld close-up on hovering hand, followed by rapid, almost subliminal cuts (like a glitching feed). Slow, deliberate camera movement as Elena stands and moves away, holding on the empty, screen-lit space after she exits. Inspired by Mr. Robot's precise framing and True Detective's atmospheric dread.",
+    "color_palette": "Desaturated blues and grays dominate, punctuated by the cold, clinical white/blue glow of monitors. Deep, oppressive shadows.",
+    "lighting": "Low, ambient light from distant city, augmented by the cold, harsh blue/white glow of the monitors. Shadows consume the rest of the apartment.",
+    "visual_motif": "Screens as omnipresent eyes, reflections distorting reality, the subtle flicker representing persistent surveillance.",
+    "music": "Sparse, low-frequency drone, evolving into a quiet, unsettling synth pad. Underlying tension, never resolving.",
+    "sound_effects": [
+      "Constant hum of electronics",
+      "Distant city drone",
+      "Subliminal high-frequency tone (suggesting monitoring)",
+      "Barely audible click of a flickering pixel",
+      "Soft, heavy footsteps",
+      "Faint creak of a door"
+    ],
+    "transition_in": "Fade in from black",
+    "transition_out": "Hold on empty screens, fade to black"
+  }
+]

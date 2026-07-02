@@ -1,0 +1,28 @@
+{
+  "$schema": "providers.schema.json",
+  "description": "Media provider registry for asset generation",
+  "providers": {
+    "google_imagen": {
+      "model": "imagen-3.0",
+      "cost_per_image": 0.04,
+      "aspect_ratios": ["16:9", "9:16", "1:1"],
+      "max_prompt_length": 500
+    },
+    "google_tts": {
+      "model": "wavesynth",
+      "cost_per_1k_chars": 0.004,
+      "voices": ["en-US-Narrator", "en-US-Standard-A"],
+      "default_voice": "en-US-Narrator"
+    },
+    "magnific": {
+      "model": "magnific-v1",
+      "cost_per_image": 0.05,
+      "max_upscale": 4
+    }
+  },
+  "defaults": {
+    "image": "google_imagen",
+    "voice": "google_tts",
+    "upscaler": "magnific"
+  }
+}

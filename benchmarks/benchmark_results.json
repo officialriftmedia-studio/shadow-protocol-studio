@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "before",
+    "timestamp": "2026-07-02T17:46:09.908222+00:00",
+    "exit_code": 0,
+    "elapsed_seconds": 0.01,
+    "total_stages": 0,
+    "stages": {}
+  },
+  {
+    "mode": "before",
+    "timestamp": "2026-07-02T17:46:13.313588+00:00",
+    "exit_code": 0,
+    "elapsed_seconds": 0.01,
+    "total_stages": 0,
+    "stages": {}
+  }
+]

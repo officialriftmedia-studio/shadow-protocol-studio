@@ -1,26 +1,38 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "SceneBreakdown",
-  "type": "object",
-  "required": ["scenes"],
-  "properties": {
-    "scenes": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["scene_id", "description", "location", "characters", "duration_seconds"],
-        "properties": {
-          "scene_id": { "type": "integer" },
-          "source_file": { "type": "string" },
-          "description": { "type": "string" },
-          "location": { "type": "string" },
-          "characters": { "type": "array", "items": { "type": "string" } },
-          "duration_seconds": { "type": "integer", "minimum": 1 },
-          "visual_style": { "type": "string" },
-          "audio_style": { "type": "string" },
-          "narrative_purpose": { "type": "string" }
-        }
-      }
-    }
+  "description": "Array of scene entries decomposed from a script section",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "scene_number", "section", "title", "duration",
+      "narrative_purpose", "location", "characters"
+    ],
+    "properties": {
+      "scene_number": { "type": "integer", "minimum": 1 },
+      "section": { "type": "string" },
+      "title": { "type": "string" },
+      "duration": { "type": "integer", "minimum": 5, "maximum": 600 },
+      "narrative_purpose": { "type": "string" },
+      "emotion": { "type": "string" },
+      "location": { "type": "string" },
+      "characters": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "camera_style": { "type": "string" },
+      "color_palette": { "type": "string" },
+      "lighting": { "type": "string" },
+      "visual_motif": { "type": "string" },
+      "music": { "type": "string" },
+      "sound_effects": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "transition_in": { "type": "string" },
+      "transition_out": { "type": "string" }
+    },
+    "additionalProperties": false
   }
 }

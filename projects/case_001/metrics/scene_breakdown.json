@@ -1,0 +1,16 @@
+{
+  "stage": "scene_breakdown",
+  "status": "success",
+  "start_time": "2026-07-02T14:45:18.631206+00:00",
+  "end_time": "2026-07-02T14:46:39.493578+00:00",
+  "duration_seconds": 80.86,
+  "prompt_tokens": 19131,
+  "completion_tokens": 0,
+  "total_tokens": 19131,
+  "llm_calls": 5,
+  "cost_usd": 0.005128,
+  "output_files": [
+    "scene_breakdown.json"
+  ],
+  "error": null
+}

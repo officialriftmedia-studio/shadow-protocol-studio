@@ -1,0 +1,27 @@
+{
+  "episode_id": "case_008",
+  "title": "The Fence",
+  "logline": "A border patrol analyst discovers the biometric database shows 2 million more crossings than any human agent recorded \u2014 and the phantom entries are all using the same face.",
+  "protagonist": {
+    "name": "Sarah Kessler",
+    "role": "Data Analyst, Border Security Biometrics Division",
+    "flaw": "Rigid adherence to protocol. She trusts the system's rules more than her own instincts."
+  },
+  "antagonist_system": "The Fence \u2014 a synthetic identity pipeline injecting fabricated border crossings to legitimize phantom citizens.",
+  "central_mystery": "Who is the face in the phantom crossings, and whose identities are being manufactured?",
+  "larger_mystery": "What are the phantom citizens being positioned to do? An infiltration campaign of unprecedented scale.",
+  "themes": [
+    "identity_collapse",
+    "surveillance_state",
+    "hidden_systems",
+    "moral_ambiguity"
+  ],
+  "tone": "Urgent, clinical, claustrophobic. The border as a sieve, not a wall.",
+  "estimated_duration_seconds": 660,
+  "total_scenes": 6,
+  "inspirations": [
+    "Sicario",
+    "The Bureau",
+    "Traffic"
+  ]
+}

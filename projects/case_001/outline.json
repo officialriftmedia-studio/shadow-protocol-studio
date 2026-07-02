@@ -1,0 +1,154 @@
+{
+  "episode_id": "case_001",
+  "title": "The Ghost in the Machine",
+  "acts": [
+    {
+      "act": 1,
+      "name": "The Inciting Collapse",
+      "summary": "Elena Vasquez, a brilliant cybersecurity analyst, discovers a minor discrepancy in her digital footprint. Her attempts to correct this 'glitch' quickly reveal a deeper, more sinister reality: her identity is being systematically erased and replaced with that of a woman who died years ago, shattering her rational worldview.",
+      "scenes": [
+        {
+          "scene": 1,
+          "summary": "Elena's routine audit uncovers a personal data anomaly, which she initially dismisses as a system error.",
+          "beats": [
+            {
+              "beat": 1,
+              "description": "Elena is at OmniCorp, efficiently navigating complex network data, embodying her expertise and trust in digital systems.",
+              "duration_seconds": 35
+            },
+            {
+              "beat": 2,
+              "description": "During a routine personal data audit, she flags a minor discrepancy in her own records – a mismatched old address or an obscure digital link.",
+              "duration_seconds": 35
+            },
+            {
+              "beat": 3,
+              "description": "Confident in the system's ability to self-correct, Elena submits a ticket through official channels, expecting a quick resolution.",
+              "duration_seconds": 30
+            }
+          ]
+        },
+        {
+          "scene": 2,
+          "summary": "The anomaly escalates, revealing a systematic identity replacement with a deceased individual, forcing Elena to confront an impossible truth.",
+          "beats": [
+            {
+              "beat": 1,
+              "description": "Elena's correction attempts are met with bureaucratic dead ends and system errors, prompting her to investigate the 'glitch' herself with increasing urgency.",
+              "duration_seconds": 30
+            },
+            {
+              "beat": 2,
+              "description": "Using her advanced forensic skills, she uncovers that her digital footprint isn't corrupted, but systematically overwritten with the identity of 'Sarah Miller'.",
+              "duration_seconds": 35
+            },
+            {
+              "beat": 3,
+              "description": "A chilling discovery: Sarah Miller died seven years ago. Elena's entire digital existence is being replaced by a ghost, collapsing her reality.",
+              "duration_seconds": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": 2,
+      "name": "Descent Into the System",
+      "summary": "Elena frantically tries to reclaim her identity, only to find herself trapped in a labyrinth of hidden digital layers and official denials. Her investigation reveals the existence of a covert, state-level program, 'Phantom Directive,' that manipulates reality, leading to a profound revelation and a chilling threat.",
+      "scenes": [
+        {
+          "scene": 3,
+          "summary": "Elena's desperate attempts to prove her identity are futile, leading her to uncover advanced, hidden layers of digital manipulation.",
+          "beats": [
+            {
+              "beat": 1,
+              "description": "Elena tries to prove her existence to banks, utilities, and even OmniCorp HR, but official records consistently show Sarah Miller's details for her.",
+              "duration_seconds": 30
+            },
+            {
+              "beat": 2,
+              "description": "She uses her deep technical skills to trace the identity swap, discovering highly encrypted, untraceable digital pathways indicative of a state-level actor.",
+              "duration_seconds": 40
+            },
+            {
+              "beat": 3,
+              "description": "Elena uncovers a 'shadow protocol' – a nested layer of digital obfuscation within the network, designed to mask deep state operations, shattering her belief in logical systems.",
+              "duration_seconds": 30
+            }
+          ]
+        },
+        {
+          "scene": 4,
+          "summary": "A trusted colleague dismisses her, but Elena finds a crucial link to OmniCorp's past and receives a subtle, targeted warning.",
+          "beats": [
+            {
+              "beat": 1,
+              "description": "Elena confides in a trusted colleague at OmniCorp, but they dismiss her claims as stress-induced paranoia, isolating her further.",
+              "duration_seconds": 30
+            },
+            {
+              "beat": 2,
+              "description": "She finds a faint digital signature, linking the identity manipulation to a mysterious, shelved project she worked on years ago at OmniCorp.",
+              "duration_seconds": 35
+            },
+            {
+              "beat": 3,
+              "description": "A remote deletion of a personal file or an anonymous, cryptic message warns Elena to stop digging, confirming she is a target of a powerful, unseen entity.",
+              "duration_seconds": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "act": 3,
+      "name": "The Truth That Changes Nothing",
+      "summary": "Elena confronts a proxy of the system, uncovering the specific reason for her identity swap and Sarah Miller's connection to the Phantom Directive. Though one mystery is solved, she realizes the system is too vast to expose, leaving her changed but the oppressive digital reality undisturbed.",
+      "scenes": [
+        {
+          "scene": 5,
+          "summary": "Elena breaches a Phantom Directive facility, uncovering the purpose of her identity swap and Sarah Miller's significance.",
+          "beats": [
+            {
+              "beat": 1,
+              "description": "Elena follows the digital breadcrumbs to a highly secured server farm, realizing it's a front for the 'Phantom Directive' and its operations.",
+              "duration_seconds": 30
+            },
+            {
+              "beat": 2,
+              "description": "She breaches a low-level access point, finding fragmented logs confirming her identity was swapped to 'reactivate' Sarah Miller's digital ghost, hinting at Miller's past role as an OmniCorp asset.",
+              "duration_seconds": 40
+            },
+            {
+              "beat": 3,
+              "description": "Elena understands the 'Phantom Directive' is not a person but a vast, compartmentalized program. Her personal mystery is solved, but the system remains untouchable.",
+              "duration_seconds": 30
+            }
+          ]
+        },
+        {
+          "scene": 6,
+          "summary": "Elena's attempt to expose the truth fails, and she witnesses the system's indifferent endurance, forever changed by her ordeal.",
+          "beats": [
+            {
+              "beat": 1,
+              "description": "Elena attempts to leak the information she found, only to discover all her digital channels are monitored or compromised, rendering her efforts futile.",
+              "duration_seconds": 30
+            },
+            {
+              "beat": 2,
+              "description": "She observes a minor news report or an obscure online post about a geopolitical event, noticing a subtle detail that connects back to the Phantom Directive's broader, continuing objectives.",
+              "duration_seconds": 35
+            },
+            {
+              "beat": 3,
+              "description": "Elena, now a 'ghost' herself, watches her former life from the outside. The final image is of OmniCorp's infrastructure, data flowing, the system continuing, indifferent to the personal realities it controls.",
+              "duration_seconds": 35
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_duration_seconds": 600
+}

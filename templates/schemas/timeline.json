@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Timeline",
+  "type": "object",
+  "required": ["scenes"],
+  "properties": {
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_number", "image", "voiceover", "duration_seconds", "transition", "camera_motion"],
+        "properties": {
+          "scene_number": { "type": "integer", "minimum": 1 },
+          "image": { "type": "string", "minLength": 1 },
+          "voiceover": {
+            "oneOf": [
+              { "type": "string", "minLength": 1 },
+              { "type": "array", "items": { "type": "string", "minLength": 1 } }
+            ]
+          },
+          "duration_seconds": { "type": "number", "minimum": 1, "maximum": 300 },
+          "transition": { "type": "string", "enum": ["fade", "crossfade", "cut"] },
+          "camera_motion": { "type": "string", "enum": ["slow_zoom_in", "slow_zoom_out", "pan_left", "pan_right", "static"] },
+          "music": { "oneOf": [{ "type": "string" }, { "type": "null" }] }
+        }
+      }
+    }
+  }
+}

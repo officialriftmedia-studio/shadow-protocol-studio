@@ -1,0 +1,26 @@
+{
+  "episode_id": "case_003",
+  "title": "The Sleepers Protocol",
+  "logline": "A neurologist treating 47 coma patients across 12 cities discovers they all share the same impossible recurring dream \u2014 and someone is trying to wake them up.",
+  "protagonist": {
+    "name": "Dr. Aisha Sharma",
+    "role": "Neurologist, Johns Hopkins Coma Recovery Unit",
+    "flaw": "Empathy without boundaries. She cares too deeply and loses objectivity in pursuit of saving her patients."
+  },
+  "antagonist_system": "The Sleepers Protocol \u2014 a neural-interface program using comatose subjects as organic data processors.",
+  "central_mystery": "Why are 47 unrelated coma patients sharing the same dream, and who is sending the signal?",
+  "larger_mystery": "What is the Sleepers Protocol processing, and who commissioned it?",
+  "themes": [
+    "perception_vs_reality",
+    "hidden_systems",
+    "identity_collapse"
+  ],
+  "tone": "Clinical, haunting, intimate. The horror of minds trapped in bodies.",
+  "estimated_duration_seconds": 660,
+  "total_scenes": 6,
+  "inspirations": [
+    "Awakenings",
+    "The Cell",
+    "Black Mirror: Men Against Fire"
+  ]
+}

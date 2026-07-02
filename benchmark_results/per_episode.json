@@ -1,0 +1,11 @@
+{
+  "case_001": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "stages_completed": 0,
+    "stages_failed": 0,
+    "stage_count": 10
+  }
+}

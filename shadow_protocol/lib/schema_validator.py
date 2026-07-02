@@ -8,6 +8,16 @@ from typing import Any
 from jsonschema import validate, ValidationError
 
 
+def _collect_errors(e: ValidationError) -> list[ValidationError]:
+    """Walk error tree, collecting all leaf errors."""
+    if e.context:
+        results = []
+        for child in e.context:
+            results.extend(_collect_errors(child))
+        return results
+    return [e]
+
+
 def validate_output(
     instance: dict[str, Any],
     schema_path: str | Path,
@@ -28,8 +38,7 @@ def validate_output(
     try:
         validate(instance=instance, schema=schema)
     except ValidationError as e:
-        # Walk the full error tree
-        for err in sorted(e.context, key=lambda x: x.path) if hasattr(e, "context") else [e]:
+        for err in _collect_errors(e):
             path = " -> ".join(str(p) for p in err.absolute_path) or "root"
             errors.append(f"{path}: {err.message}")
     return errors

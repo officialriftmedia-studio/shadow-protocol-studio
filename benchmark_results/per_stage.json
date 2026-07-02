@@ -1,0 +1,442 @@
+{
+  "image_prompt": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "metadata": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "outline": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "production_package": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "scene_breakdown": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "script": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "script_review": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "thumbnail": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "video_prompt": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  },
+  "voiceover": {
+    "total_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_duration_seconds": 0.0,
+    "total_llm_calls": 0,
+    "token_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "cost_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "duration_stats": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "stddev": 0,
+      "count": 1
+    },
+    "call_stats": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "p95": 0,
+      "stddev": 0,
+      "count": 1
+    },
+    "failure_count": 0,
+    "failure_rate": 0.0
+  }
+}

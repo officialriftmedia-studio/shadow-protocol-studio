@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PublishManifest",
+  "type": "object",
+  "required": ["case_id", "created_at", "package_path", "assets", "metadata"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "created_at": { "type": "string" },
+    "package_path": { "type": "string" },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "source", "size_bytes", "exists"],
+        "properties": {
+          "name": { "type": "string" },
+          "source": { "type": "string" },
+          "size_bytes": { "type": "integer" },
+          "exists": { "type": "boolean" },
+          "checksum": { "type": "string" }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "visibility": { "type": "string" },
+        "language": { "type": "string" },
+        "category": { "type": "string" }
+      }
+    },
+    "warnings": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "episode_id": "case_009",
+  "title": "The Zero Day",
+  "logline": "A high school teacher discovers his 16-year-old student predicted a catastrophic natural disaster with 100% accuracy using only public data \u2014 and now someone is trying very hard to make the student disappear.",
+  "protagonist": {
+    "name": "Jamal Brooks",
+    "role": "AP Computer Science Teacher, Westbrook High School",
+    "flaw": "Protective to a fault. He sees his students as his children and will cross any line to keep them safe."
+  },
+  "antagonist_system": "The Prospect Program \u2014 a talent-scouting operation that identifies and recruits predictive individuals before their abilities become public.",
+  "central_mystery": "How did the student make the prediction, and what else has she predicted that someone wants hidden?",
+  "larger_mystery": "How many other prodigies have been recruited? What is the Prospect Program building toward?",
+  "themes": [
+    "hidden_systems",
+    "moral_ambiguity",
+    "the_system_survives"
+  ],
+  "tone": "Intimate, urgent, suspenseful. The race to protect a child from a system that wants to use her.",
+  "estimated_duration_seconds": 720,
+  "total_scenes": 6,
+  "inspirations": [
+    "Searching for Bobby Fischer",
+    "The Recruit",
+    "Good Will Hunting"
+  ]
+}

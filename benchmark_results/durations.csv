@@ -1,0 +1,11 @@
+episode,stage,duration_seconds,total_tokens,llm_calls,cost_usd,status
+case_001,image_prompt,0.0,0,0,0.0,skipped
+case_001,metadata,0.0,0,0,0.0,skipped
+case_001,outline,0.0,0,0,0.0,skipped
+case_001,production_package,0.0,0,0,0.0,skipped
+case_001,scene_breakdown,0.0,0,0,0.0,skipped
+case_001,script,0.0,0,0,0.0,skipped
+case_001,script_review,0.0,0,0,0.0,skipped
+case_001,thumbnail,0.0,0,0,0.0,skipped
+case_001,video_prompt,0.0,0,0,0.0,skipped
+case_001,voiceover,0.0,0,0,0.0,skipped

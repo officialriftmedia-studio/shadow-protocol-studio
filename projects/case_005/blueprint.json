@@ -1,0 +1,27 @@
+{
+  "episode_id": "case_005",
+  "title": "The Hollow Men",
+  "logline": "A priest discovers his church's AI confession-analysis system is flagging sins that haven't been committed yet \u2014 and the predictions are coming true.",
+  "protagonist": {
+    "name": "Father Gabriel Torres",
+    "role": "Parish Priest, St. Dominic's Church",
+    "flaw": "Faith in redemption. He believes everyone can be saved \u2014 even when the evidence says otherwise."
+  },
+  "antagonist_system": "Project Halo \u2014 a behavioral prediction program co-opting church confession infrastructure for pre-crime surveillance.",
+  "central_mystery": "How is the system predicting future sins with perfect accuracy, and who is feeding it data?",
+  "larger_mystery": "Is the system predicting the future, or causing it?",
+  "themes": [
+    "perception_vs_reality",
+    "surveillance_state",
+    "moral_ambiguity",
+    "the_system_survives"
+  ],
+  "tone": "Atmospheric, theological, tense. Grace and paranoia in equal measure.",
+  "estimated_duration_seconds": 720,
+  "total_scenes": 6,
+  "inspirations": [
+    "Spotlight",
+    "Minority Report",
+    "The Exorcist"
+  ]
+}

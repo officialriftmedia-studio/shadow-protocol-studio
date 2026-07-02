@@ -1,0 +1,26 @@
+{
+  "episode_id": "case_004",
+  "title": "The Carbon Copy",
+  "logline": "A forensic accountant uncovers five competing companies with identical off-book ledgers \u2014 all handwritten by the same dead accountant who died in a car crash 10 years ago.",
+  "protagonist": {
+    "name": "David Park",
+    "role": "Forensic Accountant, Financial Crimes Unit",
+    "flaw": "Believes numbers never lie. He trusts spreadsheets more than people, making him blind to human corruption."
+  },
+  "antagonist_system": "The Carbon Copy Network \u2014 a money-laundering syndicate using ghost companies and dead identities to move untraceable capital.",
+  "central_mystery": "Who forged the ledgers, and whose money is being laundered through these phantom companies?",
+  "larger_mystery": "What is the money funding? An operation larger than any single government agency.",
+  "themes": [
+    "hidden_systems",
+    "surveillance_state",
+    "moral_ambiguity"
+  ],
+  "tone": "Clinical, paranoid, urgent. The banality of financial evil.",
+  "estimated_duration_seconds": 600,
+  "total_scenes": 5,
+  "inspirations": [
+    "The Big Short",
+    "Ozark",
+    "The Laundromat"
+  ]
+}

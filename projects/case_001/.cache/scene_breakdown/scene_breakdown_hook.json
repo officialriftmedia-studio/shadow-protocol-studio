@@ -1,0 +1,55 @@
+{
+  "hash": "2be77e754f237994c71b6618750368b51d41b442f28dd0fdc286557ee8e49ea0",
+  "stage": "scene_breakdown",
+  "section": "hook",
+  "data": [
+    {
+      "scene_number": 16,
+      "section": "hook",
+      "title": "Identity Not Found",
+      "duration": 75,
+      "narrative_purpose": "Introduce Elena Vasquez in a state of extreme distress, revealing the core conflict of her identity being erased, and establish the series' paranoid, tech-driven atmosphere.",
+      "emotion": "Paranoia, dread, despair, exhaustion, clinical detachment",
+      "location": "Elena Vasquez's Apartment - Living Room",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Tight shot on trembling hands, slow widen to reveal chaotic war room, close-up on distorted screen reflection (flickering glitch), pull back to wide shot emphasizing isolation. Inspired by Mr. Robot's precise, often isolating framing and True Detective's atmospheric wide shots.",
+      "color_palette": "Desaturated blues, stark blue-white screen glow, deep oppressive shadows, hints of warm amber from incidental lights",
+      "lighting": "Dominant harsh blue-white screen light, deep practical shadows, minimal ambient light. Reminiscent of Sicario's high contrast and selective illumination.",
+      "visual_motif": "Screens, reflections (especially distorted), data interfaces, wires, claustrophobic interiors",
+      "music": "Low, persistent electronic drone, subtle bass pulse, almost subliminal",
+      "sound_effects": [
+        "Computer fan hum",
+        "Subtle electronic drone (building)",
+        "Distant siren (fading)",
+        "Ragged breathing",
+        "Mouse click (sharp, isolated)"
+      ],
+      "transition_in": "Smash cut from black",
+      "transition_out": "Fade to black"
+    },
+    {
+      "scene_number": 17,
+      "section": "hook",
+      "title": "Three Days Earlier",
+      "duration": 25,
+      "narrative_purpose": "Provide a clear temporal transition to a flashback sequence, signaling a shift to the origin story of Elena's crisis.",
+      "emotion": "Anticipation, narrative shift, reflective",
+      "location": "Abstract (Narrative Transition)",
+      "characters": [],
+      "camera_style": "Fade to black, holding on black",
+      "color_palette": "Pure black",
+      "lighting": "Absence of light",
+      "visual_motif": "The void, temporal markers",
+      "music": "Electronic drone fades out, replaced by clean, sterile ambient tone",
+      "sound_effects": [
+        "Electronic drone fading",
+        "Clean, sterile ambience",
+        "Digital chime"
+      ],
+      "transition_in": "From black",
+      "transition_out": "Hard cut to new scene"
+    }
+  ]
+}

@@ -6,6 +6,7 @@
   "properties": {
     "episode_id": { "type": "string" },
     "title": { "type": ["string", "null"] },
+    "total_duration_seconds": { "type": "integer" },
     "acts": {
       "type": "array",
       "minItems": 2,
@@ -16,6 +17,7 @@
         "properties": {
           "act": { "type": "integer" },
           "name": { "type": "string" },
+          "summary": { "type": "string" },
           "scenes": {
             "type": "array",
             "items": {
@@ -24,12 +26,23 @@
               "properties": {
                 "scene": { "type": "integer" },
                 "summary": { "type": "string" },
-                "beats": { "type": "array", "items": { "type": "object" } }
+                "beats": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "beat": { "type": "integer" },
+                      "description": { "type": "string" },
+                      "duration_seconds": { "type": "integer" }
+                    }
+                  }
+                }
               }
             }
           }
         }
       }
     }
-  }
+  },
+  "additionalProperties": true
 }

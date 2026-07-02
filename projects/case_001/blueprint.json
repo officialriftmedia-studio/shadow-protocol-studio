@@ -1,0 +1,18 @@
+{
+  "episode_id": "case_001",
+  "title": "The Ghost in the Machine",
+  "logline": "A cybersecurity analyst at a defense contractor discovers her own digital footprint has been systematically erased — and replaced with the identity of a woman who died seven years ago.",
+  "protagonist": {
+    "name": "Elena Vasquez",
+    "role": "Senior Cybersecurity Analyst, OmniCorp",
+    "flaw": "Trusts data more than people. Believes the system is rational and correctable from within."
+  },
+  "antagonist_system": "Phantom Directive — a covert inter-agency program that uses data manipulation to rewrite reality for national security purposes",
+  "central_mystery": "Who erased Elena's identity and replaced it with a dead woman's, and why?",
+  "larger_mystery": "How far does Phantom Directive reach? Who funds it? Who does it answer to?",
+  "themes": ["perception_vs_reality", "hidden_systems", "identity_collapse", "surveillance_state"],
+  "tone": "Paranoid, clinical, atmospheric. Slow-burn tension with bursts of visceral revelation.",
+  "estimated_duration_seconds": 600,
+  "total_scenes": 5,
+  "inspirations": ["Mr. Robot", "Homeland", "Black Mirror: Entire History of You"]
+}

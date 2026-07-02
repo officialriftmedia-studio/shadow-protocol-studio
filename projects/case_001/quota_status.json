@@ -1,0 +1,10 @@
+{
+  "provider": "gemini",
+  "error": "daily_quota_exceeded",
+  "failed_stage": "image_prompt",
+  "failed_section": "Image prompt generation",
+  "failed_at": "2026-07-02T14:46:41.930810+00:00",
+  "completed_stages": 5,
+  "estimated_requests_remaining": 0,
+  "resume_command": "create-video case_001"
+}

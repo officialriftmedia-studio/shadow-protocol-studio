@@ -1,0 +1,148 @@
+{
+  "hash": "62aba56a175b1ee976e1dfc414b067f21e47b1144369278f434f45296aa93d94",
+  "stage": "scene_breakdown",
+  "section": "act2",
+  "data": [
+    {
+      "scene_number": 22,
+      "section": "act2",
+      "title": "The Digital Cage",
+      "duration": 50,
+      "narrative_purpose": "Establish Elena's new, clandestine operation and her fierce determination to uncover the truth, highlighting her isolation and the shift to an off-grid investigation.",
+      "emotion": "Determination, urgency, isolation, subtle paranoia",
+      "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Slow push in, close up on Elena's face, emphasizing isolated intensity, reflections in pupils.",
+      "color_palette": "Intense, cool blue light from monitors, deep shadows.",
+      "lighting": "Dominant cool blue light from screens, casting stark, long shadows across the room.",
+      "visual_motif": "Screens glowing, tangled wires, reflections of scrolling data.",
+      "music": "Subtle, anxious synth pulse begins to emerge, very low in the mix.",
+      "sound_effects": [
+        "Low hum of server fans and power supplies",
+        "Rhythmic, rapid clicking of Elena's keyboard",
+        "Distant, muffled city sounds"
+      ],
+      "transition_in": "Cut from black",
+      "transition_out": "Hard cut"
+    },
+    {
+      "scene_number": 23,
+      "section": "act2",
+      "title": "Architect of Deception",
+      "duration": 55,
+      "narrative_purpose": "Show Elena's increasing frustration as she encounters an advanced, systemic form of digital obfuscation, hinting at a higher, more sophisticated adversary.",
+      "emotion": "Frustration, growing suspicion, intellectual challenge",
+      "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Static wide shot of Elena and screens, then close-ups on her jaw tightening and fingers flying with precision.",
+      "color_palette": "Colder, more impersonal blues and greens from screens, highlighting the vastness of the system.",
+      "lighting": "Harsh monitor glow, creating a clinical, almost sterile environment around Elena.",
+      "visual_motif": "Complex, alien code; elegantly obfuscated data streams, geometric patterns of network traffic.",
+      "music": "Synth pulse intensifies slightly, becoming more dissonant, a low thrum of frustration.",
+      "sound_effects": [
+        "Subtle, digital 'lock' or 'access denied' tone",
+        "Whirring of hard drives growing louder"
+      ],
+      "transition_in": "Hard cut",
+      "transition_out": "Quick cut"
+    },
+    {
+      "scene_number": 24,
+      "section": "act2",
+      "title": "Watching Back",
+      "duration": 60,
+      "narrative_purpose": "Introduce the terrifying realization that Elena is being observed and targeted, escalating the paranoia and confirming an unseen entity's presence.",
+      "emotion": "Cold dread, paranoia, vulnerability",
+      "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Slow push in on Elena, emphasizing her isolation. Quick cuts to unsettling visuals: a fleeting shadow, a reflection in a dark screen. Dutch angle to enhance unease.",
+      "color_palette": "Dark, with stark contrasts from the screen glow, emphasizing the surrounding unseen network.",
+      "lighting": "Low ambient light, screen glow, subtle play of shadows suggesting hidden movement.",
+      "visual_motif": "Reflections, shadows, a faint flicker on a static screen like a ripple in water.",
+      "music": "High-pitched, almost subliminal frequency briefly cuts through, then fades. Unsettling drone.",
+      "sound_effects": [
+        "Subtle, almost inaudible 'click' or 'ping' from an unknown source",
+        "Elena\u2019s shallow breathing"
+      ],
+      "transition_in": "Quick cut",
+      "transition_out": "Dissolve to dawn light"
+    },
+    {
+      "scene_number": 25,
+      "section": "act2",
+      "title": "The Machine's Signature",
+      "duration": 65,
+      "narrative_purpose": "Mark a shift in time and Elena's progress, as she identifies the source of the anomaly within a government infrastructure, revealing the scale of the operation.",
+      "emotion": "Grim determination, focus, impending revelation",
+      "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Static wide shot establishing the mix of dawn light and screen glow, then focus on screens displaying complex network topology and Elena's focused expression.",
+      "color_palette": "Grey dawn light filtering in, mixing with cold screen glow, shifting to starker red and black on monitors, indicating danger and secrecy.",
+      "lighting": "Natural dawn light filtering through blinds, mixing with the intense, cold glow of the screens.",
+      "visual_motif": "Complex, interconnected network topology diagrams; an obscured server farm icon within government infrastructure graphics.",
+      "music": "The anxious synth pulse from the previous scene is now a steady, driving beat, a relentless rhythm of discovery.",
+      "sound_effects": [
+        "Complex data streams",
+        "Digital whispers",
+        "Sounds of 'uncovering' layers"
+      ],
+      "transition_in": "Dissolve from previous scene",
+      "transition_out": "Hard cut"
+    },
+    {
+      "scene_number": 26,
+      "section": "act2",
+      "title": "Project Phantom",
+      "duration": 70,
+      "narrative_purpose": "Deliver the central revelation of the identity swap, shifting the narrative from a hack to a deliberate, deeper conspiracy involving a classified project.",
+      "emotion": "Shock, horror, profound betrayal, disbelief",
+      "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Close-up on Elena's hands hitting ENTER, then a sustained shot of the screen reveal, followed by a close-up on Elena's face as color drains, emphasizing her physical reaction.",
+      "color_palette": "Stark white text on a black screen, pale skin tone of Elena, contrasting with the warm, gentle tones of Sarah Jensen's photograph.",
+      "lighting": "Screen light illuminating Elena's shocked face, creating a clinical and revealing glare.",
+      "visual_motif": "Stark text on screen, a faded photograph, Elena's reflection in the dark bezel.",
+      "music": "Driving synth beat abruptly cuts out, leaving a sudden, deafening silence. Then, a slow, mournful, almost hollow piano chord begins to play.",
+      "sound_effects": [
+        "Sudden, deafening silence",
+        "Elena's shaky, ragged breath"
+      ],
+      "transition_in": "Hard cut",
+      "transition_out": "Slow pull back from screen/Elena"
+    },
+    {
+      "scene_number": 27,
+      "section": "act2",
+      "title": "A Stolen Life",
+      "duration": 75,
+      "narrative_purpose": "Explore the immediate emotional fallout of the revelation, emphasizing Elena's shattered reality, profound isolation, and the existential dread of a stolen identity.",
+      "emotion": "Despair, profound betrayal, existential dread, emptiness",
+      "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+      "characters": [
+        "Elena Vasquez"
+      ],
+      "camera_style": "Slow pull back from Elena, then a close-up on her wide eyes, reflecting the glowing screen with Sarah Jensen's photo and the 'reassignment' text. Subtle visual distortion ripples across the screen.",
+      "color_palette": "Desaturated, cold, emphasizing the alien and unfamiliar feeling of her own apartment.",
+      "lighting": "Dim, with the screen glow as the only significant light source, creating a sense of profound isolation.",
+      "visual_motif": "Reflections, distorted images, familiar objects now appearing alien and questioned.",
+      "music": "Mournful piano chord holds, then slowly fades into a low, unsettling drone.",
+      "sound_effects": [
+        "Distant, almost imperceptible digital hum",
+        "Elena's ragged breathing subsiding into a stunned silence",
+        "Creaking chair"
+      ],
+      "transition_in": "Slow pull back from previous scene",
+      "transition_out": "Fade to black"
+    }
+  ]
+}

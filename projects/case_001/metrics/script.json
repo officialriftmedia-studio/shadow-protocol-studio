@@ -1,0 +1,22 @@
+{
+  "stage": "script",
+  "status": "success",
+  "start_time": "2026-07-02T14:45:18.313055+00:00",
+  "end_time": "2026-07-02T14:45:18.478468+00:00",
+  "duration_seconds": 0.17,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "total_tokens": 0,
+  "llm_calls": 0,
+  "cost_usd": 0.0,
+  "output_files": [
+    "script/act1.md",
+    "script/act2.md",
+    "script/act3.md",
+    "script/cliffhanger.md",
+    "script/ending.md",
+    "script/hook.md",
+    "script/script.md"
+  ],
+  "error": null
+}

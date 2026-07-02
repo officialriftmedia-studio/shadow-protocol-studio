@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-07-01T20:15:40.014748+00:00",
+  "git_commit": "c6ac5054e27e1bcc3f72d121e5bb5d9eeebe38f2",
+  "python_version": "Python 3.12.3",
+  "os": "Linux ven-odoodev 6.8.0-110-generic #110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux",
+  "cpu_cores": "4",
+  "memory": "total        used        free      shared  buff/cache   available\nMem:               7           2           1           0           3           5\nSwap:              0           0           0",
+  "ffmpeg_version": "not installed",
+  "llm_provider": "${LLM_PROVIDER}",
+  "llm_model": "${LLM_MODEL}"
+}

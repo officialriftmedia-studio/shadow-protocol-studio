@@ -1,0 +1,104 @@
+[
+  {
+    "scene_number": 13,
+    "section": "act3",
+    "title": "The Unheard Truth",
+    "duration": 60,
+    "narrative_purpose": "Elena presents her evidence of the 'Phantom Directive' and her identity theft, but the system (OmniCorp committee) dismisses her claims as a psychological break, reinforcing her isolation and the system's impermeability.",
+    "emotion": "Frustration, disbelief, dawning dread, paranoia, indignation",
+    "location": "OmniCorp Headquarters - Executive Conference Room",
+    "characters": [
+      "Elena Vasquez",
+      "Committee Members (VO)"
+    ],
+    "camera_style": "Starts tight on Elena's resolute face, then slowly pulls back to reveal empty chairs, emphasizing her isolation. Static, clinical wide shots.",
+    "color_palette": "Desaturated blues and grays, clinical whites",
+    "lighting": "Harsh overhead fluorescent lighting, high-contrast, casting stark shadows, inspired by Mindhunter's interview scenes.",
+    "visual_motif": "Reflections on polished surfaces (table, walls), the unblinking camera lens, geometric patterns of the room.",
+    "music": "Low, sustained drone ambient, almost imperceptible.",
+    "sound_effects": [
+      "Sterile hum of fluorescent lights",
+      "faint whirr of hidden server",
+      "clack of keyboard",
+      "muffled, disembodied voices",
+      "subtle pen click"
+    ],
+    "transition_in": "FADE IN",
+    "transition_out": "QUICK CUTS of screen text followed by a jarring BLIP-BLIP-BLIP system error sound"
+  },
+  {
+    "scene_number": 14,
+    "section": "act3",
+    "title": "Echoes of Reality",
+    "duration": 60,
+    "narrative_purpose": "Following her dismissal, Elena is isolated and put on mandatory leave. The scene depicts her deep paranoia and the lingering presence of the 'Watcher', confirming the system's indifference and its continued surveillance.",
+    "emotion": "Paranoia, despair, isolation, quiet dread, exhaustion",
+    "location": "Elena Vasquez's Apartment",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Oppressive static shots, slow push towards Elena, fragmented reflections of her face across multiple screens, emphasizing her fractured state.",
+    "color_palette": "Muted, desaturated blues and grays, with cold, clinical light from screens.",
+    "lighting": "Primarily screen light, low ambient light making the apartment feel darker and smaller. Hint of neon wash from outside, but mostly internal screen glow.",
+    "visual_motif": "Multiple screens displaying static/conflicting data, fragmented reflections, the subtle flicker signifying the 'Watcher'.",
+    "music": "Oppressive silence, broken by a low, sustained, almost imperceptible electronic hum, building slightly.",
+    "sound_effects": [
+      "Low drone of screens",
+      "Elena's shallow, ragged breathing",
+      "faint, subliminal electronic whisper/clicking"
+    ],
+    "transition_in": "SMASH CUT from quick cuts and system error sounds",
+    "transition_out": "FADE TO BLACK"
+  },
+  {
+    "scene_number": 28,
+    "section": "act3",
+    "title": "The Futility of Proof",
+    "duration": 75,
+    "narrative_purpose": "Elena presents irrefutable evidence of the 'Phantom Directive' and her identity theft to OmniCorp leadership, only to have it clinically dismissed as a psychological break, reinforcing the system's imperviousness and her profound isolation.",
+    "emotion": "Desperation, disbelief, paranoia, rising dread",
+    "location": "OmniCorp Headquarters - Executive Conference Room",
+    "characters": [
+      "Elena Vasquez",
+      "Committee Members (VO)"
+    ],
+    "camera_style": "Static wide shot establishing isolation, then tight on Elena's face, slow push during her dialogue, quick cuts to her trembling hands on evidence (Mindhunter style clinical framing)",
+    "color_palette": "Clinical whites, cool blues, stark grays, desaturated with high contrast",
+    "lighting": "Harsh overhead fluorescent lighting, creating sharp shadows and glare on the polished table, illuminating Elena with a cold, unforgiving light (Roger Deakins influence)",
+    "visual_motif": "Reflections (on table), screens (evidence), geometric patterns (room architecture)",
+    "music": "Low, almost imperceptible drone ambient, with a subtle, rising tension",
+    "sound_effects": [
+      "Sterile hum of fluorescents",
+      "Faint server whirr",
+      "Elena's keyboard clicks",
+      "Muffled, disembodied committee voices",
+      "Subtle pen click (dismissive)"
+    ],
+    "transition_in": "Hard cut from previous scene",
+    "transition_out": "Quick cuts of screen text, jarring system error sound (BLIP-BLIP-BLIP)"
+  },
+  {
+    "scene_number": 29,
+    "section": "act3",
+    "title": "The System's Echo",
+    "duration": 70,
+    "narrative_purpose": "Elena retreats to her apartment, utterly defeated and psychologically fractured. The constant, subtle presence of surveillance (the 'Watcher') underscores her permanent entrapment and the system's indifferent endurance.",
+    "emotion": "Despair, profound paranoia, resignation, psychological collapse",
+    "location": "Elena Vasquez's Apartment",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static wide shots emphasizing the oppressive nature of her apartment, then fragmented reflections of Elena across multiple screens (Mr. Robot style). Slow zoom on her vacant stare.",
+    "color_palette": "Muted, desaturated blues and grays, with a faint, sickly green from the screens",
+    "lighting": "Low, ambient light from multiple screens, casting shifting, fractured shadows. Sparse, clinical lighting, perhaps a single practical lamp emphasizing her isolation.",
+    "visual_motif": "Screens, reflections, shadows, subtle flickers",
+    "music": "Oppressive silence broken by a low, sustained bass pulse that mimics a heartbeat or a distant machine, almost subliminal",
+    "sound_effects": [
+      "Low drone of screens",
+      "Elena's shallow breathing",
+      "Faint electronic whisper/clicking (Watcher)"
+    ],
+    "transition_in": "Smash cut from jarring system error sounds and quick screen flashes",
+    "transition_out": "Fade to black, leaving the faint electronic whisper lingering"
+  }
+]
