@@ -1,0 +1,116 @@
+{
+  "prompts": [
+    {
+      "scene_id": 3,
+      "prompt": "A slow, steady push-in on a cybersecurity analyst's face as she types rhythmically in a dark office, her eyes reflecting the glowing blue code on her screens.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "slow push"
+    },
+    {
+      "scene_id": 4,
+      "prompt": "Close-up of a monitor screen showing text shifting rapidly, with one digit suddenly flashing red, followed by a slight camera shudder.",
+      "duration_seconds": 10,
+      "style": "cinematic",
+      "camera_motion": "static"
+    },
+    {
+      "scene_id": 5,
+      "prompt": "A handheld, shaky-cam montage of screens showing identity data being rapidly overwritten, conveying a sense of growing, frantic unease.",
+      "duration_seconds": 20,
+      "style": "cinematic",
+      "camera_motion": "handheld"
+    },
+    {
+      "scene_id": 6,
+      "prompt": "A very slow, deliberate push-in on the protagonist's face as she reads the 'IDENTITY NOT FOUND' message, her expression shifting from confusion to cold horror.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "slow push"
+    },
+    {
+      "scene_id": 7,
+      "prompt": "A gimbal-tracked follow shot moving through a dark apartment to reveal a makeshift command center full of glowing screens and tangled wires.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "gimbal track"
+    },
+    {
+      "scene_id": 8,
+      "prompt": "A rapid series of cuts between complex network topology diagrams and the protagonist's tightening jaw, emphasizing the difficulty of the task.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "quick cuts"
+    },
+    {
+      "scene_id": 9,
+      "prompt": "A slow zoom on the protagonist, with a subtle Dutch angle tilt to the frame to disorient the viewer and simulate increasing paranoia.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "slow zoom"
+    },
+    {
+      "scene_id": 10,
+      "prompt": "A wide, establishing shot of the apartment as dawn light creeps in, then a focus on the screens showing a grim, complex revelation.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "slow pan"
+    },
+    {
+      "scene_id": 11,
+      "prompt": "A hard cut to a screen showing a government file, then a pull-back to reveal the protagonist's face, pale and shocked, reflecting the screen's light.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "pull back"
+    },
+    {
+      "scene_id": 12,
+      "prompt": "A slow pull-back from the protagonist, emphasizing her small, isolated figure in the room as the reality of her lost life sinks in.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "pull back"
+    },
+    {
+      "scene_id": 13,
+      "prompt": "A static, wide shot of the protagonist sitting alone at a massive boardroom table, perfectly framed to emphasize her isolation.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "static"
+    },
+    {
+      "scene_id": 14,
+      "prompt": "A slow, oppressive push-in on the protagonist in her dark apartment, with fragmented reflections of her face visible on multiple screens.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "slow push"
+    },
+    {
+      "scene_id": 31,
+      "prompt": "A drone-style pullback from a single server rack to reveal an immense, subterranean facility, emphasizing the sheer scale of the system.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "drone pullback"
+    },
+    {
+      "scene_id": 15,
+      "prompt": "A slow pan across a dark, empty living room, ending on the protagonist sitting motionless at her desk in the shadows.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "slow pan"
+    },
+    {
+      "scene_id": 1,
+      "prompt": "A slow, clinical observation shot of the protagonist sitting in the dark, her face lit only by the flickering rhythm of a dying monitor.",
+      "duration_seconds": 15,
+      "style": "cinematic",
+      "camera_motion": "slow push"
+    },
+    {
+      "scene_id": 2,
+      "prompt": "A completely black screen with a single, blinking cursor, fading into the darkness of the transition.",
+      "duration_seconds": 5,
+      "style": "cinematic",
+      "camera_motion": "static"
+    }
+  ]
+}

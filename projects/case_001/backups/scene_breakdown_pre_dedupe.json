@@ -1,0 +1,741 @@
+[
+  {
+    "scene_number": 3,
+    "section": "act1",
+    "title": "The Digital Guardian",
+    "duration": 60,
+    "narrative_purpose": "Establish Elena's normal world as a senior cybersecurity analyst, meticulous and trusting in data. Introduce the clinical, ordered environment she operates within, highlighting her competence.",
+    "emotion": "Order, precision, calm confidence",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Wide, sterile shot opening, tightening to a focused close-up on Elena and her eyes reflecting screens. Geometric framing.",
+    "color_palette": "Muted grays, cool blues, clinical whites, blue screen glow.",
+    "lighting": "Cool, clinical overhead fluorescent, blue glow from monitors.",
+    "visual_motif": "Reflections in screens, complex data streams, lines of code.",
+    "music": "Subtle low-frequency drone, barely-there tension.",
+    "sound_effects": [
+      "Soft hum of server racks",
+      "Distant, muffled office chatter",
+      "Precise, rhythmic keyboard clicks"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Cut"
+  },
+  {
+    "scene_number": 4,
+    "section": "act1",
+    "title": "The First Glitch",
+    "duration": 50,
+    "narrative_purpose": "Introduce the initial, minor anomaly in Elena's personal data, showing her rational, dismissive reaction as she attempts a quick, confident correction.",
+    "emotion": "Mild irritation, analytical dismissal",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Close-up on Elena's monitor, then her face reflecting the screen, slight frown.",
+    "color_palette": "Cool blues and grays, with a subtle, momentary highlight of a single digit in red/orange.",
+    "lighting": "Clinical overhead, screen glow emphasizing the highlighted error.",
+    "visual_motif": "Highlighted data field, flickering screen text.",
+    "music": "Subtle drone intensifies very slightly, then fades back.",
+    "sound_effects": [
+      "Brief, almost subliminal, dissonant electronic chime",
+      "Deliberate keyboard clicks"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Cut"
+  },
+  {
+    "scene_number": 5,
+    "section": "act1",
+    "title": "Spreading Discrepancies",
+    "duration": 80,
+    "narrative_purpose": "Illustrate the escalation of the anomaly into a systematic, spreading alteration of Elena's digital identity across multiple platforms, increasing her unease and dawning paranoia.",
+    "emotion": "Growing unease, frustration, dawning paranoia",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office / Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Montage of close-ups on screens and Elena's increasingly agitated face. Handheld feel during apartment scenes to convey urgency.",
+    "color_palette": "Starts cool blue/green in office, shifts to warmer but starker light in apartment, flickering data glow.",
+    "lighting": "Office: cool blue/green screen glow, harsh overhead. Apartment: flickering data light, tense, isolating.",
+    "visual_motif": "Overwritten data, generic placeholders, subtly altered photos, reflections.",
+    "music": "High-pitched whine layers under ambient sounds, growing in intensity. Faint, distorted electronic echo.",
+    "sound_effects": [
+      "Faster, more agitated keyboard clicks",
+      "Subtle, high-pitched whine"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Cut"
+  },
+  {
+    "scene_number": 6,
+    "section": "act1",
+    "title": "Identity Not Found",
+    "duration": 70,
+    "narrative_purpose": "Deliver the inciting incident: Elena's complete digital erasure, shattering her foundation and establishing the central conflict of her lost identity. A moment of profound horror and despair.",
+    "emotion": "Disbelief, dawning horror, despair, isolation",
+    "location": "Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Close-up on Elena's face, bathed in harsh blue light. Slow, deliberate push-in on her face as the message appears. The empty space around the stark message feels vast, isolating.",
+    "color_palette": "Harsh, cold blue light from the monitor, reflecting starkly in her eyes.",
+    "lighting": "Harsh blue screen light, isolating, creating deep shadows.",
+    "visual_motif": "Stark text on screen, reflections of the message in her wide eyes.",
+    "music": "High-pitched whine peaks then abruptly cuts to absolute silence, followed by a low, sustained, ominous thrum.",
+    "sound_effects": [
+      "Elena's ragged breath (barely audible)",
+      "Absolute silence",
+      "Deep, ominous thrumming"
+    ],
+    "transition_in": "Cut",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 18,
+    "section": "act1",
+    "title": "Guardian of the Digital Order",
+    "duration": 55,
+    "narrative_purpose": "Establish Elena's character as a highly capable cybersecurity analyst, deeply embedded in and trusting of the digital systems she oversees for OmniCorp.",
+    "emotion": "Confident, efficient, sterile, underlying tension",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Open on static wide, slow push into close-up on Elena, then tight on her eyes reflecting screens.",
+    "color_palette": "Muted grays, clinical whites, cool blues from screens",
+    "lighting": "Harsh overhead fluorescent, screen glow as primary light source",
+    "visual_motif": "Reflections in screens, geometric office architecture, data streams",
+    "music": "Subtle, low ambient drone",
+    "sound_effects": [
+      "Soft hum of server racks",
+      "Distant, muffled office chatter",
+      "Precise, rhythmic clicks of a mechanical keyboard"
+    ],
+    "transition_in": "Smash cut from black",
+    "transition_out": "Slow dissolve to next scene"
+  },
+  {
+    "scene_number": 19,
+    "section": "act1",
+    "title": "The First Glitch",
+    "duration": 45,
+    "narrative_purpose": "Introduce the initial, minor digital inconsistency in Elena's personal records, which she confidently dismisses as a simple system error.",
+    "emotion": "Slight irritation, analytical, dismissive",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Tight close-ups on screen displaying data, intercut with Elena's face reflecting the screen's glow.",
+    "color_palette": "Dominant screen blue, sterile office whites",
+    "lighting": "Screen glow, harsh overhead fluorescent",
+    "visual_motif": "Highlighted data fields, digital text, reflections",
+    "music": "Low ambient drone with a subtle, brief dissonant shift",
+    "sound_effects": [
+      "Brief, subliminal dissonant electronic chime",
+      "Deliberate keyboard clicks",
+      "Subtle drone intensification, then fade"
+    ],
+    "transition_in": "Dissolve from previous scene",
+    "transition_out": "Hard cut to montage"
+  },
+  {
+    "scene_number": 20,
+    "section": "act1",
+    "title": "The Digital Erasure Begins",
+    "duration": 70,
+    "narrative_purpose": "Illustrate the escalating and systematic nature of the digital alterations to Elena's identity, shifting her from confident analyst to frantic investigator, culminating in a disturbing discovery of altered personal history.",
+    "emotion": "Growing unease, paranoia, frantic energy, unsettling",
+    "location": "OmniCorp Headquarters - Elena Vasquez's Office / Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Dynamic montage of rapid cuts between screens and Elena's face. Handheld in apartment, close-ups on details.",
+    "color_palette": "Shifting from cool blue/sickly green (office) to warmer but stark apartment tones, dominated by screen light.",
+    "lighting": "Corporate: harsh overhead, sickly green screen glow. Apartment: flickering screen light, practical lamps casting deep shadows.",
+    "visual_motif": "Overwritten data, disappearing details, digital blur, reflections of a changing identity",
+    "music": "High-pitched whine building in intensity, distorted electronic layers",
+    "sound_effects": [
+      "Faster, agitated keyboard clicks",
+      "Subtle high-pitched whine growing",
+      "Faint, distorted electronic echo"
+    ],
+    "transition_in": "Hard cut from previous scene",
+    "transition_out": "Hard cut to next scene"
+  },
+  {
+    "scene_number": 21,
+    "section": "act1",
+    "title": "Identity Not Found",
+    "duration": 60,
+    "narrative_purpose": "Deliver the climax of the section, depicting Elena's ultimate digital erasure and the profound horror of realizing her entire identity has been systematically dismantled by the system she trusted.",
+    "emotion": "Disbelief, horror, existential dread, despair",
+    "location": "Elena's Apartment - Home Office",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Extreme close-up on Elena's face, slow push-in, static shot on the stark 'IDENTITY NOT FOUND' message.",
+    "color_palette": "Harsh, cold blue from monitor, deep shadows in the background",
+    "lighting": "Solely screen light, casting stark, cold illumination on her face",
+    "visual_motif": "Stark text on screen, reflections of despair, empty digital space",
+    "music": "Abrupt silence, followed by a slowly building, deep, ominous thrum",
+    "sound_effects": [
+      "Abrupt silence",
+      "Elena's ragged breath (barely audible)",
+      "Deep, ominous thrumming"
+    ],
+    "transition_in": "Hard cut from previous scene",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 7,
+    "section": "act2",
+    "title": "Going Dark",
+    "duration": 65,
+    "narrative_purpose": "Establish Elena's desperate, covert investigation, her decision to go off-grid, and the initial sense of facing an unnameable enemy.",
+    "emotion": "Determination, urgency, nascent paranoia",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Slow push into close-up on Elena's face, reflections in her pupils, emphasizing isolated intensity.",
+    "color_palette": "Intense, cool blue light from monitors against dark shadows.",
+    "lighting": "Harsh screen glow as the dominant light source, minimal ambient light.",
+    "visual_motif": "Reflections of scrolling data, glowing screens, wires snaking across surfaces.",
+    "music": "Subtle, anxious synth pulse, very low in the mix.",
+    "sound_effects": [
+      "Low, persistent hum of server fans",
+      "Rhythmic, rapid clicking of Elena's keyboard",
+      "Distant, muffled city sounds"
+    ],
+    "transition_in": "Smash cut from black"
+  },
+  {
+    "scene_number": 8,
+    "section": "act2",
+    "title": "The Architecture",
+    "duration": 70,
+    "narrative_purpose": "Illustrate the advanced, misleading nature of the digital threat, escalating Elena's frustration as she hits sophisticated, state-level obfuscation.",
+    "emotion": "Frustration, growing dread, clinical analysis",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static wide shots showing multiple screens, quick cuts between complex code and Elena's tightening jaw.",
+    "color_palette": "Colder, impersonal blues and greens dominating screen displays.",
+    "lighting": "Clinical screen glow, casting harsh, flat light.",
+    "visual_motif": "Complex, alien code; elegantly obfuscated data streams; geometric patterns of network diagrams.",
+    "music": "Synth pulse intensifies slightly, becoming more dissonant, a low thrum of frustration.",
+    "sound_effects": [
+      "Subtle, digital 'lock' or 'access denied' tone (implied)",
+      "Whirring of hard drives growing louder"
+    ],
+    "transition_in": "Hard cut"
+  },
+  {
+    "scene_number": 9,
+    "section": "act2",
+    "title": "Phantom Presence",
+    "duration": 60,
+    "narrative_purpose": "Introduce the unsettling feeling of being watched, escalating Elena's paranoia as she detects faint traces of an elusive monitoring system.",
+    "emotion": "Paranoia, dread, isolation",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Slow push on Elena, quick cuts to fleeting visual distortions, possibly a subtle dutch angle to disorient.",
+    "color_palette": "Deep shadows, brief, almost imperceptible flickers of light, emphasizing unseen elements.",
+    "lighting": "Screen glow, but with greater emphasis on oppressive shadows and the darkness surrounding Elena.",
+    "visual_motif": "Subtle screen flicker, moving shadows, reflections in dark, unused screens.",
+    "music": "High-pitched, almost subliminal frequency, unsettling drone.",
+    "sound_effects": [
+      "Subtle, almost inaudible 'click' or 'ping' from an unknown source",
+      "Elena's shallow breathing"
+    ],
+    "transition_in": "Dissolve"
+  },
+  {
+    "scene_number": 10,
+    "section": "act2",
+    "title": "The Machine",
+    "duration": 65,
+    "narrative_purpose": "Shift from paranoia to focused discovery, as Elena identifies a specific digital signature linked to a highly classified, government-level project.",
+    "emotion": "Grim determination, focus, impending revelation",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Wide shot establishing dawn light, then focus on monitors displaying complex network topology.",
+    "color_palette": "Starker red and black from monitors, mixing with the grey tones of dawn filtering through blinds.",
+    "lighting": "Mixing the cold screen glow with the first hints of natural, clinical dawn light.",
+    "visual_motif": "Complex, interconnected diagrams of network topology, government infrastructure graphics.",
+    "music": "The anxious synth pulse from previous scenes is now a steady, driving beat, relentless.",
+    "sound_effects": [
+      "Complex data streams",
+      "Digital whispers",
+      "Sense of 'uncovering' layers"
+    ],
+    "transition_in": "Slow fade from black"
+  },
+  {
+    "scene_number": 11,
+    "section": "act2",
+    "title": "Identity Reassigned",
+    "duration": 75,
+    "narrative_purpose": "Deliver the shocking midpoint revelation that Elena's identity has been systematically unstitched and reassigned to a deceased woman.",
+    "emotion": "Shock, disbelief, horror, betrayal",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Close-up on the central monitor, then slowly pulling back to Elena's face, emphasizing her reflection in the dark bezel.",
+    "color_palette": "Stark white text on a black background, faded photograph with muted tones.",
+    "lighting": "Harsh screen light illuminating Elena's pale, shocked face.",
+    "visual_motif": "Text on screen, a faded photograph, Elena's reflection contrasting with the image.",
+    "music": "The driving synth beat abruptly cuts out, followed by a sudden, deafening silence, then a slow, mournful piano chord.",
+    "sound_effects": [
+      "Elena's shaky, ragged breath"
+    ],
+    "transition_in": "Hard cut"
+  },
+  {
+    "scene_number": 12,
+    "section": "act2",
+    "title": "A Stolen Life",
+    "duration": 80,
+    "narrative_purpose": "Deepen the emotional impact of the revelation, depicting Elena's complete identity collapse and the shattering of her reality.",
+    "emotion": "Despair, profound isolation, existential horror",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Slow pull back from the screens, then a tight close-up on Elena's eyes reflecting the truth, subtle visual distortion.",
+    "color_palette": "Desaturated, cold tones, reflecting the shattered reality; apartment feels alien.",
+    "lighting": "Dim, oppressive lighting, with the screen's glow providing the only source of truth/horror.",
+    "visual_motif": "Reflection of Sarah Jensen's photo and text in Elena's eyes, subtle ripples of distortion on screen, familiar objects now alien.",
+    "music": "The mournful piano chord holds, then slowly fades into a low, unsettling drone.",
+    "sound_effects": [
+      "Distant, almost imperceptible digital hum",
+      "Elena's ragged breathing subsiding into stunned silence"
+    ],
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 22,
+    "section": "act2",
+    "title": "The Digital Cage",
+    "duration": 50,
+    "narrative_purpose": "Establish Elena's new, clandestine operation and her fierce determination to uncover the truth, highlighting her isolation and the shift to an off-grid investigation.",
+    "emotion": "Determination, urgency, isolation, subtle paranoia",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Slow push in, close up on Elena's face, emphasizing isolated intensity, reflections in pupils.",
+    "color_palette": "Intense, cool blue light from monitors, deep shadows.",
+    "lighting": "Dominant cool blue light from screens, casting stark, long shadows across the room.",
+    "visual_motif": "Screens glowing, tangled wires, reflections of scrolling data.",
+    "music": "Subtle, anxious synth pulse begins to emerge, very low in the mix.",
+    "sound_effects": [
+      "Low hum of server fans and power supplies",
+      "Rhythmic, rapid clicking of Elena's keyboard",
+      "Distant, muffled city sounds"
+    ],
+    "transition_in": "Cut from black",
+    "transition_out": "Hard cut"
+  },
+  {
+    "scene_number": 23,
+    "section": "act2",
+    "title": "Architect of Deception",
+    "duration": 55,
+    "narrative_purpose": "Show Elena's increasing frustration as she encounters an advanced, systemic form of digital obfuscation, hinting at a higher, more sophisticated adversary.",
+    "emotion": "Frustration, growing suspicion, intellectual challenge",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static wide shot of Elena and screens, then close-ups on her jaw tightening and fingers flying with precision.",
+    "color_palette": "Colder, more impersonal blues and greens from screens, highlighting the vastness of the system.",
+    "lighting": "Harsh monitor glow, creating a clinical, almost sterile environment around Elena.",
+    "visual_motif": "Complex, alien code; elegantly obfuscated data streams, geometric patterns of network traffic.",
+    "music": "Synth pulse intensifies slightly, becoming more dissonant, a low thrum of frustration.",
+    "sound_effects": [
+      "Subtle, digital 'lock' or 'access denied' tone",
+      "Whirring of hard drives growing louder"
+    ],
+    "transition_in": "Hard cut",
+    "transition_out": "Quick cut"
+  },
+  {
+    "scene_number": 24,
+    "section": "act2",
+    "title": "Watching Back",
+    "duration": 60,
+    "narrative_purpose": "Introduce the terrifying realization that Elena is being observed and targeted, escalating the paranoia and confirming an unseen entity's presence.",
+    "emotion": "Cold dread, paranoia, vulnerability",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Slow push in on Elena, emphasizing her isolation. Quick cuts to unsettling visuals: a fleeting shadow, a reflection in a dark screen. Dutch angle to enhance unease.",
+    "color_palette": "Dark, with stark contrasts from the screen glow, emphasizing the surrounding unseen network.",
+    "lighting": "Low ambient light, screen glow, subtle play of shadows suggesting hidden movement.",
+    "visual_motif": "Reflections, shadows, a faint flicker on a static screen like a ripple in water.",
+    "music": "High-pitched, almost subliminal frequency briefly cuts through, then fades. Unsettling drone.",
+    "sound_effects": [
+      "Subtle, almost inaudible 'click' or 'ping' from an unknown source",
+      "Elena’s shallow breathing"
+    ],
+    "transition_in": "Quick cut",
+    "transition_out": "Dissolve to dawn light"
+  },
+  {
+    "scene_number": 25,
+    "section": "act2",
+    "title": "The Machine's Signature",
+    "duration": 65,
+    "narrative_purpose": "Mark a shift in time and Elena's progress, as she identifies the source of the anomaly within a government infrastructure, revealing the scale of the operation.",
+    "emotion": "Grim determination, focus, impending revelation",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static wide shot establishing the mix of dawn light and screen glow, then focus on screens displaying complex network topology and Elena's focused expression.",
+    "color_palette": "Grey dawn light filtering in, mixing with cold screen glow, shifting to starker red and black on monitors, indicating danger and secrecy.",
+    "lighting": "Natural dawn light filtering through blinds, mixing with the intense, cold glow of the screens.",
+    "visual_motif": "Complex, interconnected network topology diagrams; an obscured server farm icon within government infrastructure graphics.",
+    "music": "The anxious synth pulse from the previous scene is now a steady, driving beat, a relentless rhythm of discovery.",
+    "sound_effects": [
+      "Complex data streams",
+      "Digital whispers",
+      "Sounds of 'uncovering' layers"
+    ],
+    "transition_in": "Dissolve from previous scene",
+    "transition_out": "Hard cut"
+  },
+  {
+    "scene_number": 26,
+    "section": "act2",
+    "title": "Project Phantom",
+    "duration": 70,
+    "narrative_purpose": "Deliver the central revelation of the identity swap, shifting the narrative from a hack to a deliberate, deeper conspiracy involving a classified project.",
+    "emotion": "Shock, horror, profound betrayal, disbelief",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Close-up on Elena's hands hitting ENTER, then a sustained shot of the screen reveal, followed by a close-up on Elena's face as color drains, emphasizing her physical reaction.",
+    "color_palette": "Stark white text on a black screen, pale skin tone of Elena, contrasting with the warm, gentle tones of Sarah Jensen's photograph.",
+    "lighting": "Screen light illuminating Elena's shocked face, creating a clinical and revealing glare.",
+    "visual_motif": "Stark text on screen, a faded photograph, Elena's reflection in the dark bezel.",
+    "music": "Driving synth beat abruptly cuts out, leaving a sudden, deafening silence. Then, a slow, mournful, almost hollow piano chord begins to play.",
+    "sound_effects": [
+      "Sudden, deafening silence",
+      "Elena's shaky, ragged breath"
+    ],
+    "transition_in": "Hard cut",
+    "transition_out": "Slow pull back from screen/Elena"
+  },
+  {
+    "scene_number": 27,
+    "section": "act2",
+    "title": "A Stolen Life",
+    "duration": 75,
+    "narrative_purpose": "Explore the immediate emotional fallout of the revelation, emphasizing Elena's shattered reality, profound isolation, and the existential dread of a stolen identity.",
+    "emotion": "Despair, profound betrayal, existential dread, emptiness",
+    "location": "Elena Vasquez's Apartment - Makeshift Command Center",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Slow pull back from Elena, then a close-up on her wide eyes, reflecting the glowing screen with Sarah Jensen's photo and the 'reassignment' text. Subtle visual distortion ripples across the screen.",
+    "color_palette": "Desaturated, cold, emphasizing the alien and unfamiliar feeling of her own apartment.",
+    "lighting": "Dim, with the screen glow as the only significant light source, creating a sense of profound isolation.",
+    "visual_motif": "Reflections, distorted images, familiar objects now appearing alien and questioned.",
+    "music": "Mournful piano chord holds, then slowly fades into a low, unsettling drone.",
+    "sound_effects": [
+      "Distant, almost imperceptible digital hum",
+      "Elena's ragged breathing subsiding into a stunned silence",
+      "Creaking chair"
+    ],
+    "transition_in": "Slow pull back from previous scene",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 13,
+    "section": "act3",
+    "title": "The Unheard Truth",
+    "duration": 60,
+    "narrative_purpose": "Elena presents her evidence of the 'Phantom Directive' and her identity theft, but the system (OmniCorp committee) dismisses her claims as a psychological break, reinforcing her isolation and the system's impermeability.",
+    "emotion": "Frustration, disbelief, dawning dread, paranoia, indignation",
+    "location": "OmniCorp Headquarters - Executive Conference Room",
+    "characters": [
+      "Elena Vasquez",
+      "Committee Members (VO)"
+    ],
+    "camera_style": "Starts tight on Elena's resolute face, then slowly pulls back to reveal empty chairs, emphasizing her isolation. Static, clinical wide shots.",
+    "color_palette": "Desaturated blues and grays, clinical whites",
+    "lighting": "Harsh overhead fluorescent lighting, high-contrast, casting stark shadows, inspired by Mindhunter's interview scenes.",
+    "visual_motif": "Reflections on polished surfaces (table, walls), the unblinking camera lens, geometric patterns of the room.",
+    "music": "Low, sustained drone ambient, almost imperceptible.",
+    "sound_effects": [
+      "Sterile hum of fluorescent lights",
+      "faint whirr of hidden server",
+      "clack of keyboard",
+      "muffled, disembodied voices",
+      "subtle pen click"
+    ],
+    "transition_in": "FADE IN",
+    "transition_out": "QUICK CUTS of screen text followed by a jarring BLIP-BLIP-BLIP system error sound"
+  },
+  {
+    "scene_number": 14,
+    "section": "act3",
+    "title": "Echoes of Reality",
+    "duration": 60,
+    "narrative_purpose": "Following her dismissal, Elena is isolated and put on mandatory leave. The scene depicts her deep paranoia and the lingering presence of the 'Watcher', confirming the system's indifference and its continued surveillance.",
+    "emotion": "Paranoia, despair, isolation, quiet dread, exhaustion",
+    "location": "Elena Vasquez's Apartment",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Oppressive static shots, slow push towards Elena, fragmented reflections of her face across multiple screens, emphasizing her fractured state.",
+    "color_palette": "Muted, desaturated blues and grays, with cold, clinical light from screens.",
+    "lighting": "Primarily screen light, low ambient light making the apartment feel darker and smaller. Hint of neon wash from outside, but mostly internal screen glow.",
+    "visual_motif": "Multiple screens displaying static/conflicting data, fragmented reflections, the subtle flicker signifying the 'Watcher'.",
+    "music": "Oppressive silence, broken by a low, sustained, almost imperceptible electronic hum, building slightly.",
+    "sound_effects": [
+      "Low drone of screens",
+      "Elena's shallow, ragged breathing",
+      "faint, subliminal electronic whisper/clicking"
+    ],
+    "transition_in": "SMASH CUT from quick cuts and system error sounds",
+    "transition_out": "FADE TO BLACK"
+  },
+  {
+    "scene_number": 28,
+    "section": "act3",
+    "title": "The Futility of Proof",
+    "duration": 75,
+    "narrative_purpose": "Elena presents irrefutable evidence of the 'Phantom Directive' and her identity theft to OmniCorp leadership, only to have it clinically dismissed as a psychological break, reinforcing the system's imperviousness and her profound isolation.",
+    "emotion": "Desperation, disbelief, paranoia, rising dread",
+    "location": "OmniCorp Headquarters - Executive Conference Room",
+    "characters": [
+      "Elena Vasquez",
+      "Committee Members (VO)"
+    ],
+    "camera_style": "Static wide shot establishing isolation, then tight on Elena's face, slow push during her dialogue, quick cuts to her trembling hands on evidence (Mindhunter style clinical framing)",
+    "color_palette": "Clinical whites, cool blues, stark grays, desaturated with high contrast",
+    "lighting": "Harsh overhead fluorescent lighting, creating sharp shadows and glare on the polished table, illuminating Elena with a cold, unforgiving light (Roger Deakins influence)",
+    "visual_motif": "Reflections (on table), screens (evidence), geometric patterns (room architecture)",
+    "music": "Low, almost imperceptible drone ambient, with a subtle, rising tension",
+    "sound_effects": [
+      "Sterile hum of fluorescents",
+      "Faint server whirr",
+      "Elena's keyboard clicks",
+      "Muffled, disembodied committee voices",
+      "Subtle pen click (dismissive)"
+    ],
+    "transition_in": "Hard cut from previous scene",
+    "transition_out": "Quick cuts of screen text, jarring system error sound (BLIP-BLIP-BLIP)"
+  },
+  {
+    "scene_number": 29,
+    "section": "act3",
+    "title": "The System's Echo",
+    "duration": 70,
+    "narrative_purpose": "Elena retreats to her apartment, utterly defeated and psychologically fractured. The constant, subtle presence of surveillance (the 'Watcher') underscores her permanent entrapment and the system's indifferent endurance.",
+    "emotion": "Despair, profound paranoia, resignation, psychological collapse",
+    "location": "Elena Vasquez's Apartment",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static wide shots emphasizing the oppressive nature of her apartment, then fragmented reflections of Elena across multiple screens (Mr. Robot style). Slow zoom on her vacant stare.",
+    "color_palette": "Muted, desaturated blues and grays, with a faint, sickly green from the screens",
+    "lighting": "Low, ambient light from multiple screens, casting shifting, fractured shadows. Sparse, clinical lighting, perhaps a single practical lamp emphasizing her isolation.",
+    "visual_motif": "Screens, reflections, shadows, subtle flickers",
+    "music": "Oppressive silence broken by a low, sustained bass pulse that mimics a heartbeat or a distant machine, almost subliminal",
+    "sound_effects": [
+      "Low drone of screens",
+      "Elena's shallow breathing",
+      "Faint electronic whisper/clicking (Watcher)"
+    ],
+    "transition_in": "Smash cut from jarring system error sounds and quick screen flashes",
+    "transition_out": "Fade to black, leaving the faint electronic whisper lingering"
+  },
+  {
+    "scene_number": 31,
+    "section": "cliffhanger",
+    "title": "The Indifferent Machine",
+    "duration": 75,
+    "narrative_purpose": "To underscore the vast, indifferent power of the hidden system, demonstrating that individual struggles like Elena's are mere ripples, and the system continues its operations unaffected, setting up a chilling cliffhanger.",
+    "emotion": "Dread, insignificance, cold indifference, overwhelming scale",
+    "location": "Classified Data Center - Subterranean Server Farm",
+    "characters": [
+      "Narrator (VO)"
+    ],
+    "camera_style": "Starts with a wide, desolate establishing shot of the facility exterior. Transitions to a precise, almost clinical slow pan across the immense holographic display, followed by a controlled zoom into the data anomaly, and a wide pull-back to emphasize scale. Inspired by Mr. Robot's cold, geometric framing and True Detective's atmospheric long takes.",
+    "color_palette": "Desaturated grays and cool blues for the arid exterior; interior dominated by clinical blues, greens, and whites on the holographic display, with occasional unsettling amber warning glows.",
+    "lighting": "Sparse, industrial exterior lighting with a faint, unnatural glow from below. Interior features harsh overhead fluorescent lights illuminating server racks, with the colossal holographic display providing its own cool, self-illuminated light.",
+    "visual_motif": "Screens, abstract data streams, geometric patterns of server racks, and a fleeting, indistinct shadowy reflection over the display, hinting at an unseen presence.",
+    "music": "A low, droning synth builds a quiet, ominous tension throughout, then fades to a prolonged, unsettling silence as the scene ends.",
+    "sound_effects": [
+      "Low, constant hum of servers",
+      "Faint, subliminal digital chirp and whisper of data",
+      "Occasional subtle glitch sound as the anomaly occurs and resolves"
+    ],
+    "transition_in": "Hard cut from preceding scene (Elena's defeat/realization)",
+    "transition_out": "Fade to black, leaving a lingering sense of dread and unsettling silence"
+  },
+  {
+    "scene_number": 15,
+    "section": "ending",
+    "title": "A Solitary Truth",
+    "duration": 75,
+    "narrative_purpose": "To illustrate Elena's ultimate isolation and the system's enduring power, despite her uncovering the truth, leaving her truth dismissed as delusion and her under perpetual surveillance.",
+    "emotion": "Paranoia, despair, isolation, quiet dread",
+    "location": "Elena Vasquez's Apartment - Living Room / Bedroom",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static on Elena at desk, close-up on hand, rapid montage of unsettling flashes (blurry photo, sterile hallway, distorted reflection, unblinking eye), slow pan as Elena moves, static hold on empty room.",
+    "color_palette": "Desaturated blues and grays from screen glow, deep shadows, brief clinical white during montage.",
+    "lighting": "Low, moody ambient light, harsh blue screen glow, pockets of deep shadow, brief cold fluorescent in montage.",
+    "visual_motif": "Screens, reflections, shadows, the solitary flickering pixel.",
+    "music": "Drone ambient, low bass pulse, high-frequency tone.",
+    "sound_effects": [
+      "hum of electronics",
+      "distant city drone",
+      "high-frequency tone",
+      "flickering pixel click",
+      "Elena's slow footsteps",
+      "door creak"
+    ],
+    "transition_in": "Hard cut",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 30,
+    "section": "ending",
+    "title": "Solitary Truth",
+    "duration": 75,
+    "narrative_purpose": "To depict the psychological aftermath of Elena's discoveries, showing her isolation and the system's indifferent endurance, solidifying the theme that knowing the truth doesn't grant freedom.",
+    "emotion": "Despair, paranoia, resignation, dread",
+    "location": "Elena Vasquez's Apartment - Living Room",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Static wide shot establishing the disarray, then close on Elena's gaunt face reflecting screens. Handheld close-up on hovering hand, followed by rapid, almost subliminal cuts (like a glitching feed). Slow, deliberate camera movement as Elena stands and moves away, holding on the empty, screen-lit space after she exits. Inspired by Mr. Robot's precise framing and True Detective's atmospheric dread.",
+    "color_palette": "Desaturated blues and grays dominate, punctuated by the cold, clinical white/blue glow of monitors. Deep, oppressive shadows.",
+    "lighting": "Low, ambient light from distant city, augmented by the cold, harsh blue/white glow of the monitors. Shadows consume the rest of the apartment.",
+    "visual_motif": "Screens as omnipresent eyes, reflections distorting reality, the subtle flicker representing persistent surveillance.",
+    "music": "Sparse, low-frequency drone, evolving into a quiet, unsettling synth pad. Underlying tension, never resolving.",
+    "sound_effects": [
+      "Constant hum of electronics",
+      "Distant city drone",
+      "Subliminal high-frequency tone (suggesting monitoring)",
+      "Barely audible click of a flickering pixel",
+      "Soft, heavy footsteps",
+      "Faint creak of a door"
+    ],
+    "transition_in": "Fade in from black",
+    "transition_out": "Hold on empty screens, fade to black"
+  },
+  {
+    "scene_number": 1,
+    "section": "hook",
+    "title": "The Phantom Echo",
+    "duration": 75,
+    "narrative_purpose": "Establish Elena's present state of profound despair and isolation, immediately immersing the audience in the central mystery of her dissolving identity and the psychological impact.",
+    "emotion": "Dread, paranoia, despair, isolation",
+    "location": "Elena Vasquez's Apartment - Living Room",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Clinical observation, slow push, fragmented close-ups, wide shots emphasizing isolation",
+    "color_palette": "Stark blue-white (screens), deep oppressive shadows, desaturated tones",
+    "lighting": "Harsh screen-glow, deep shadows, single key light (implied by monitor light)",
+    "visual_motif": "Reflections (distorted), screens, wires, chaotic data",
+    "music": "Subliminal electronic drone, low bass pulse",
+    "sound_effects": [
+      "Computer fan hum",
+      "Distant siren",
+      "Ragged breathing",
+      "Mouse click"
+    ],
+    "transition_in": "Fade in from black",
+    "transition_out": "Narrator leads to fade to black"
+  },
+  {
+    "scene_number": 2,
+    "section": "hook",
+    "title": "Rewind to the Precipice",
+    "duration": 25,
+    "narrative_purpose": "Transition the narrative timeline to the past, setting up the origin story of Elena's crisis and building anticipation for the flashback.",
+    "emotion": "Anticipation, mystery, temporal shift",
+    "location": "Narrative Transition Space",
+    "characters": [],
+    "camera_style": "Static black screen",
+    "color_palette": "Pure black",
+    "lighting": "Absence of light",
+    "visual_motif": "None",
+    "music": "Electronic drone fades out",
+    "sound_effects": [
+      "Electronic drone fades out",
+      "Clean ambience",
+      "Digital chime"
+    ],
+    "transition_in": "From previous scene's narrator and fade out",
+    "transition_out": "Hard cut to new scene (flashback)"
+  },
+  {
+    "scene_number": 16,
+    "section": "hook",
+    "title": "Identity Not Found",
+    "duration": 75,
+    "narrative_purpose": "Introduce Elena Vasquez in a state of extreme distress, revealing the core conflict of her identity being erased, and establish the series' paranoid, tech-driven atmosphere.",
+    "emotion": "Paranoia, dread, despair, exhaustion, clinical detachment",
+    "location": "Elena Vasquez's Apartment - Living Room",
+    "characters": [
+      "Elena Vasquez"
+    ],
+    "camera_style": "Tight shot on trembling hands, slow widen to reveal chaotic war room, close-up on distorted screen reflection (flickering glitch), pull back to wide shot emphasizing isolation. Inspired by Mr. Robot's precise, often isolating framing and True Detective's atmospheric wide shots.",
+    "color_palette": "Desaturated blues, stark blue-white screen glow, deep oppressive shadows, hints of warm amber from incidental lights",
+    "lighting": "Dominant harsh blue-white screen light, deep practical shadows, minimal ambient light. Reminiscent of Sicario's high contrast and selective illumination.",
+    "visual_motif": "Screens, reflections (especially distorted), data interfaces, wires, claustrophobic interiors",
+    "music": "Low, persistent electronic drone, subtle bass pulse, almost subliminal",
+    "sound_effects": [
+      "Computer fan hum",
+      "Subtle electronic drone (building)",
+      "Distant siren (fading)",
+      "Ragged breathing",
+      "Mouse click (sharp, isolated)"
+    ],
+    "transition_in": "Smash cut from black",
+    "transition_out": "Fade to black"
+  },
+  {
+    "scene_number": 17,
+    "section": "hook",
+    "title": "Three Days Earlier",
+    "duration": 25,
+    "narrative_purpose": "Provide a clear temporal transition to a flashback sequence, signaling a shift to the origin story of Elena's crisis.",
+    "emotion": "Anticipation, narrative shift, reflective",
+    "location": "Abstract (Narrative Transition)",
+    "characters": [],
+    "camera_style": "Fade to black, holding on black",
+    "color_palette": "Pure black",
+    "lighting": "Absence of light",
+    "visual_motif": "The void, temporal markers",
+    "music": "Electronic drone fades out, replaced by clean, sterile ambient tone",
+    "sound_effects": [
+      "Electronic drone fading",
+      "Clean, sterile ambience",
+      "Digital chime"
+    ],
+    "transition_in": "From black",
+    "transition_out": "Hard cut to new scene"
+  }
+]

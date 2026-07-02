@@ -1,0 +1,43 @@
+{
+  "$schema": "quota_limits.schema.json",
+  "description": "Per-model daily quota limits. Used by QuotaManager for tracking and estimation.",
+  "gemini": {
+    "gemini-2.5-flash": {
+      "rpm": 5,
+      "tpm": 250000,
+      "rpd": 20
+    },
+    "gemini-2.5-pro": {
+      "rpm": 5,
+      "tpm": 250000,
+      "rpd": 20
+    },
+    "gemini-3.1-flash-lite": {
+      "rpm": 15,
+      "tpm": 250000,
+      "rpd": 500
+    },
+    "gemini-2.0-flash": {
+      "rpm": 10,
+      "tpm": 1000000,
+      "rpd": 1500
+    }
+  },
+  "ollama": {
+    "qwen3:8b": {
+      "rpm": 9999,
+      "tpm": 999999999,
+      "rpd": 999999
+    },
+    "qwen3:14b": {
+      "rpm": 9999,
+      "tpm": 999999999,
+      "rpd": 999999
+    },
+    "deepseek-r1:14b": {
+      "rpm": 9999,
+      "tpm": 999999999,
+      "rpd": 999999
+    }
+  }
+}

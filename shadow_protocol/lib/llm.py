@@ -98,6 +98,7 @@ _MODEL_PRICES: dict[str, tuple[float, float]] = {
     "claude-opus-4-20250514": (0.015, 0.075),
     "gemini-2.5-flash": (0.00015, 0.0006),
     "gemini-2.5-pro": (0.00125, 0.005),
+    "gemini-3.1-flash-lite": (0.000075, 0.0003),
     "gemini-2.0-flash": (0.0001, 0.0004),
 }
 

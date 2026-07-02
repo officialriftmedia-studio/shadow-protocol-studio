@@ -1,9 +1,9 @@
 {
-  "stage": "image_prompt",
+  "stage": "voiceover",
   "status": "failed",
-  "start_time": "2026-07-02T14:46:39.494052+00:00",
-  "end_time": "2026-07-02T14:46:42.379629+00:00",
-  "duration_seconds": 2.89,
+  "start_time": "2026-07-02T20:34:23.270986+00:00",
+  "end_time": "2026-07-02T20:34:48.150787+00:00",
+  "duration_seconds": 24.88,
   "prompt_tokens": 0,
   "completion_tokens": 0,
   "total_tokens": 0,

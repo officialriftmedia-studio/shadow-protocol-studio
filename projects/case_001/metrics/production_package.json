@@ -1,16 +1,14 @@
 {
   "stage": "production_package",
-  "status": "success",
-  "start_time": "2026-07-02T14:40:33.736161+00:00",
-  "end_time": "2026-07-02T14:40:47.128415+00:00",
-  "duration_seconds": 13.39,
-  "prompt_tokens": 2398,
+  "status": "skipped",
+  "start_time": "2026-07-02T20:32:04.264645+00:00",
+  "end_time": "2026-07-02T20:32:04.264673+00:00",
+  "duration_seconds": 0.0,
+  "prompt_tokens": 0,
   "completion_tokens": 0,
-  "total_tokens": 2398,
-  "llm_calls": 1,
-  "cost_usd": 0.000748,
-  "output_files": [
-    "production_package.json"
-  ],
+  "total_tokens": 0,
+  "llm_calls": 0,
+  "cost_usd": 0.0,
+  "output_files": [],
   "error": null
 }

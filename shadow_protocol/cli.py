@@ -48,7 +48,7 @@ def _show_quota_status():
 
 
 def _show_estimate():
-    """Show quota estimate for running a new episode."""
+    """Show per-model quota estimate for running a new episode."""
     from shadow_protocol.lib.quota_manager import QuotaManager
 
     projects_dir = Path.cwd() / "projects"
@@ -57,7 +57,6 @@ def _show_estimate():
         return
 
     qm = QuotaManager(projects_dir)
-    provider = os.getenv("LLM_PROVIDER", "gemini")
 
     # Auto-detect scene count from existing breakdowns
     scene_count = 15
@@ -69,19 +68,53 @@ def _show_estimate():
         if scenes:
             scene_count = max(len(scenes), 12)
 
-    estimate = qm.estimate_episode(provider, scene_count)
+    estimate = qm.estimate_episode(scene_count)
 
-    click.echo("Episode Cost Estimate")
-    click.echo("=====================")
-    click.echo(f"Provider:          {estimate['provider']}")
+    click.echo("Episode Cost Estimate (Hybrid Routing)")
+    click.echo("======================================")
     click.echo(f"Scene count:       {scene_count}")
-    click.echo(f"Estimated calls:   {estimate['estimated_requests']}")
-    click.echo(f"Estimated tokens:  {estimate['estimated_tokens']}")
-    click.echo(f"  Input:           {estimate['estimated_input_tokens']}")
-    click.echo(f"  Output:          {estimate['estimated_output_tokens']}")
-    click.echo(f"Remaining quota:   {estimate['remaining_requests']} requests")
+    click.echo(f"Total calls:       {estimate['total_estimated_requests']}")
+    click.echo("")
+    click.echo("Per-Model Breakdown:")
+    click.echo("--------------------")
+    for model, data in estimate["by_model"].items():
+        status = "OK" if data["can_run"] else "INSUFFICIENT"
+        click.echo(f"  {model}:")
+        click.echo(f"    Calls:         {data['estimated_requests']}")
+        click.echo(f"    Stages:        {', '.join(data['stages'])}")
+        click.echo(f"    Remaining:     {data['remaining_requests']}/{data['rpd']} RPD")
+        click.echo(f"    Status:        {status}")
+    click.echo("")
     click.echo(f"Can run episode:   {'YES' if estimate['can_run_full_episode'] else 'NO'}")
     click.echo(f"Recommendation:    {estimate['recommendation']}")
+
+
+def _handle_benchmark_models(args: list[str]):
+    """Run dry-run pipeline and report per-model benchmark metrics."""
+    if not args:
+        click.echo("Usage: create-video benchmark-models CASE_ID")
+        return
+    case_id = args[0]
+    click.echo(f"Benchmarking models with case: {case_id}")
+    click.echo("")
+
+    # Run pipeline in dry-run mode
+    from shadow_protocol.lib.orchestrator_runner import run_pipeline
+    exit_code = run_pipeline(
+        case_id=case_id,
+        dry_run=True,
+        force=True,
+        mode="production",
+    )
+    click.echo("")
+    click.echo(f"Pipeline exit code: {exit_code}")
+
+    # Show per-model quota status
+    from shadow_protocol.lib.quota_manager import QuotaManager, display_quota_status
+    projects_dir = Path.cwd() / "projects"
+    qm = QuotaManager(projects_dir)
+    click.echo("")
+    click.echo(display_quota_status(projects_dir))
 
 
 def _handle_queue(args: list[str]):
@@ -137,7 +170,7 @@ def _handle_queue(args: list[str]):
     click.echo("Usage: create-video queue add|status|cancel [args]")
 
 
-@click.command(context_settings=dict(ignore_unknown_options=False))
+@click.command(context_settings=dict(ignore_unknown_options=False, allow_extra_args=True))
 @click.argument("case_id", required=True)
 @click.option("--dry-run", is_flag=True, help="Simulate pipeline without LLM calls")
 @click.option("--from", "resume_step", help="Resume from a specific pipeline stage")
@@ -156,6 +189,10 @@ def main(case_id: str, dry_run: bool, resume_step: str | None, force: bool, mode
 
     if case_id == "queue":
         _handle_queue(sys.argv[2:] if len(sys.argv) > 2 else [])
+        return
+
+    if case_id == "benchmark-models":
+        _handle_benchmark_models(sys.argv[2:] if len(sys.argv) > 2 else [])
         return
 
     click.echo(f"Shadow Protocol Studio v0.1.0")

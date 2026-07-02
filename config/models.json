@@ -1,22 +1,47 @@
 {
   "$schema": "models.schema.json",
-  "description": "Model registry for all providers used in the pipeline",
+  "description": "Model registry with capability and quota metadata. Used by LLM abstraction layer and quota manager.",
   "providers": {
     "gemini": {
       "chat": {
-        "gemini-2.5-pro": {
-          "max_tokens": 65536,
-          "cost_per_1k_input": 0,
-          "cost_per_1k_output": 0
-        },
         "gemini-2.5-flash": {
-          "max_tokens": 65536,
-          "cost_per_1k_input": 0,
-          "cost_per_1k_output": 0
+          "max_tokens": 1048576,
+          "rpm": 5,
+          "tpm": 250000,
+          "rpd": 20,
+          "pricing": {
+            "input_per_1k": 0.00015,
+            "output_per_1k": 0.0006
+          }
+        },
+        "gemini-2.5-pro": {
+          "max_tokens": 1048576,
+          "rpm": 5,
+          "tpm": 250000,
+          "rpd": 20,
+          "pricing": {
+            "input_per_1k": 0.00125,
+            "output_per_1k": 0.005
+          }
+        },
+        "gemini-3.1-flash-lite": {
+          "max_tokens": 1048576,
+          "rpm": 15,
+          "tpm": 250000,
+          "rpd": 500,
+          "pricing": {
+            "input_per_1k": 0.000075,
+            "output_per_1k": 0.0003
+          }
+        },
+        "gemini-2.0-flash": {
+          "max_tokens": 1048576,
+          "rpm": 10,
+          "tpm": 1000000,
+          "rpd": 1500
         }
       }
     },
-
     "openai": {
       "chat": {
         "gpt-4o": {
@@ -30,11 +55,29 @@
           "cost_per_1k_output": 0.01
         }
       }
+    },
+    "ollama": {
+      "chat": {
+        "qwen3:8b": {
+          "max_tokens": 32768,
+          "rpm": 9999,
+          "rpd": 999999
+        },
+        "qwen3:14b": {
+          "max_tokens": 32768,
+          "rpm": 9999,
+          "rpd": 999999
+        },
+        "deepseek-r1:14b": {
+          "max_tokens": 16384,
+          "rpm": 9999,
+          "rpd": 999999
+        }
+      }
     }
   },
-
   "defaults": {
-    "chat": "gemini-2.5-pro",
+    "chat": "gemini-2.5-flash",
     "voiceover": "eleven_multilingual_v2",
     "image": "midjourney-v6",
     "video": "gen-3"

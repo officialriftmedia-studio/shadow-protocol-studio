@@ -1,54 +1,52 @@
 {
   "$schema": "stage_models.schema.json",
-  "description": "Per-stage provider/model overrides. The pipeline checks this file first; falls back to LLM_PROVIDER/LLM_MODEL env vars.",
+  "description": "Per-stage provider/model overrides. Creative stages use gemini-2.5-flash; extraction/formatting/utility stages use gemini-3.1-flash-lite. The pipeline checks this file first; falls back to LLM_PROVIDER/LLM_MODEL env vars.",
   "defaults": {
     "provider": "gemini",
     "model": "gemini-2.5-flash"
   },
   "stages": {
     "production_package": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+      "provider": "gemini",
+      "model": "gemini-2.5-flash"
     },
     "outline": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+      "provider": "gemini",
+      "model": "gemini-2.5-flash"
     },
     "script": {
       "provider": "gemini",
-      "model": "gemini-2.5-pro"
+      "model": "gemini-2.5-flash"
     },
     "script_review": {
       "provider": "gemini",
-      "model": "gemini-2.5-pro"
+      "model": "gemini-3.1-flash-lite"
     },
     "scene_breakdown": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite"
     },
-    "image_prompt": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
-    },
-    "video_prompt": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+    "asset_package": {
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite"
     },
     "voiceover": {
       "provider": "ollama",
       "model": "qwen3:14b"
     },
     "metadata": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite"
     },
     "thumbnail": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite"
     },
-    "asset_package": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+    "image_generator": {
+      "provider": "none"
+    },
+    "voice_generator": {
+      "provider": "none"
     }
   }
 }

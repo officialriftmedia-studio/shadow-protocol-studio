@@ -1,0 +1,20 @@
+{
+  "stage": "asset_package",
+  "status": "success",
+  "start_time": "2026-07-02T20:34:09.581445+00:00",
+  "end_time": "2026-07-02T20:34:23.269632+00:00",
+  "duration_seconds": 13.69,
+  "prompt_tokens": 9693,
+  "completion_tokens": 0,
+  "total_tokens": 9693,
+  "llm_calls": 1,
+  "cost_usd": 0.001401,
+  "output_files": [
+    "image_prompts.json",
+    "video_prompts.json",
+    "youtube_metadata.json",
+    "thumbnail_prompt.json",
+    "thumbnail_prompt.txt"
+  ],
+  "error": null
+}

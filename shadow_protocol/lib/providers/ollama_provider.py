@@ -5,6 +5,7 @@ Supports: qwen3:8b, qwen3:14b, deepseek-r1:14b
 
 from __future__ import annotations
 import json
+import os
 from pathlib import Path
 from typing import Any
 
@@ -30,7 +31,7 @@ class OllamaProvider:
 
     def __init__(self, config: dict[str, Any] | None = None):
         self.config = config or {}
-        self.base_url = self.config.get("base_url", "http://localhost:11434")
+        self.base_url = os.environ.get("OLLAMA_HOST") or self.config.get("base_url", "http://localhost:11434")
         self.timeout = self.config.get("timeout", 120)
 
     def generate(

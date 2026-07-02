@@ -98,53 +98,58 @@ def test_queue_state_persistence(tmp_path: Path):
 
 def test_quota_manager_init(tmp_path: Path):
     qm = QuotaManager(tmp_path)
-    usage = qm.get_usage("gemini")
-    assert usage["provider"] == "gemini"
+    usage = qm.get_usage("gemini-2.5-flash")
+    assert usage["model"] == "gemini-2.5-flash"
     assert usage["used_today"] == 0
     assert usage["daily_requests"] == 20
 
 
 def test_quota_manager_record_call(tmp_path: Path):
     qm = QuotaManager(tmp_path)
-    qm.record_call("gemini", input_tokens=500)
-    usage = qm.get_usage("gemini")
+    qm.record_call("gemini-2.5-flash", input_tokens=500)
+    usage = qm.get_usage("gemini-2.5-flash")
     assert usage["used_today"] == 1
     assert usage["input_tokens_used"] == 500
 
 
 def test_quota_manager_multiple_calls(tmp_path: Path):
     qm = QuotaManager(tmp_path)
-    qm.record_call("gemini", input_tokens=100)
-    qm.record_call("gemini", input_tokens=200)
-    usage = qm.get_usage("gemini")
+    qm.record_call("gemini-2.5-flash", input_tokens=100)
+    qm.record_call("gemini-2.5-flash", input_tokens=200)
+    usage = qm.get_usage("gemini-2.5-flash")
     assert usage["used_today"] == 2
     assert usage["input_tokens_used"] == 300
 
 
 def test_quota_manager_estimate_episode(tmp_path: Path):
     qm = QuotaManager(tmp_path)
-    estimate = qm.estimate_episode("gemini", scene_count=15)
-    assert estimate["provider"] == "gemini"
-    assert estimate["estimated_requests"] > 0
+    estimate = qm.estimate_episode(scene_count=15)
+    assert "total_estimated_requests" in estimate
+    assert estimate["total_estimated_requests"] > 0
+    assert "by_model" in estimate
     assert "can_run_full_episode" in estimate
     assert "recommendation" in estimate
+    # Verify per-model breakdown includes expected models
+    models = list(estimate["by_model"].keys())
+    assert "gemini-2.5-flash" in models
+    assert "gemini-3.1-flash-lite" in models
 
 
 def test_quota_manager_ollama_no_limits(tmp_path: Path):
     qm = QuotaManager(tmp_path)
-    usage = qm.get_usage("ollama")
+    usage = qm.get_usage("qwen3:14b")
     assert usage["estimated_remaining"] > 10000
 
 
 def test_quota_manager_reset_new_day(tmp_path: Path):
     qm = QuotaManager(tmp_path)
-    qm.record_call("gemini", input_tokens=500)
+    qm.record_call("gemini-2.5-flash", input_tokens=500)
     # Force the state to yesterday
     state = qm.load_state()
-    state["gemini"]["date"] = "2000-01-01"
+    state["gemini-2.5-flash"]["date"] = "2000-01-01"
     qm.save_state(state)
     # Should reset on next get_usage
-    usage = qm.get_usage("gemini")
+    usage = qm.get_usage("gemini-2.5-flash")
     assert usage["used_today"] == 0
 
 
@@ -221,8 +226,127 @@ def test_stage_models_config_exists():
     assert "asset_package" in config["stages"]
 
 
-def test_stage_models_asset_package_routes_to_ollama():
+def test_stage_models_asset_package_routes_to_gemini_flash_lite():
     config_path = Path(__file__).parent.parent / "config" / "stage_models.json"
     config = json.loads(config_path.read_text())
     ap = config["stages"]["asset_package"]
-    assert ap["provider"] == "ollama"
+    assert ap["provider"] == "gemini"
+    assert ap["model"] == "gemini-3.1-flash-lite"
+
+
+# ── Hybrid Stage Routing ─────────────────────────────────────────────
+
+def test_stage_routing_creative_uses_flash():
+    """Creative writing stages should route to gemini-2.5-flash."""
+    from shadow_protocol.lib.llm import _resolve_stage_config
+    for stage in ["production_package", "outline", "script"]:
+        provider, model = _resolve_stage_config(stage)
+        assert provider == "gemini", f"{stage} provider should be gemini"
+        assert model == "gemini-2.5-flash", f"{stage} model should be gemini-2.5-flash"
+
+
+def test_stage_routing_extraction_uses_flash_lite():
+    """Extraction/formatting stages should route to gemini-3.1-flash-lite."""
+    from shadow_protocol.lib.llm import _resolve_stage_config
+    for stage in ["script_review", "scene_breakdown", "asset_package", "metadata", "thumbnail"]:
+        provider, model = _resolve_stage_config(stage)
+        assert provider == "gemini", f"{stage} provider should be gemini"
+        assert model == "gemini-3.1-flash-lite", f"{stage} model should be gemini-3.1-flash-lite"
+
+
+def test_stage_routing_voiceover_uses_ollama():
+    """Voiceover stage should route to ollama/qwen3:14b."""
+    from shadow_protocol.lib.llm import _resolve_stage_config
+    provider, model = _resolve_stage_config("voiceover")
+    assert provider == "ollama"
+    assert model == "qwen3:14b"
+
+
+# ── Per-Model Quota Tracking ─────────────────────────────────────────
+
+def test_per_model_quota_independent(tmp_path: Path):
+    """Quota tracking for one model should not affect another."""
+    qm = QuotaManager(tmp_path)
+    qm.record_call("gemini-2.5-flash", input_tokens=500)
+    qm.record_call("gemini-3.1-flash-lite", input_tokens=100)
+
+    flash_usage = qm.get_usage("gemini-2.5-flash")
+    lite_usage = qm.get_usage("gemini-3.1-flash-lite")
+
+    assert flash_usage["used_today"] == 1
+    assert flash_usage["input_tokens_used"] == 500
+    assert lite_usage["used_today"] == 1
+    assert lite_usage["input_tokens_used"] == 100
+
+
+def test_per_model_quota_different_limits(tmp_path: Path):
+    """Each model should report its own RPD limit."""
+    qm = QuotaManager(tmp_path)
+    flash_usage = qm.get_usage("gemini-2.5-flash")
+    lite_usage = qm.get_usage("gemini-3.1-flash-lite")
+    assert flash_usage["daily_requests"] == 20
+    assert lite_usage["daily_requests"] == 500
+
+
+# ── Estimate Output ──────────────────────────────────────────────────
+
+def test_estimate_returns_per_model_breakdown(tmp_path: Path):
+    """estimate_episode should return per-model breakdown with all expected keys."""
+    qm = QuotaManager(tmp_path)
+    estimate = qm.estimate_episode(scene_count=15)
+
+    assert "by_model" in estimate
+    assert "gemini-2.5-flash" in estimate["by_model"]
+    assert "gemini-3.1-flash-lite" in estimate["by_model"]
+
+    for model, data in estimate["by_model"].items():
+        assert "estimated_requests" in data
+        assert "stages" in data
+        assert "remaining_requests" in data
+        assert "rpd" in data
+        assert "can_run" in data
+        assert isinstance(data["stages"], list)
+
+
+def test_estimate_creative_stages_grouped_under_flash(tmp_path: Path):
+    """Creative stages should be grouped under gemini-2.5-flash in estimate."""
+    qm = QuotaManager(tmp_path)
+    estimate = qm.estimate_episode(scene_count=15)
+    flash_stages = estimate["by_model"]["gemini-2.5-flash"]["stages"]
+    for s in ["production_package", "outline", "script"]:
+        assert s in flash_stages
+
+
+def test_estimate_extraction_stages_grouped_under_flash_lite(tmp_path: Path):
+    """Extraction stages should be grouped under gemini-3.1-flash-lite."""
+    qm = QuotaManager(tmp_path)
+    estimate = qm.estimate_episode(scene_count=15)
+    lite_stages = estimate["by_model"]["gemini-3.1-flash-lite"]["stages"]
+    for s in ["script_review", "scene_breakdown", "asset_package", "metadata", "thumbnail"]:
+        assert s in lite_stages
+
+
+# ── Benchmark ────────────────────────────────────────────────────────
+
+def test_benchmark_models_cli_routes_correctly():
+    """benchmark-models CLI should route to _handle_benchmark_models."""
+    from shadow_protocol.cli import main as cli_main
+    from click.testing import CliRunner
+    runner = CliRunner()
+    # benchmark-models with no extra arg shows usage (exit 0)
+    result = runner.invoke(cli_main, ["benchmark-models"])
+    assert result.exit_code == 0
+    assert "Usage:" in result.output or "CASE_ID" in result.output or "Benchmarking" in result.output
+
+
+def test_benchmark_models_prints_usage_without_args():
+    """benchmark-models without args prints usage."""
+    from shadow_protocol.cli import _handle_benchmark_models
+    _handle_benchmark_models([])  # Should not raise
+
+
+def test_benchmark_models_function_exists():
+    """_handle_benchmark_models function should exist."""
+    from shadow_protocol.cli import _handle_benchmark_models
+    import inspect
+    assert inspect.isfunction(_handle_benchmark_models)
