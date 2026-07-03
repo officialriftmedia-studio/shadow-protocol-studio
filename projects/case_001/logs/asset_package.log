@@ -1,2 +1,1 @@
-  CHECKPOINT: asset_package — LLM: 1 calls, 9443 tokens (prompt=6698 + completion=2745), $0.0013
-  Wrote asset outputs (16 image prompts, 16 video prompts, metadata, thumbnail)
+  SKIP: asset_package already completed

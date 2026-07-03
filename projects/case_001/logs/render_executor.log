@@ -1,9 +1,9 @@
     Scene 3: OK
-    Scene 5: OK
     Scene 6: OK
     Scene 4: OK
-    Scene 7: OK
+    Scene 5: OK
     Scene 9: OK
+    Scene 7: OK
     Scene 10: OK
     Scene 8: OK
     Scene 14: OK
@@ -15,6 +15,6 @@
     Scene 1: OK
     Scene 15: OK
   CHECKPOINT: render_executor — LLM: 0 calls, 0 tokens (prompt=0 + completion=0), $0.0000
-  Final video: render/final_video.mp4 (17528030 bytes)
+  Final video: render/final_video.mp4 (17534524 bytes)
   Scenes: 16 succeeded, 0 failed
   Errors: 0

@@ -1,8 +1,1 @@
-    hook: 3 segments
-    act1: 10 segments
-    act2: 12 segments
-    act3: 3 segments
-    ending: 4 segments
-    cliffhanger: 3 segments
-  CHECKPOINT: voiceover — LLM: 6 calls, 17045 tokens (prompt=13634 + completion=3411), $0.0020
-  Wrote voiceover_segments.json (35 total segments)
+  SKIP: voiceover already completed

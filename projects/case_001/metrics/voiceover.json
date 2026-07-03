@@ -1,9 +1,9 @@
 {
   "stage": "voiceover",
   "status": "success",
-  "start_time": "2026-07-03T02:54:28.471584+00:00",
-  "end_time": "2026-07-03T02:55:28.070912+00:00",
-  "duration_seconds": 59.6,
+  "start_time": "2026-07-03T19:21:26.420034+00:00",
+  "end_time": "2026-07-03T19:21:26.577286+00:00",
+  "duration_seconds": 0.16,
   "prompt_tokens": 17045,
   "completion_tokens": 0,
   "total_tokens": 17045,

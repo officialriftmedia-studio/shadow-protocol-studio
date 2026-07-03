@@ -10,11 +10,7 @@
     "voiceover",
     "image_generator",
     "voice_generator",
-    "timeline_builder",
-    "render_builder",
-    "render_executor",
-    "publish_package_builder",
-    "quality_control"
+    "timeline_builder"
   ],
   "metadata": {
     "asset_package": {
@@ -38,27 +34,6 @@
       "calls": 0
     },
     "timeline_builder": {
-      "tokens": 0,
-      "cost": 0.0,
-      "calls": 0
-    },
-    "render_builder": {
-      "tokens": 0,
-      "cost": 0.0,
-      "calls": 0
-    },
-    "render_executor": {
-      "tokens": 0,
-      "cost": 0.0,
-      "calls": 0,
-      "render_time": 127.47
-    },
-    "publish_package_builder": {
-      "tokens": 0,
-      "cost": 0.0,
-      "calls": 0
-    },
-    "quality_control": {
       "tokens": 0,
       "cost": 0.0,
       "calls": 0

@@ -1,7 +1,7 @@
 # Pipeline Summary
 **Case:** `case_001`
 **Status:** ❌ Failed
-**Duration:** 547.1s
+**Duration:** 128.5s
 **Total LLM calls:** 7
 **Total tokens:** 26488
 **Total cost:** $0.003372
@@ -11,17 +11,17 @@
 
 | Stage | Status | Duration | LLM Calls | Prompt Tokens | Completion Tokens | Total Tokens | Cost |
 |-------|--------|----------|-----------|---------------|-------------------|--------------|------|
-| `asset_package` | ✅ Success | 19.0s | 1 | 9443 | - | 9443 | $0.001326 |
-| `voiceover` | ✅ Success | 59.6s | 6 | 17045 | - | 17045 | $0.002046 |
-| `image_generator` | ✅ Success | 324.6s | - | - | - | - | - |
-| `voice_generator` | ✅ Success | 15.4s | - | - | - | - | - |
+| `asset_package` | ✅ Success | 0.2s | 1 | 9443 | - | 9443 | $0.001326 |
+| `voiceover` | ✅ Success | 0.2s | 6 | 17045 | - | 17045 | $0.002046 |
+| `image_generator` | ✅ Success | 2.1s | - | - | - | - | - |
+| `voice_generator` | ✅ Success | 2.2s | - | - | - | - | - |
 | `timeline_builder` | ✅ Success | 0.2s | - | - | - | - | - |
 | `render_builder` | ✅ Success | 0.2s | - | - | - | - | - |
-| `render_executor` | ✅ Success | 127.6s | - | - | - | - | - |
+| `render_executor` | ✅ Success | 123.0s | - | - | - | - | - |
 | `publish_package_builder` | ✅ Success | 0.3s | - | - | - | - | - |
 | `quality_control` | ❌ Failed | 0.3s | - | - | - | - | - |
 
-| **Total** | | **547.1s** | 7 | | | 26488 | $0.003372 |
+| **Total** | | **128.5s** | 7 | | | 26488 | $0.003372 |
 
 ---
 ## Token Usage by Stage
@@ -42,7 +42,7 @@
 
 ### asset_package
 - **Status:** ✅ Success
-- **Duration:** 19.0s
+- **Duration:** 0.2s
 - **LLM calls:** 1
 - **Tokens:** 9443 (prompt=9443 + completion=0)
 - **Cost:** $0.001326
@@ -55,7 +55,7 @@
 
 ### voiceover
 - **Status:** ✅ Success
-- **Duration:** 59.6s
+- **Duration:** 0.2s
 - **LLM calls:** 6
 - **Tokens:** 17045 (prompt=17045 + completion=0)
 - **Cost:** $0.002046
@@ -64,7 +64,7 @@
 
 ### image_generator
 - **Status:** ✅ Success
-- **Duration:** 324.6s
+- **Duration:** 2.1s
 - **LLM calls:** 0
 - **Tokens:** 0 (prompt=0 + completion=0)
 - **Cost:** $0.000000
@@ -89,7 +89,7 @@
 
 ### voice_generator
 - **Status:** ✅ Success
-- **Duration:** 15.4s
+- **Duration:** 2.2s
 - **LLM calls:** 0
 - **Tokens:** 0 (prompt=0 + completion=0)
 - **Cost:** $0.000000
@@ -152,7 +152,7 @@
 
 ### render_executor
 - **Status:** ✅ Success
-- **Duration:** 127.6s
+- **Duration:** 123.0s
 - **LLM calls:** 0
 - **Tokens:** 0 (prompt=0 + completion=0)
 - **Cost:** $0.000000

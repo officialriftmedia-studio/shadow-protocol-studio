@@ -1,9 +1,9 @@
 {
   "stage": "quality_control",
   "status": "failed",
-  "start_time": "2026-07-03T03:03:16.261959+00:00",
-  "end_time": "2026-07-03T03:03:16.539071+00:00",
-  "duration_seconds": 0.28,
+  "start_time": "2026-07-03T19:23:34.476366+00:00",
+  "end_time": "2026-07-03T19:23:34.748295+00:00",
+  "duration_seconds": 0.27,
   "prompt_tokens": 0,
   "completion_tokens": 0,
   "total_tokens": 0,
