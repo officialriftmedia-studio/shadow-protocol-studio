@@ -1,0 +1,28 @@
+{
+  "hash": "1658dbff6684baa43266c9ec12d4bc6848aa816adaa1fc8fe83734b1c90d6c0a",
+  "stage": "voiceover",
+  "section": "hook",
+  "data": [
+    {
+      "scene_id": 1,
+      "segment_index": 0,
+      "text": "What happens when the ground beneath your feet isn't solid? When the very foundation of who you are \u2014 your name, your past, your memories \u2014 begins to dissolve, not into air, but into something far more terrifying: a meticulously crafted lie?",
+      "estimated_duration_seconds": 16,
+      "delivery_notes": "Clinical, detached, building to a sense of dread."
+    },
+    {
+      "scene_id": 1,
+      "segment_index": 1,
+      "text": "This is not a story of a lost person. This is the story of a person whose self was stolen, piece by digital piece, until nothing remained but a phantom echo.",
+      "estimated_duration_seconds": 12,
+      "delivery_notes": "Ominous, slow pacing, emphasizing the word 'stolen'."
+    },
+    {
+      "scene_id": 2,
+      "segment_index": 0,
+      "text": "But to understand how Elena Vasquez arrived at this precipice, we must go back. To a time before the ghost in the machine took hold. Three days earlier...",
+      "estimated_duration_seconds": 10,
+      "delivery_notes": "Intriguing, mysterious, slightly faster tempo to transition."
+    }
+  ]
+}

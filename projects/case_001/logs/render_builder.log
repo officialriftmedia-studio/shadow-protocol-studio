@@ -1,0 +1,2 @@
+  CHECKPOINT: render_builder — LLM: 0 calls, 0 tokens (prompt=0 + completion=0), $0.0000
+  Wrote render/ffmpeg_commands.json (16 scenes)

@@ -1,8 +1,8 @@
 {
   "stage": "scene_breakdown",
   "status": "skipped",
-  "start_time": "2026-07-02T20:32:04.265950+00:00",
-  "end_time": "2026-07-02T20:32:04.265965+00:00",
+  "start_time": "2026-07-02T22:50:41.966042+00:00",
+  "end_time": "2026-07-02T22:50:41.966080+00:00",
   "duration_seconds": 0.0,
   "prompt_tokens": 0,
   "completion_tokens": 0,

@@ -1,0 +1,25 @@
+{
+  "hash": "21b9dfd5164180d79f2db5787dd51819f96718ae2183cb00418f1d49fe96c4b4",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0006_seg0002",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "The moment the digital world, her world, told her she no longer existed.",
+    "file_path": "assets/voice/voice_scene0006_seg0002.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 6,
+      "segment_index": 2,
+      "checksum": "bccd9da9e81c584f00c477b68965d091c46005f97b99497758641ec93c8451aa",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 5.04,
+      "text_preview": "The moment the digital world, her world, told her she no longer existed."
+    },
+    "created_at": "2026-07-03T02:35:46.201550+00:00"
+  }
+}

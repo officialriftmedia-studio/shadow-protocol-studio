@@ -1,0 +1,25 @@
+{
+  "hash": "ad1807656a681d7286a4a809234f6c0e66c84227313679049bd06ae9d7bcafcd",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0011_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "And then, the truth. Not a hack, not an error, but a deliberate, surgical act of erasure. Her identity, systematically unstitched, then woven onto another. A ghost's life, stolen for her own.",
+    "file_path": "assets/voice/voice_scene0011_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 11,
+      "segment_index": 0,
+      "checksum": "de839e4ce5ad1852a8f908b8c21664c3dc06b4268de0330feb3bf4ce92781f3f",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 13.85,
+      "text_preview": "And then, the truth. Not a hack, not an error, but a deliberate, surgical act of erasure. Her identi"
+    },
+    "created_at": "2026-07-03T02:36:18.187152+00:00"
+  }
+}

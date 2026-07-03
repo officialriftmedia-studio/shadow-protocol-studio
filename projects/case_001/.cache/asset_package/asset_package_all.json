@@ -6,97 +6,97 @@
     "image_prompts": [
       {
         "scene_id": 3,
-        "prompt": "A senior cybersecurity analyst sitting at a clean, modern desk in a darkened office. The scene is illuminated by the cold blue glow of multiple monitors displaying complex lines of code and network data, reflected clearly in her focused eyes.",
+        "prompt": "A senior cybersecurity analyst sitting in a sterile, high-tech office at night. The room is illuminated only by the cool blue light of massive computer monitors reflecting in her focused, tired eyes.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 4,
-        "prompt": "Close-up of a computer monitor displaying a wall of blue text, with a single anomalous digit glowing in sharp, aggressive red. A woman's face is partially visible in the reflection, showing a look of analytical confusion.",
+        "prompt": "Close-up of a computer monitor displaying a wall of scrolling green and blue code. A single digit on the screen is highlighted in a jarring, bright red color, causing a slight frown on the analyst's face.",
         "style": "noir",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 5,
-        "prompt": "A montage of screens in a dimly lit apartment, showing digital identity profiles flickering and overwriting themselves. The atmosphere is tense and claustrophobic, with harsh light casting deep shadows.",
+        "prompt": "A montage-style shot of a woman looking increasingly agitated in front of multiple screens. The room is filled with chaotic, flickering data streams and harsh, clinical lighting.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 6,
-        "prompt": "A woman stares in horror at a computer screen that displays the stark, system-generated message 'IDENTITY NOT FOUND'. The harsh blue light from the monitor creates a high-contrast, skeletal look on her face.",
+        "prompt": "Extreme close-up of a woman's face in a dark room, illuminated by the harsh, cold blue glow of a monitor. The screen displays the text 'IDENTITY NOT FOUND' in stark, clinical white letters.",
         "style": "noir",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 7,
-        "prompt": "A makeshift command center in an apartment, with cables snaking across the floor and multiple monitors illuminating a woman working with intense, desperate focus. The room is dark, emphasizing the glow of the digital tools.",
+        "prompt": "An apartment turned into a messy, high-tech command center with wires snaking across surfaces. A woman sits in the center, surrounded by glowing screens, looking determined and paranoid.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 8,
-        "prompt": "Complex, alien-looking network topology maps and obfuscated code streams displayed on a screen. The lighting is clinical and flat, emphasizing the cold, impenetrable nature of the system.",
+        "prompt": "Multiple computer screens displaying complex, alien-looking network topology diagrams and obfuscated code. The room is cast in cold, impersonal blue and green light.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 9,
-        "prompt": "A woman sitting in a dark room, looking over her shoulder at a flickering, empty monitor. The shadows are deep and oppressive, suggesting the feeling of being watched by an unseen digital entity.",
+        "prompt": "A woman sitting in a dark room, looking over her shoulder with a sense of dread. The shadows are deep and oppressive, with only faint, flickering light from a computer monitor.",
         "style": "noir",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 10,
-        "prompt": "The first cold light of dawn filtering through apartment blinds, mixing with the red and black hues of a monitor displaying classified government network diagrams. The atmosphere is one of grim, quiet discovery.",
+        "prompt": "Dawn light filtering through window blinds into a dark apartment, mixing with the harsh glow of computer monitors. Complex network diagrams are visible on the screens.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 11,
-        "prompt": "A split composition showing a faded, vintage photograph of a woman on one side and a modern digital profile of the same woman on the other. The lighting is harsh and revelatory.",
+        "prompt": "A computer screen showing a faded, vintage photograph of a woman next to modern government-level data files. The lighting is stark and clinical, highlighting the shock on the protagonist's face.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 12,
-        "prompt": "A woman's face in extreme close-up, her eyes wide as they reflect the truth of her stolen identity shown on a nearby monitor. Her expression is one of total, hollow despair.",
+        "prompt": "A woman sitting alone in a dark, messy apartment, looking at a screen that reveals her identity has been stolen. Her face is pale and desaturated, reflecting the horror of her reality collapsing.",
         "style": "noir",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 13,
-        "prompt": "A woman sitting at the end of a long, polished boardroom table in a sterile, fluorescent-lit office. The empty chairs around her emphasize her isolation and the system's indifference to her claims.",
+        "prompt": "A woman in a sharp suit sitting alone in a massive, sterile executive conference room. The room is dimly lit with harsh overhead fluorescent lights, casting long, stark shadows.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 14,
-        "prompt": "A woman sitting alone in a cluttered, dark apartment, surrounded by flickering screens that cast fragmented, ghostly light across her tired face. The room feels small, isolating, and under surveillance.",
+        "prompt": "A woman sitting on her floor, surrounded by multiple screens flickering with static and conflicting data. The room is dark, cold, and claustrophobic.",
         "style": "noir",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 31,
-        "prompt": "A vast, subterranean server farm with rows of blinking lights stretching into the darkness. A large holographic display in the center shows a complex, shifting data anomaly, conveying an immense, indifferent scale.",
+        "prompt": "A massive, subterranean server farm with endless rows of humming, glowing server racks. The lighting is cold, clinical, and industrial, emphasizing the immense scale of the facility.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 15,
-        "prompt": "A woman standing in the center of a dark apartment, looking at a single flickering pixel on a monitor. The scene is heavy with shadows, silence, and the weight of inescapable surveillance.",
+        "prompt": "A woman standing in the center of her apartment, looking exhausted and paranoid. The room is filled with shadows and the cold, blue light of screens.",
         "style": "noir",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 1,
-        "prompt": "A woman huddled in a dark, messy living room, illuminated only by the faint, cold light of a laptop screen. The image is heavy with atmosphere, deep shadows, and the feeling of a fractured reality.",
+        "prompt": "Close-up of a woman's face, looking deeply distressed and isolated in a dark room. The light from a computer monitor casts sharp, high-contrast shadows on her skin.",
         "style": "noir",
         "aspect_ratio": "16:9"
       },
       {
         "scene_id": 2,
-        "prompt": "A solid black screen with a tiny, singular, blinking white cursor in the center, representing the absolute void before a digital identity is erased.",
+        "prompt": "A completely black screen, signifying a transition into the past.",
         "style": "cinematic",
         "aspect_ratio": "16:9"
       }
@@ -104,142 +104,143 @@
     "video_prompts": [
       {
         "scene_id": 3,
-        "prompt": "A slow, steady push-in on a cybersecurity analyst's face as she types rhythmically in a dark office, her eyes reflecting the glowing blue code on her screens.",
-        "duration_seconds": 15,
+        "prompt": "Slow gimbal tracking shot moving past server racks toward Elena, who is typing rhythmically at her desk.",
+        "duration_seconds": 10,
         "style": "cinematic",
         "camera_motion": "slow push"
       },
       {
         "scene_id": 4,
-        "prompt": "Close-up of a monitor screen showing text shifting rapidly, with one digit suddenly flashing red, followed by a slight camera shudder.",
-        "duration_seconds": 10,
+        "prompt": "A tight, handheld follow shot of Elena's eyes scanning lines of code, focusing on a single blinking red character.",
+        "duration_seconds": 8,
+        "style": "cinematic",
+        "camera_motion": "handheld follow"
+      },
+      {
+        "scene_id": 5,
+        "prompt": "Rapid, rhythmic cuts between Elena's face and flickering screens, getting progressively faster to show mounting panic.",
+        "duration_seconds": 12,
         "style": "cinematic",
         "camera_motion": "static"
       },
       {
-        "scene_id": 5,
-        "prompt": "A handheld, shaky-cam montage of screens showing identity data being rapidly overwritten, conveying a sense of growing, frantic unease.",
-        "duration_seconds": 20,
-        "style": "cinematic",
-        "camera_motion": "handheld"
-      },
-      {
         "scene_id": 6,
-        "prompt": "A very slow, deliberate push-in on the protagonist's face as she reads the 'IDENTITY NOT FOUND' message, her expression shifting from confusion to cold horror.",
-        "duration_seconds": 15,
+        "prompt": "A very slow, deliberate zoom into Elena's face as the 'IDENTITY NOT FOUND' text appears on her screen.",
+        "duration_seconds": 10,
         "style": "cinematic",
         "camera_motion": "slow push"
       },
       {
         "scene_id": 7,
-        "prompt": "A gimbal-tracked follow shot moving through a dark apartment to reveal a makeshift command center full of glowing screens and tangled wires.",
-        "duration_seconds": 15,
+        "prompt": "A handheld, slightly shaky shot moving around Elena's apartment to show the chaotic, makeshift command center.",
+        "duration_seconds": 10,
         "style": "cinematic",
-        "camera_motion": "gimbal track"
+        "camera_motion": "handheld"
       },
       {
         "scene_id": 8,
-        "prompt": "A rapid series of cuts between complex network topology diagrams and the protagonist's tightening jaw, emphasizing the difficulty of the task.",
-        "duration_seconds": 15,
+        "prompt": "Quick cuts between complex, geometric network diagrams and Elena's tightening jaw.",
+        "duration_seconds": 10,
         "style": "cinematic",
-        "camera_motion": "quick cuts"
+        "camera_motion": "static"
       },
       {
         "scene_id": 9,
-        "prompt": "A slow zoom on the protagonist, with a subtle Dutch angle tilt to the frame to disorient the viewer and simulate increasing paranoia.",
-        "duration_seconds": 15,
-        "style": "cinematic",
-        "camera_motion": "slow zoom"
-      },
-      {
-        "scene_id": 10,
-        "prompt": "A wide, establishing shot of the apartment as dawn light creeps in, then a focus on the screens showing a grim, complex revelation.",
-        "duration_seconds": 15,
+        "prompt": "A slow, unsettling pan around the room, catching glimpses of shadows that seem to move.",
+        "duration_seconds": 10,
         "style": "cinematic",
         "camera_motion": "slow pan"
       },
       {
+        "scene_id": 10,
+        "prompt": "A wide shot slowly zooming into a monitor displaying a complex network topology, with dawn light creeping in.",
+        "duration_seconds": 10,
+        "style": "cinematic",
+        "camera_motion": "slow push"
+      },
+      {
         "scene_id": 11,
-        "prompt": "A hard cut to a screen showing a government file, then a pull-back to reveal the protagonist's face, pale and shocked, reflecting the screen's light.",
-        "duration_seconds": 15,
+        "prompt": "A slow pull-back from a monitor showing a dead woman's photo to reveal Elena's face in the dark bezel.",
+        "duration_seconds": 10,
         "style": "cinematic",
         "camera_motion": "pull back"
       },
       {
         "scene_id": 12,
-        "prompt": "A slow pull-back from the protagonist, emphasizing her small, isolated figure in the room as the reality of her lost life sinks in.",
-        "duration_seconds": 15,
+        "prompt": "A slow, creeping push-in on Elena's eyes as they reflect the distorted images on her screen.",
+        "duration_seconds": 12,
+        "style": "cinematic",
+        "camera_motion": "slow push"
+      },
+      {
+        "scene_id": 13,
+        "prompt": "A slow pull-back from a tight shot of Elena to reveal the vast, empty conference room around her.",
+        "duration_seconds": 10,
         "style": "cinematic",
         "camera_motion": "pull back"
       },
       {
-        "scene_id": 13,
-        "prompt": "A static, wide shot of the protagonist sitting alone at a massive boardroom table, perfectly framed to emphasize her isolation.",
-        "duration_seconds": 15,
-        "style": "cinematic",
-        "camera_motion": "static"
-      },
-      {
         "scene_id": 14,
-        "prompt": "A slow, oppressive push-in on the protagonist in her dark apartment, with fragmented reflections of her face visible on multiple screens.",
-        "duration_seconds": 15,
+        "prompt": "A slow, oppressive push toward Elena as she sits motionless amidst the flickering screens.",
+        "duration_seconds": 10,
         "style": "cinematic",
         "camera_motion": "slow push"
       },
       {
         "scene_id": 31,
-        "prompt": "A drone-style pullback from a single server rack to reveal an immense, subterranean facility, emphasizing the sheer scale of the system.",
-        "duration_seconds": 15,
+        "prompt": "A wide, sweeping drone shot over the vast, cold, and desolate interior of the subterranean server farm.",
+        "duration_seconds": 12,
         "style": "cinematic",
-        "camera_motion": "drone pullback"
+        "camera_motion": "drone pull back"
       },
       {
         "scene_id": 15,
-        "prompt": "A slow pan across a dark, empty living room, ending on the protagonist sitting motionless at her desk in the shadows.",
-        "duration_seconds": 15,
+        "prompt": "A slow pan across a room filled with screens, ending on Elena sitting in total darkness.",
+        "duration_seconds": 12,
         "style": "cinematic",
         "camera_motion": "slow pan"
       },
       {
         "scene_id": 1,
-        "prompt": "A slow, clinical observation shot of the protagonist sitting in the dark, her face lit only by the flickering rhythm of a dying monitor.",
-        "duration_seconds": 15,
+        "prompt": "A slow, clinical push-in on Elena, who stares blankly at a wall of code.",
+        "duration_seconds": 12,
         "style": "cinematic",
         "camera_motion": "slow push"
       },
       {
         "scene_id": 2,
-        "prompt": "A completely black screen with a single, blinking cursor, fading into the darkness of the transition.",
+        "prompt": "A static, black screen that slowly fades out to nothing.",
         "duration_seconds": 5,
         "style": "cinematic",
-        "camera_motion": "static"
+        "camera_motion": "none"
       }
     ],
     "youtube_metadata": {
-      "title": "The Ghost in the Machine | Shadow Protocol Case 001",
-      "description": "Elena Vasquez, a senior cybersecurity analyst at OmniCorp, discovers her entire digital identity has been erased and replaced with that of a woman who died seven years ago. As she digs deeper into the 'Phantom Directive', she realizes the system isn't just broken\u2014it's weaponized. Follow Elena's descent into a world where reality is code, and identity is a disposable asset. #ShadowProtocol #CyberSecurity #IdentityTheft #Thriller #Mystery #TechnoThriller #OmniCorp #PhantomDirective #DigitalGhost #NeoNoir #PsychologicalThriller #DataPrivacy #SurveillanceState #DeepState #TechMystery",
+      "title": "The Ghost in the Machine: Shadow Protocol Case 001",
+      "description": "Elena Vasquez, a brilliant cybersecurity analyst, discovers her identity has been systematically erased and replaced by a ghost from the past. In this premiere episode of Shadow Protocol, we descend into the deep state, digital espionage, and the terrifying reality of a surveillance system that knows you better than you know yourself. Are you who you think you are?",
       "tags": [
         "Shadow Protocol",
-        "Cybersecurity",
-        "Digital Identity",
-        "Identity Theft",
+        "cybersecurity",
+        "thriller",
+        "neo-noir",
+        "identity theft",
+        "surveillance state",
+        "conspiracy",
+        "mystery",
+        "data privacy",
+        "digital identity",
+        "Elena Vasquez",
         "OmniCorp",
         "Phantom Directive",
-        "Techno-Thriller",
-        "Neo-Noir",
-        "Psychological Thriller",
-        "Data Privacy",
-        "Surveillance",
-        "Deep State",
-        "Digital Ghost",
-        "Mystery Series",
-        "Case 001"
+        "tech horror",
+        "psychological thriller",
+        "web series"
       ],
       "category": "Entertainment",
       "visibility": "public"
     },
     "thumbnail_prompt": {
-      "prompt": "High-contrast, shadow-heavy close-up of a woman's face, half-obscured by darkness, with a single, glowing red 'IDENTITY NOT FOUND' text reflected in her eye. Muted grey background with a sharp, vibrant blue accent light coming from the side."
+      "prompt": "High contrast, shadow-heavy shot of a woman's face illuminated by the harsh, cold blue glow of a computer monitor. The background is pitch black, and the only accent color is a single, bright red digit on the screen in the foreground."
     }
   }
 }

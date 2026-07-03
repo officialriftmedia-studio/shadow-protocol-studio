@@ -1,0 +1,24 @@
+{
+  "hash": "aa627e423a33b5898eb726a647660ba54b17d3d2bf0e6246d717cef698d53c28",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0001",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "Close-up of a woman's face, looking deeply distressed and isolated in a dark room. The light from a computer monitor casts sharp, high-contrast shadows on her skin.",
+    "file_path": "assets/images/img_0001.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 1,
+      "checksum": "9b8d473b665800f2e0e5b6414864a4df3e96632e2936ae24271b9e1b524f9479",
+      "model": "realism",
+      "task_id": "bf766e2f-1f20-4419-aa86-9d583a4846ca",
+      "prompt_preview": "Close-up of a woman's face, looking deeply distressed and isolated in a dark room. The light from a "
+    },
+    "created_at": "2026-07-03T03:00:34.106260+00:00"
+  }
+}

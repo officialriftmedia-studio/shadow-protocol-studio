@@ -1,0 +1,24 @@
+{
+  "hash": "2904a5f0b66735658c01010fef22b049157c11d69fee57b68fd8b403c8cb4723",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0008",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "Multiple computer screens displaying complex, alien-looking network topology diagrams and obfuscated code. The room is cast in cold, impersonal blue and green light.",
+    "file_path": "assets/images/img_0008.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 8,
+      "checksum": "ce2b05d74d5e77e4267dd0913cfa086e007b88801aa99fa632c7b18529b05ac7",
+      "model": "realism",
+      "task_id": "9b2334b7-e15a-43b2-a7eb-509f6e160e56",
+      "prompt_preview": "Multiple computer screens displaying complex, alien-looking network topology diagrams and obfuscated"
+    },
+    "created_at": "2026-07-03T02:57:29.179124+00:00"
+  }
+}

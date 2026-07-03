@@ -1,0 +1,28 @@
+{
+  "hash": "dd35247d1fe307ca133fdddf19619768de0efa29e4d68b3ed7cd2aa86696da58",
+  "stage": "voiceover",
+  "section": "cliffhanger",
+  "data": [
+    {
+      "scene_id": 31,
+      "segment_index": 0,
+      "text": "Elena Vasquez believed she had uncovered a singular truth, a unique horror inflicted upon her.",
+      "estimated_duration_seconds": 3.5,
+      "delivery_notes": "Resigned, detached tone; slow and deliberate pacing."
+    },
+    {
+      "scene_id": 31,
+      "segment_index": 1,
+      "text": "But the deepest terror wasn't the erasure of one life, but the quiet, relentless machinery that orchestrates countless others.",
+      "estimated_duration_seconds": 4.5,
+      "delivery_notes": "Clinical and cold; emphasize 'relentless' and 'countless'."
+    },
+    {
+      "scene_id": 31,
+      "segment_index": 2,
+      "text": "Her battle was just a ripple. The system, vast and indifferent, continued its work, a silent predator in the digital wilderness.",
+      "estimated_duration_seconds": 5.0,
+      "delivery_notes": "Ominous and hollow; tone should drop into a final, unsettling stillness."
+    }
+  ]
+}

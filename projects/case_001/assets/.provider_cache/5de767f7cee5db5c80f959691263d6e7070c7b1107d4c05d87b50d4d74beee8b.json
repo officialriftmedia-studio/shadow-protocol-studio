@@ -1,0 +1,25 @@
+{
+  "hash": "5de767f7cee5db5c80f959691263d6e7070c7b1107d4c05d87b50d4d74beee8b",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0011_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "Her identity, systematically unstitched, then woven onto another. A ghost's life, stolen for her own.",
+    "file_path": "assets/voice/voice_scene0011_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 11,
+      "segment_index": 1,
+      "checksum": "a5778080dc60094b6235cc4ac33f7fb78f58a932639510ecf068c5852ece02df",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 7.66,
+      "text_preview": "Her identity, systematically unstitched, then woven onto another. A ghost's life, stolen for her own"
+    },
+    "created_at": "2026-07-03T03:00:57.972512+00:00"
+  }
+}

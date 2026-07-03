@@ -1,0 +1,10 @@
+  CHECKPOINT: quality_control — LLM: 0 calls, 0 tokens (prompt=0 + completion=0), $0.0000
+  Quality: FAIL (7/8 checks passed)
+  WARNING: Stage not completed: production_package
+  WARNING: Stage not completed: outline
+  WARNING: Stage not completed: script
+  WARNING: Stage not completed: script_review
+  WARNING: Stage not completed: scene_breakdown
+  WARNING: Stage not completed: image_prompt
+  WARNING: Stage not completed: metadata
+  WARNING: Stage not completed: thumbnail

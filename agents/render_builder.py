@@ -202,7 +202,7 @@ class RenderBuilderAgent(AgentBase):
         output: Path,
     ) -> list[str]:
         cmd = ["ffmpeg", "-y", "-loop", "1", "-i", str(image_path.resolve())]
-        if audio_path and audio_path.exists():
+        if audio_path is not None:
             cmd.extend(["-i", str(audio_path.resolve())])
             map_flags = ["-map", "0:v", "-map", "1:a", "-shortest"]
         else:
@@ -227,8 +227,7 @@ class RenderBuilderAgent(AgentBase):
         for scene in scenes:
             scene_num = scene["scene_number"]
             video_path = temp_dir / f"scene_{scene_num:04d}" / "video.mp4"
-            if video_path.exists():
-                lines.append(f"file '{video_path.resolve()}'")
+            lines.append(f"file '{video_path.resolve()}'")
         concat_file.write_text("\n".join(lines) + "\n")
 
         final_out = render_dir / "final_video.mp4"

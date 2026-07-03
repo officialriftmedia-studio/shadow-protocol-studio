@@ -1,0 +1,24 @@
+{
+  "hash": "d89c91fe34d6977d918658ef7d493a7a996fdbe9814da4fcf42987b144fbf12c",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0013",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A woman in a sharp suit sitting alone in a massive, sterile executive conference room. The room is dimly lit with harsh overhead fluorescent lights, casting long, stark shadows.",
+    "file_path": "assets/images/img_0013.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 13,
+      "checksum": "e4bfdb4267cc9a2bafb357eba6c25db246327851ca302a68b31e705e328cf8b1",
+      "model": "realism",
+      "task_id": "963b96d2-09d0-4303-b71a-1299ba399dad",
+      "prompt_preview": "A woman in a sharp suit sitting alone in a massive, sterile executive conference room. The room is d"
+    },
+    "created_at": "2026-07-03T02:59:00.442236+00:00"
+  }
+}

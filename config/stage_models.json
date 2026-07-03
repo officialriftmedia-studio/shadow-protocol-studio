@@ -31,8 +31,8 @@
       "model": "gemini-3.1-flash-lite"
     },
     "voiceover": {
-      "provider": "ollama",
-      "model": "qwen3:14b"
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite"
     },
     "metadata": {
       "provider": "gemini",

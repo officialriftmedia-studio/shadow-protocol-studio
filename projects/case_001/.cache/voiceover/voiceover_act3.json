@@ -1,0 +1,31 @@
+{
+  "hash": "d7b4b1b20ab997b001f317c8cfe70f139ef0ee1fda1e5fe8142997bd4b633087",
+  "stage": "voiceover",
+  "section": "act3",
+  "data": [
+    {
+      "scene_id": 13,
+      "segment_index": 0,
+      "text": "Elena Vasquez, a woman whose entire professional life was built on the unwavering belief in data, now stood with a truth so profound, so terrifying, it should have shattered the very foundations of her world.",
+      "voice_id": "default",
+      "estimated_duration_seconds": 9,
+      "delivery_notes": "Resigned, somber, and heavy with the weight of impending realization."
+    },
+    {
+      "scene_id": 13,
+      "segment_index": 1,
+      "text": "She had found the ghost in the machine, the 'Phantom Directive,' and the stolen identity of Sarah Jensen. She had the proof.",
+      "voice_id": "default",
+      "estimated_duration_seconds": 6,
+      "delivery_notes": "Tense and precise, emphasizing the gravity of the discovery."
+    },
+    {
+      "scene_id": 13,
+      "segment_index": 2,
+      "text": "But proof, she would soon learn, was a luxury only afforded to those who existed within the system's definition of reality.",
+      "voice_id": "default",
+      "estimated_duration_seconds": 7,
+      "delivery_notes": "Cynical, cold, and detached; deliver the final word 'reality' with a hint of irony."
+    }
+  ]
+}

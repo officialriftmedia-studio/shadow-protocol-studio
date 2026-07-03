@@ -1,14 +1,16 @@
 {
   "stage": "voiceover",
-  "status": "failed",
-  "start_time": "2026-07-02T20:34:23.270986+00:00",
-  "end_time": "2026-07-02T20:34:48.150787+00:00",
-  "duration_seconds": 24.88,
-  "prompt_tokens": 0,
+  "status": "success",
+  "start_time": "2026-07-03T02:54:28.471584+00:00",
+  "end_time": "2026-07-03T02:55:28.070912+00:00",
+  "duration_seconds": 59.6,
+  "prompt_tokens": 17045,
   "completion_tokens": 0,
-  "total_tokens": 0,
-  "llm_calls": 0,
-  "cost_usd": 0.0,
-  "output_files": [],
-  "error": "Agent exited with code 1"
+  "total_tokens": 17045,
+  "llm_calls": 6,
+  "cost_usd": 0.002046,
+  "output_files": [
+    "voiceover_segments.json"
+  ],
+  "error": null
 }

@@ -1,0 +1,25 @@
+{
+  "hash": "6c9f5a1f174b477cf8b976e42418a824e9671b15e1ea3b746812306569cdef45",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0009_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "A cold dread began to creep in, chilling her more than the truth of her erased identity. She wasn't just lost in this digital wilderness; she wasn't alone.",
+    "file_path": "assets/voice/voice_scene0009_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 9,
+      "segment_index": 0,
+      "checksum": "f0d65c175c87266c82e150146bfab34c66833f732d7d5bea5e346bf523ee27e2",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 10.53,
+      "text_preview": "A cold dread began to creep in, chilling her more than the truth of her erased identity. She wasn't "
+    },
+    "created_at": "2026-07-03T02:36:04.095250+00:00"
+  }
+}

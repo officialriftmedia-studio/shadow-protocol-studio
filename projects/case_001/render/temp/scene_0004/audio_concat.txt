@@ -1,0 +1,2 @@
+file '/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/voice/voice_scene0004_seg0000.wav'
+file '/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/voice/voice_scene0004_seg0001.wav'

@@ -1,0 +1,25 @@
+{
+  "hash": "783c279d1aa631978c1bae7c45fdb406e60798a052f8d0ac66480667a40d706b",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0013_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "Elena Vasquez, a woman whose entire professional life was built on the unwavering belief in data, now stood with a truth so profound, so terrifying, it should have shattered the very foundations of he",
+    "file_path": "assets/voice/voice_scene0013_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 13,
+      "segment_index": 0,
+      "checksum": "38b9d17d6f942a3023d6c59c4906b5da1396ea4a197f16b734f2467096e296c4",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 12.72,
+      "text_preview": "Elena Vasquez, a woman whose entire professional life was built on the unwavering belief in data, no"
+    },
+    "created_at": "2026-07-03T02:36:29.085534+00:00"
+  }
+}

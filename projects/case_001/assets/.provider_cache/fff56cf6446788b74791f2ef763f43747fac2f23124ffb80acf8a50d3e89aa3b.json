@@ -1,0 +1,25 @@
+{
+  "hash": "fff56cf6446788b74791f2ef763f43747fac2f23124ffb80acf8a50d3e89aa3b",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0008_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "Every digital footprint she chased led to a dead end, to data designed to mislead, to layers of encryption that screamed 'state secret,' not 'corporate error.' This wasn't a hack; it was an architectu",
+    "file_path": "assets/voice/voice_scene0008_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 8,
+      "segment_index": 1,
+      "checksum": "7f1157f9e2ed739f202754aea33e56d0bb3ee3dd47ac30181bfb4350f256585d",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 12.55,
+      "text_preview": "Every digital footprint she chased led to a dead end, to data designed to mislead, to layers of encr"
+    },
+    "created_at": "2026-07-03T02:36:00.747638+00:00"
+  }
+}

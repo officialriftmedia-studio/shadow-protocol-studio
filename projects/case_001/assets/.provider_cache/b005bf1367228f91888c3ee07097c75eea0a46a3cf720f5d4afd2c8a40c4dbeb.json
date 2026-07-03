@@ -1,0 +1,25 @@
+{
+  "hash": "b005bf1367228f91888c3ee07097c75eea0a46a3cf720f5d4afd2c8a40c4dbeb",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0010_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "Every digital breadcrumb Elena followed led deeper into the labyrinth, away from corporate servers and into the shadows of classified networks.",
+    "file_path": "assets/voice/voice_scene0010_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 10,
+      "segment_index": 0,
+      "checksum": "04d4ccce6140726cc55986955e207b45e21e2279934f25fc7875d5a36bd536b4",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 8.7,
+      "text_preview": "Every digital breadcrumb Elena followed led deeper into the labyrinth, away from corporate servers a"
+    },
+    "created_at": "2026-07-03T02:36:10.531814+00:00"
+  }
+}

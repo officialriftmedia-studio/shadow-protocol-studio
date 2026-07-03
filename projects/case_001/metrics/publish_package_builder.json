@@ -1,14 +1,22 @@
 {
   "stage": "publish_package_builder",
-  "status": "skipped",
-  "start_time": "2026-07-02T20:32:04.268497+00:00",
-  "end_time": "2026-07-02T20:32:04.268511+00:00",
-  "duration_seconds": 0.0,
+  "status": "success",
+  "start_time": "2026-07-03T03:03:16.000025+00:00",
+  "end_time": "2026-07-03T03:03:16.261616+00:00",
+  "duration_seconds": 0.26,
   "prompt_tokens": 0,
   "completion_tokens": 0,
   "total_tokens": 0,
   "llm_calls": 0,
   "cost_usd": 0.0,
-  "output_files": [],
+  "output_files": [
+    "publish/publish_manifest.json",
+    "publish/upload_package/chapters.txt",
+    "publish/upload_package/description.txt",
+    "publish/upload_package/final_video.mp4",
+    "publish/upload_package/metadata.json",
+    "publish/upload_package/tags.txt",
+    "publish/upload_package/title.txt"
+  ],
   "error": null
 }

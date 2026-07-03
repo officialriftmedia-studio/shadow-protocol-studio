@@ -2,97 +2,97 @@
   "prompts": [
     {
       "scene_id": 3,
-      "prompt": "A senior cybersecurity analyst sitting at a clean, modern desk in a darkened office. The scene is illuminated by the cold blue glow of multiple monitors displaying complex lines of code and network data, reflected clearly in her focused eyes.",
+      "prompt": "A senior cybersecurity analyst sitting in a sterile, high-tech office at night. The room is illuminated only by the cool blue light of massive computer monitors reflecting in her focused, tired eyes.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 4,
-      "prompt": "Close-up of a computer monitor displaying a wall of blue text, with a single anomalous digit glowing in sharp, aggressive red. A woman's face is partially visible in the reflection, showing a look of analytical confusion.",
+      "prompt": "Close-up of a computer monitor displaying a wall of scrolling green and blue code. A single digit on the screen is highlighted in a jarring, bright red color, causing a slight frown on the analyst's face.",
       "style": "noir",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 5,
-      "prompt": "A montage of screens in a dimly lit apartment, showing digital identity profiles flickering and overwriting themselves. The atmosphere is tense and claustrophobic, with harsh light casting deep shadows.",
+      "prompt": "A montage-style shot of a woman looking increasingly agitated in front of multiple screens. The room is filled with chaotic, flickering data streams and harsh, clinical lighting.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 6,
-      "prompt": "A woman stares in horror at a computer screen that displays the stark, system-generated message 'IDENTITY NOT FOUND'. The harsh blue light from the monitor creates a high-contrast, skeletal look on her face.",
+      "prompt": "Extreme close-up of a woman's face in a dark room, illuminated by the harsh, cold blue glow of a monitor. The screen displays the text 'IDENTITY NOT FOUND' in stark, clinical white letters.",
       "style": "noir",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 7,
-      "prompt": "A makeshift command center in an apartment, with cables snaking across the floor and multiple monitors illuminating a woman working with intense, desperate focus. The room is dark, emphasizing the glow of the digital tools.",
+      "prompt": "An apartment turned into a messy, high-tech command center with wires snaking across surfaces. A woman sits in the center, surrounded by glowing screens, looking determined and paranoid.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 8,
-      "prompt": "Complex, alien-looking network topology maps and obfuscated code streams displayed on a screen. The lighting is clinical and flat, emphasizing the cold, impenetrable nature of the system.",
+      "prompt": "Multiple computer screens displaying complex, alien-looking network topology diagrams and obfuscated code. The room is cast in cold, impersonal blue and green light.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 9,
-      "prompt": "A woman sitting in a dark room, looking over her shoulder at a flickering, empty monitor. The shadows are deep and oppressive, suggesting the feeling of being watched by an unseen digital entity.",
+      "prompt": "A woman sitting in a dark room, looking over her shoulder with a sense of dread. The shadows are deep and oppressive, with only faint, flickering light from a computer monitor.",
       "style": "noir",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 10,
-      "prompt": "The first cold light of dawn filtering through apartment blinds, mixing with the red and black hues of a monitor displaying classified government network diagrams. The atmosphere is one of grim, quiet discovery.",
+      "prompt": "Dawn light filtering through window blinds into a dark apartment, mixing with the harsh glow of computer monitors. Complex network diagrams are visible on the screens.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 11,
-      "prompt": "A split composition showing a faded, vintage photograph of a woman on one side and a modern digital profile of the same woman on the other. The lighting is harsh and revelatory.",
+      "prompt": "A computer screen showing a faded, vintage photograph of a woman next to modern government-level data files. The lighting is stark and clinical, highlighting the shock on the protagonist's face.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 12,
-      "prompt": "A woman's face in extreme close-up, her eyes wide as they reflect the truth of her stolen identity shown on a nearby monitor. Her expression is one of total, hollow despair.",
+      "prompt": "A woman sitting alone in a dark, messy apartment, looking at a screen that reveals her identity has been stolen. Her face is pale and desaturated, reflecting the horror of her reality collapsing.",
       "style": "noir",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 13,
-      "prompt": "A woman sitting at the end of a long, polished boardroom table in a sterile, fluorescent-lit office. The empty chairs around her emphasize her isolation and the system's indifference to her claims.",
+      "prompt": "A woman in a sharp suit sitting alone in a massive, sterile executive conference room. The room is dimly lit with harsh overhead fluorescent lights, casting long, stark shadows.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 14,
-      "prompt": "A woman sitting alone in a cluttered, dark apartment, surrounded by flickering screens that cast fragmented, ghostly light across her tired face. The room feels small, isolating, and under surveillance.",
+      "prompt": "A woman sitting on her floor, surrounded by multiple screens flickering with static and conflicting data. The room is dark, cold, and claustrophobic.",
       "style": "noir",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 31,
-      "prompt": "A vast, subterranean server farm with rows of blinking lights stretching into the darkness. A large holographic display in the center shows a complex, shifting data anomaly, conveying an immense, indifferent scale.",
+      "prompt": "A massive, subterranean server farm with endless rows of humming, glowing server racks. The lighting is cold, clinical, and industrial, emphasizing the immense scale of the facility.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 15,
-      "prompt": "A woman standing in the center of a dark apartment, looking at a single flickering pixel on a monitor. The scene is heavy with shadows, silence, and the weight of inescapable surveillance.",
+      "prompt": "A woman standing in the center of her apartment, looking exhausted and paranoid. The room is filled with shadows and the cold, blue light of screens.",
       "style": "noir",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 1,
-      "prompt": "A woman huddled in a dark, messy living room, illuminated only by the faint, cold light of a laptop screen. The image is heavy with atmosphere, deep shadows, and the feeling of a fractured reality.",
+      "prompt": "Close-up of a woman's face, looking deeply distressed and isolated in a dark room. The light from a computer monitor casts sharp, high-contrast shadows on her skin.",
       "style": "noir",
       "aspect_ratio": "16:9"
     },
     {
       "scene_id": 2,
-      "prompt": "A solid black screen with a tiny, singular, blinking white cursor in the center, representing the absolute void before a digital identity is erased.",
+      "prompt": "A completely black screen, signifying a transition into the past.",
       "style": "cinematic",
       "aspect_ratio": "16:9"
     }

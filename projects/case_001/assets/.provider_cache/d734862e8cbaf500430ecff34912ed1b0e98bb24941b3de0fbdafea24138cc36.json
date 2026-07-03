@@ -1,0 +1,24 @@
+{
+  "hash": "d734862e8cbaf500430ecff34912ed1b0e98bb24941b3de0fbdafea24138cc36",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0031",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A massive, subterranean server farm with endless rows of humming, glowing server racks. The lighting is cold, clinical, and industrial, emphasizing the immense scale of the facility.",
+    "file_path": "assets/images/img_0031.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 31,
+      "checksum": "4f9d1c5363d3c88eda81c3e9c57d66fba600d08d92d042dc27a9793bae457934",
+      "model": "realism",
+      "task_id": "027a5924-1c47-46de-b4b8-6fa8cfc08a80",
+      "prompt_preview": "A massive, subterranean server farm with endless rows of humming, glowing server racks. The lighting"
+    },
+    "created_at": "2026-07-03T02:59:43.846400+00:00"
+  }
+}

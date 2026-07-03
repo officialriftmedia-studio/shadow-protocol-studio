@@ -1,0 +1,19 @@
+    Generated: scene 3 -> img_0003.jpg
+    Generated: scene 4 -> img_0004.jpg
+    Generated: scene 5 -> img_0005.jpg
+    Generated: scene 6 -> img_0006.jpg
+    Generated: scene 7 -> img_0007.jpg
+    Generated: scene 8 -> img_0008.jpg
+    Generated: scene 9 -> img_0009.jpg
+    Generated: scene 10 -> img_0010.jpg
+    Generated: scene 11 -> img_0011.jpg
+    Generated: scene 12 -> img_0012.jpg
+    Generated: scene 13 -> img_0013.jpg
+    Generated: scene 14 -> img_0014.jpg
+    Generated: scene 31 -> img_0031.jpg
+    Generated: scene 15 -> img_0015.jpg
+    Generated: scene 1 -> img_0001.jpg
+    Generated: scene 2 -> img_0002.jpg
+  CHECKPOINT: image_generator — LLM: 0 calls, 0 tokens (prompt=0 + completion=0), $0.0000
+  Generated 16 images, 0 cached, 0 failed
+  Manifest: /home/hartmmy/shadow-protocol-studio/projects/case_001/assets/manifests/asset_manifest.json

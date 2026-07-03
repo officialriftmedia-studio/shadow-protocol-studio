@@ -1,0 +1,91 @@
+{
+  "hash": "73967d9f865e8e25634b4d1a516220893e269904adb1512d64137bc5f35a0dec",
+  "stage": "voiceover",
+  "section": "act2",
+  "data": [
+    {
+      "scene_id": 7,
+      "segment_index": 0,
+      "text": "The corporate firewalls, the trusted systems she\u2019d once built and defended, had become a cage. Elena knew, instinctively, that to find the truth, she had to go dark. Off-grid.",
+      "estimated_duration_seconds": 12,
+      "delivery_notes": "Urgent, intense, and focused."
+    },
+    {
+      "scene_id": 7,
+      "segment_index": 1,
+      "text": "This wasn't about fixing a bug anymore; it was about fighting for her very existence, against an enemy she couldn't even name.",
+      "estimated_duration_seconds": 10,
+      "delivery_notes": "Ominous and driven."
+    },
+    {
+      "scene_id": 8,
+      "segment_index": 0,
+      "text": "Her professional life had prepared her for sophisticated corporate espionage, for black-hat attacks and state-sponsored threats. But this was different.",
+      "estimated_duration_seconds": 11,
+      "delivery_notes": "Clinical, analytical, yet growing in frustration."
+    },
+    {
+      "scene_id": 8,
+      "segment_index": 1,
+      "text": "Every digital footprint she chased led to a dead end, to data designed to mislead, to layers of encryption that screamed 'state secret,' not 'corporate error.' This wasn't a hack; it was an architecture.",
+      "estimated_duration_seconds": 16,
+      "delivery_notes": "Paced with increasing tension."
+    },
+    {
+      "scene_id": 9,
+      "segment_index": 0,
+      "text": "A cold dread began to creep in, chilling her more than the truth of her erased identity. She wasn't just lost in this digital wilderness; she wasn't alone.",
+      "estimated_duration_seconds": 13,
+      "delivery_notes": "Whispering, paranoid, and unsettling."
+    },
+    {
+      "scene_id": 9,
+      "segment_index": 1,
+      "text": "Something was watching back. A phantom presence, a silent observer within her own supposedly secure network.",
+      "estimated_duration_seconds": 9,
+      "delivery_notes": "Ominous, with a slow, deliberate pace."
+    },
+    {
+      "scene_id": 10,
+      "segment_index": 0,
+      "text": "Every digital breadcrumb Elena followed led deeper into the labyrinth, away from corporate servers and into the shadows of classified networks.",
+      "estimated_duration_seconds": 11,
+      "delivery_notes": "Urgent and focused on discovery."
+    },
+    {
+      "scene_id": 10,
+      "segment_index": 1,
+      "text": "A unique signature, a specific pattern of manipulation, began to emerge \u2013 clean, precise, terrifyingly efficient. This wasn't a single person. This was a machine.",
+      "estimated_duration_seconds": 12,
+      "delivery_notes": "Cold, precise, and realization-heavy."
+    },
+    {
+      "scene_id": 11,
+      "segment_index": 0,
+      "text": "And then, the truth. Not a hack, not an error, but a deliberate, surgical act of erasure.",
+      "estimated_duration_seconds": 8,
+      "delivery_notes": "Heavy, stunned, and breathy."
+    },
+    {
+      "scene_id": 11,
+      "segment_index": 1,
+      "text": "Her identity, systematically unstitched, then woven onto another. A ghost's life, stolen for her own.",
+      "estimated_duration_seconds": 9,
+      "delivery_notes": "Hollow and filled with realization."
+    },
+    {
+      "scene_id": 12,
+      "segment_index": 0,
+      "text": "Sarah Jensen. A name, a face, a life Elena knew nothing about. A life that, for seven years, had been slowly, secretly, becoming her own.",
+      "estimated_duration_seconds": 13,
+      "delivery_notes": "Resigned, somber, and deeply betrayed."
+    },
+    {
+      "scene_id": 12,
+      "segment_index": 1,
+      "text": "Her reality wasn't just compromised; it was a fabrication, built on the ghost of another. Every memory, every photograph, every digital trace of her existence... a lie.",
+      "estimated_duration_seconds": 14,
+      "delivery_notes": "Somber, final, and existential."
+    }
+  ]
+}

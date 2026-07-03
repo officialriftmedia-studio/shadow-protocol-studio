@@ -1,0 +1,77 @@
+{
+  "hash": "370e35ed3697d9eca44e7441c012ae57939bea9d747c88fd8c02848863f0bc11",
+  "stage": "voiceover",
+  "section": "act1",
+  "data": [
+    {
+      "scene_id": 3,
+      "segment_index": 0,
+      "text": "Before the collapse, there was order. Elena Vasquez built her world on logic, on data, on the precise architecture of the digital.",
+      "estimated_duration_seconds": 9,
+      "delivery_notes": "Clinical, precise, and steady. Calm confidence."
+    },
+    {
+      "scene_id": 3,
+      "segment_index": 1,
+      "text": "As a senior cybersecurity analyst for OmniCorp, she was a guardian of that order, meticulously auditing the invisible threads that held everything together. She trusted the system, because she understood its language.",
+      "estimated_duration_seconds": 13,
+      "delivery_notes": "Measured and professional. Maintain a sense of controlled order."
+    },
+    {
+      "scene_id": 4,
+      "segment_index": 0,
+      "text": "It began not with a bang, but with a whisper. A transposed digit. A birthdate off by a single day.",
+      "estimated_duration_seconds": 7,
+      "delivery_notes": "Subtle, slightly detached, conversational tone."
+    },
+    {
+      "scene_id": 4,
+      "segment_index": 1,
+      "text": "A minor inconsistency within her own HR profile, buried deep in a routine audit of employee records. For Elena, it was a glitch, an anomaly in the otherwise perfect matrix she oversaw daily. A digital dust particle, easily brushed away.",
+      "estimated_duration_seconds": 15,
+      "delivery_notes": "Analytical and dismissive. A touch of mild irritation."
+    },
+    {
+      "scene_id": 5,
+      "segment_index": 0,
+      "text": "But the dust particle refused to settle. Elena's internal correction failed. And then, it began to spread.",
+      "estimated_duration_seconds": 7,
+      "delivery_notes": "Pacing quickens slightly. A hint of growing unease."
+    },
+    {
+      "scene_id": 5,
+      "segment_index": 1,
+      "text": "First, a discrepancy in her corporate travel history. Then, a missing certification from her professional profile. Not an error, not a bug \u2013 but a systematic, surgical alteration.",
+      "estimated_duration_seconds": 12,
+      "delivery_notes": "Urgent, building tension. Emphasize 'systematic, surgical'."
+    },
+    {
+      "scene_id": 5,
+      "segment_index": 2,
+      "text": "As if someone, or something, was meticulously redrawing the lines of her own digital existence.",
+      "estimated_duration_seconds": 7,
+      "delivery_notes": "Ominous and slightly paranoid."
+    },
+    {
+      "scene_id": 6,
+      "segment_index": 0,
+      "text": "She was a cybersecurity analyst. She understood data. She understood identity. But what she was witnessing defied every principle she knew.",
+      "estimated_duration_seconds": 9,
+      "delivery_notes": "Dawning realization. A mix of confusion and building horror."
+    },
+    {
+      "scene_id": 6,
+      "segment_index": 1,
+      "text": "It wasn't a hack. It was an erasure. A systematic dismantling.",
+      "estimated_duration_seconds": 6,
+      "delivery_notes": "Staccato, heavy emphasis, cold realization."
+    },
+    {
+      "scene_id": 6,
+      "segment_index": 2,
+      "text": "And then, the system delivered its final, devastating blow. The moment the digital world, her world, told her she no longer existed.",
+      "estimated_duration_seconds": 10,
+      "delivery_notes": "Resigned, hollow, and chilling. Finality."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "hash": "e5d2556d0b671f738d526095c9c586c814c4721f185c43e940ec009bab9e9218",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0007",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "An apartment turned into a messy, high-tech command center with wires snaking across surfaces. A woman sits in the center, surrounded by glowing screens, looking determined and paranoid.",
+    "file_path": "assets/images/img_0007.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 7,
+      "checksum": "ad24b6cbf7af4ed38985a21b59f7c97959072b8f8ef066e4db7fab2f04676c26",
+      "model": "realism",
+      "task_id": "3829cf4c-a063-4ca8-bc95-e86571b0e30e",
+      "prompt_preview": "An apartment turned into a messy, high-tech command center with wires snaking across surfaces. A wom"
+    },
+    "created_at": "2026-07-03T02:57:07.665121+00:00"
+  }
+}

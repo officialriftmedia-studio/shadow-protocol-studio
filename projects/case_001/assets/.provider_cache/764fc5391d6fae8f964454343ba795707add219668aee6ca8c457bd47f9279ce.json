@@ -1,0 +1,25 @@
+{
+  "hash": "764fc5391d6fae8f964454343ba795707add219668aee6ca8c457bd47f9279ce",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0003_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "Before the collapse, there was order. Elena Vasquez built her world on logic, on data, on the precise architecture of the digital.",
+    "file_path": "assets/voice/voice_scene0003_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 3,
+      "segment_index": 0,
+      "checksum": "89c70dd826980ccb7a3d9772e641c1994623143e6e84810d7d47fcb1d70e30d1",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 8.56,
+      "text_preview": "Before the collapse, there was order. Elena Vasquez built her world on logic, on data, on the precis"
+    },
+    "created_at": "2026-07-03T02:35:14.889061+00:00"
+  }
+}

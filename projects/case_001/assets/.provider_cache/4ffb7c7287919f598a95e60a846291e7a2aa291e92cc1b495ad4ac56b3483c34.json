@@ -1,0 +1,25 @@
+{
+  "hash": "4ffb7c7287919f598a95e60a846291e7a2aa291e92cc1b495ad4ac56b3483c34",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0010_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "A unique signature, a specific pattern of manipulation, began to emerge \u2013 clean, precise, terrifyingly efficient. This wasn't a single person. This was a machine.",
+    "file_path": "assets/voice/voice_scene0010_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 10,
+      "segment_index": 1,
+      "checksum": "49162719ca5eed113c9f631cbdaeed3c9e79c1e9943fc1506e8e23d804fa881d",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 11.02,
+      "text_preview": "A unique signature, a specific pattern of manipulation, began to emerge \u2013 clean, precise, terrifying"
+    },
+    "created_at": "2026-07-03T02:36:14.162977+00:00"
+  }
+}

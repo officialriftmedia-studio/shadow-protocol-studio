@@ -1,10 +1,11 @@
-"""Google Imagen provider (mock) — generates placeholder PNG images."""
-
 from __future__ import annotations
 import hashlib
-import struct
-import zlib
+import os
 from pathlib import Path
+from typing import Any
+
+from google import genai
+from google.genai import types
 
 from shadow_protocol.lib.providers.base import MediaProvider, ProviderResult
 
@@ -12,57 +13,75 @@ from shadow_protocol.lib.providers.base import MediaProvider, ProviderResult
 class GoogleImagenProvider(MediaProvider):
     name = "google_imagen"
 
+    def __init__(self, config: dict[str, Any] | None = None):
+        self.config = config or {}
+        api_key = os.environ.get("GEMINI_API_KEY", os.environ.get("GOOGLE_API_KEY"))
+        self.client = genai.Client(api_key=api_key)
+
     def generate(
         self, prompt: str | dict, output_dir: str | Path, **kwargs
     ) -> ProviderResult:
         if isinstance(prompt, dict):
             scene_id = prompt.get("scene_id", 0)
             prompt_text = prompt.get("prompt", str(prompt))
+            aspect = prompt.get("aspect_ratio", "16:9")
         else:
-            scene_id = hash(prompt) % 100000
+            scene_id = 0
             prompt_text = prompt
+            aspect = "16:9"
 
-        filename = f"img_{scene_id:04d}.png"
+        model = kwargs.get("model", "imagen-3.0-generate-001")
+        aspect_ratio = aspect if aspect in ("1:1", "3:4", "4:3", "9:16", "16:9") else "16:9"
+
+        config = types.GenerateImagesConfig(
+            aspect_ratio=aspect_ratio,
+            number_of_images=1,
+        )
+
+        response = self.client.models.generate_images(
+            model=model,
+            prompt=prompt_text,
+            config=config,
+        )
+
+        if not response.generated_images:
+            return ProviderResult(
+                success=False,
+                error="No images returned by Imagen",
+            )
+
+        gen_image = response.generated_images[0]
+        image = gen_image.image
+
+        if not image or not image.image_bytes:
+            return ProviderResult(
+                success=False,
+                error="No image data in response",
+            )
+
+        mime_type = image.mime_type or "image/png"
+        ext = ".png"
+        if mime_type == "image/jpeg":
+            ext = ".jpg"
+        elif mime_type == "image/webp":
+            ext = ".webp"
+
+        filename = f"img_{scene_id:04d}{ext}"
         output_path = Path(output_dir) / filename
         output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_bytes(image.image_bytes)
 
-        r = (scene_id * 37) % 256
-        g = (scene_id * 73) % 256
-        b = (scene_id * 151) % 256
-
-        width, height = 64, 64
-        raw_data = bytearray()
-        for _ in range(height):
-            raw_data.append(0)
-            for _ in range(width):
-                raw_data.extend(struct.pack("BBB", r, g, b))
-
-        def _make_chunk(chunk_type: bytes, data: bytes) -> bytes:
-            chunk = chunk_type + data
-            crc = struct.pack(">I", zlib.crc32(chunk) & 0xFFFFFFFF)
-            return struct.pack(">I", len(data)) + chunk + crc
-
-        signature = b"\x89PNG\r\n\x1a\n"
-        ihdr_data = struct.pack(">IIBBBBB", width, height, 8, 2, 0, 0, 0)
-        ihdr = _make_chunk(b"IHDR", ihdr_data)
-        compressed = zlib.compress(bytes(raw_data))
-        idat = _make_chunk(b"IDAT", compressed)
-        iend = _make_chunk(b"IEND", b"")
-
-        png_data = signature + ihdr + idat + iend
-        output_path.write_bytes(png_data)
-
-        checksum = hashlib.sha256(png_data).hexdigest()
+        checksum = hashlib.sha256(image.image_bytes).hexdigest()
 
         return ProviderResult(
             success=True,
             asset_path=output_path,
-            mime_type="image/png",
+            mime_type=mime_type,
             metadata={
                 "scene_id": scene_id,
                 "checksum": checksum,
-                "width": width,
-                "height": height,
+                "model": model,
                 "prompt_preview": prompt_text[:100],
+                "enhanced_prompt": gen_image.enhanced_prompt or "",
             },
         )

@@ -1,0 +1,25 @@
+{
+  "hash": "3a12491d23d7512198d6e3d53ceb2c065045f5ba49750ea13fbb891f6bda40f9",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0001_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "This is not a story of a lost person. This is the story of a person whose self was stolen, piece by digital piece, until nothing remained but a phantom echo.",
+    "file_path": "assets/voice/voice_scene0001_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 1,
+      "segment_index": 1,
+      "checksum": "2ae6f2f96a441470ca7e3a0412f331a598f67d016ecd77a2e5b7fd7e3f93e807",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 10.1,
+      "text_preview": "This is not a story of a lost person. This is the story of a person whose self was stolen, piece by "
+    },
+    "created_at": "2026-07-03T02:35:07.951323+00:00"
+  }
+}

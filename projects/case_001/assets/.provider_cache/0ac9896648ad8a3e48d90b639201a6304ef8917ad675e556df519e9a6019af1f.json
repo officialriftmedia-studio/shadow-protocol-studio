@@ -1,0 +1,25 @@
+{
+  "hash": "0ac9896648ad8a3e48d90b639201a6304ef8917ad675e556df519e9a6019af1f",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0009_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "Something was watching back. A phantom presence, a silent observer within her own supposedly secure network.",
+    "file_path": "assets/voice/voice_scene0009_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 9,
+      "segment_index": 1,
+      "checksum": "9a488f6b3fdde7ef73c701a6dee5a240128986151f797ef11b433766d6b20121",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 7.22,
+      "text_preview": "Something was watching back. A phantom presence, a silent observer within her own supposedly secure "
+    },
+    "created_at": "2026-07-03T02:36:07.342849+00:00"
+  }
+}

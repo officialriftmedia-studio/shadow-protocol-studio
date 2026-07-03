@@ -1,0 +1,24 @@
+{
+  "hash": "8e1609709f5bb58bc1b29ac8394a807050124ff71923caa63990c49ae439d2e9",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0002",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A completely black screen, signifying a transition into the past.",
+    "file_path": "assets/images/img_0002.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 2,
+      "checksum": "3aa59c22cd5d858dea77f917a1f69de46cdfc4502de6d50a5938d8802c2fc832",
+      "model": "realism",
+      "task_id": "524e5305-7ae8-4353-9185-40bc7d3706e3",
+      "prompt_preview": "A completely black screen, signifying a transition into the past."
+    },
+    "created_at": "2026-07-03T03:00:52.347160+00:00"
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "scenes": [
+    {
+      "scene_number": 3,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 3: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0003/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0003/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 3: static, 22.1s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0003.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0003/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=552:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=21.1:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "22.1",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0003/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 4: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0004/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0004/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 4: static, 24.0s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0004.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0004/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=600:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=23.0:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "24.0",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0004/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 5,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 5: merge 3 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0005/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0005/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 5: static, 25.7s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0005.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0005/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=642:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=24.7:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "25.7",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0005/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 6,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 6: merge 3 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0006/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0006/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 6: static, 24.0s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0006.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0006/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=600:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=23.0:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "24.0",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0006/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 7,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 7: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0007/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0007/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 7: static, 20.1s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0007.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0007/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=502:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=19.1:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "20.1",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0007/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 8,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 8: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0008/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0008/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 8: static, 21.9s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0008.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0008/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=547:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=20.9:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "21.9",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0008/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 9,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 9: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0009/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0009/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 9: static, 17.8s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0009.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0009/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=445:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=16.8:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "17.8",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0009/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 10,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 10: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0010/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0010/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 10: static, 19.7s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0010.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0010/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=492:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=18.7:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "19.7",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0010/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 11,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 11: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0011/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0011/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 11: static, 21.5s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0011.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0011/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=537:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=20.5:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "21.5",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0011/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 12,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 12: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0012/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0012/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 12: static, 21.3s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0012.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0012/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=532:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=20.3:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "21.3",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0012/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 13,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 13: merge 3 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0013/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0013/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 13: static, 28.5s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0013.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0013/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=712:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=27.5:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "28.5",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0013/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 14,
+      "commands": [
+        {
+          "type": "generate_video",
+          "description": "Scene 14: static, 15.0s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0014.jpg",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=375:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=14.0:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "15.0",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0014/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 31,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 31: merge 3 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0031/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0031/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 31: static, 30.4s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0031.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0031/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=760:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=29.4:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "30.4",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0031/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 15,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 15: merge 4 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0015/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0015/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 15: static, 32.9s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0015.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0015/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=822:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=31.9:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "32.9",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0015/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 1,
+      "commands": [
+        {
+          "type": "merge_audio",
+          "description": "Scene 1: merge 2 voice segments",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0001/audio_concat.txt",
+            "-c",
+            "copy",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0001/audio_merged.wav"
+          ]
+        },
+        {
+          "type": "generate_video",
+          "description": "Scene 1: static, 24.3s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0001.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0001/audio_merged.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=607:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=23.3:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "24.3",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0001/video.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "commands": [
+        {
+          "type": "generate_video",
+          "description": "Scene 2: static, 10.1s, fade",
+          "command": [
+            "ffmpeg",
+            "-y",
+            "-loop",
+            "1",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/images/img_0002.jpg",
+            "-i",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/assets/voice/voice_scene0002_seg0000.wav",
+            "-vf",
+            "zoompan=z=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=252:s=1920x1080:fps=25,fade=t=in:st=0:d=1.0,fade=t=out:st=9.1:d=1.0",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-t",
+            "10.1",
+            "-map",
+            "0:v",
+            "-map",
+            "1:a",
+            "-shortest",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/scene_0002/video.mp4"
+          ]
+        }
+      ]
+    }
+  ],
+  "concat_command": {
+    "type": "concat",
+    "description": "Concatenate all scene videos into final video",
+    "command": [
+      "ffmpeg",
+      "-y",
+      "-f",
+      "concat",
+      "-safe",
+      "0",
+      "-i",
+      "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/temp/concat_list.txt",
+      "-c",
+      "copy",
+      "/home/hartmmy/shadow-protocol-studio/projects/case_001/render/final_video.mp4"
+    ]
+  },
+  "final_output": "render/final_video.mp4"
+}

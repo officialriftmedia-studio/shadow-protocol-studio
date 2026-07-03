@@ -7,11 +7,23 @@ from shadow_protocol.lib.providers.base import MediaProvider, ProviderResult
 from shadow_protocol.lib.providers.image_provider import GoogleImagenProvider
 from shadow_protocol.lib.providers.voice_provider import GoogleTTSProvider
 from shadow_protocol.lib.providers.magnific_provider import MagnificProvider
+from shadow_protocol.lib.providers.openai_image_provider import OpenAIImageProvider
+from shadow_protocol.lib.providers.elevenlabs_voice_provider import ElevenLabsVoiceProvider
+from shadow_protocol.lib.providers.openai_voice_provider import OpenAIVoiceProvider
+from shadow_protocol.lib.providers.magnific_image_provider import MagnificImageProvider
+from shadow_protocol.lib.providers.gemini_voice_provider import GeminiVoiceProvider
+from shadow_protocol.lib.providers.piper_voice_provider import PiperVoiceProvider
 
 _REGISTRY: dict[str, type[MediaProvider]] = {
     "google_imagen": GoogleImagenProvider,
     "google_tts": GoogleTTSProvider,
     "magnific": MagnificProvider,
+    "openai_image": OpenAIImageProvider,
+    "elevenlabs": ElevenLabsVoiceProvider,
+    "openai_voice": OpenAIVoiceProvider,
+    "magnific_image": MagnificImageProvider,
+    "gemini_voice": GeminiVoiceProvider,
+    "piper_voice": PiperVoiceProvider,
 }
 
 

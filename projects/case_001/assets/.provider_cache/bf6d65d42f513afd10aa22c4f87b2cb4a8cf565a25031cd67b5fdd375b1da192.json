@@ -1,0 +1,24 @@
+{
+  "hash": "bf6d65d42f513afd10aa22c4f87b2cb4a8cf565a25031cd67b5fdd375b1da192",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0011",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A computer screen showing a faded, vintage photograph of a woman next to modern government-level data files. The lighting is stark and clinical, highlighting the shock on the protagonist's face.",
+    "file_path": "assets/images/img_0011.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 11,
+      "checksum": "ed6a7f9ae36d4f61ed9a327aa34c3a82ce3ae8ea6a77066c87eeedb5dd281afa",
+      "model": "realism",
+      "task_id": "418c196c-e466-47e7-aa4a-2a0077ba9df2",
+      "prompt_preview": "A computer screen showing a faded, vintage photograph of a woman next to modern government-level dat"
+    },
+    "created_at": "2026-07-03T02:58:23.983344+00:00"
+  }
+}

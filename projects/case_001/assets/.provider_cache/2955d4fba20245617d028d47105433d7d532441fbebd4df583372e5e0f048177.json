@@ -1,0 +1,24 @@
+{
+  "hash": "2955d4fba20245617d028d47105433d7d532441fbebd4df583372e5e0f048177",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0003",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A senior cybersecurity analyst sitting in a sterile, high-tech office at night. The room is illuminated only by the cool blue light of massive computer monitors reflecting in her focused, tired eyes.",
+    "file_path": "assets/images/img_0003.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 3,
+      "checksum": "39e2c80724fff9c374778b4ec47522ff2b16a1a0be49ac701cbf9b8e58fb7688",
+      "model": "realism",
+      "task_id": "7e4a720a-3e9e-45d4-84a1-596c4a468def",
+      "prompt_preview": "A senior cybersecurity analyst sitting in a sterile, high-tech office at night. The room is illumina"
+    },
+    "created_at": "2026-07-03T02:55:50.581128+00:00"
+  }
+}

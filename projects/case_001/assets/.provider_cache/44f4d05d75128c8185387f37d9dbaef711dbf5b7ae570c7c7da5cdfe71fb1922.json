@@ -1,0 +1,25 @@
+{
+  "hash": "44f4d05d75128c8185387f37d9dbaef711dbf5b7ae570c7c7da5cdfe71fb1922",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0006_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "She was a cybersecurity analyst. She understood data. She understood identity. But what she was witnessing defied every principle she knew.",
+    "file_path": "assets/voice/voice_scene0006_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 6,
+      "segment_index": 0,
+      "checksum": "2ab0c4edbe18f0aaaaac225d564f8714727cf36676d97404b23cd9a16d0e2020",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 10.02,
+      "text_preview": "She was a cybersecurity analyst. She understood data. She understood identity. But what she was witn"
+    },
+    "created_at": "2026-07-03T02:35:39.801287+00:00"
+  }
+}

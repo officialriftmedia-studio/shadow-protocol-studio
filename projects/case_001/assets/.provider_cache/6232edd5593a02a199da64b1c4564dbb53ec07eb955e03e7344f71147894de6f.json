@@ -1,0 +1,25 @@
+{
+  "hash": "6232edd5593a02a199da64b1c4564dbb53ec07eb955e03e7344f71147894de6f",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0015_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "But knowing the truth, it turned out, was not the same as being free from it. In a world where reality is consensus, a solitary truth is merely delusion.",
+    "file_path": "assets/voice/voice_scene0015_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 15,
+      "segment_index": 1,
+      "checksum": "a9ffd07fcc2636165c2e6af82f5fd30078391ce73e9199502e7bc56c3bf58a84",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 10.03,
+      "text_preview": "But knowing the truth, it turned out, was not the same as being free from it. In a world where reali"
+    },
+    "created_at": "2026-07-03T02:36:43.021788+00:00"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "hash": "d4218a18f5ea5fe82a003a161e474c5747af5700ceb9606ca51acd09ff703336",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0015",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A woman standing in the center of her apartment, looking exhausted and paranoid. The room is filled with shadows and the cold, blue light of screens.",
+    "file_path": "assets/images/img_0015.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 15,
+      "checksum": "bc65f0b627d80210c041b87a5945643a6ab4faf196d7f21c05e38e76473c6853",
+      "model": "realism",
+      "task_id": "397ac488-7813-4ccd-aff6-52c96fcd2b95",
+      "prompt_preview": "A woman standing in the center of her apartment, looking exhausted and paranoid. The room is filled "
+    },
+    "created_at": "2026-07-03T03:00:05.404267+00:00"
+  }
+}

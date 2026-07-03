@@ -1,0 +1,25 @@
+{
+  "hash": "64c125de5fd5b501d292198aacc4842fa7735ba040219dfb42e86f6a337826c5",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0013_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "She had found the ghost in the machine, the 'Phantom Directive,' and the stolen identity of Sarah Jensen. She had the proof.",
+    "file_path": "assets/voice/voice_scene0013_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 13,
+      "segment_index": 1,
+      "checksum": "a2b550422ec00ea6dc152e732f276942852de9cb86db21c2867c96da43b1c60c",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 7.85,
+      "text_preview": "She had found the ghost in the machine, the 'Phantom Directive,' and the stolen identity of Sarah Je"
+    },
+    "created_at": "2026-07-03T02:36:32.158742+00:00"
+  }
+}

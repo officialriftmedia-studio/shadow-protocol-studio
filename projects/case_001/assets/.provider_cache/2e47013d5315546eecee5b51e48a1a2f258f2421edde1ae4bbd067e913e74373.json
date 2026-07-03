@@ -1,0 +1,24 @@
+{
+  "hash": "2e47013d5315546eecee5b51e48a1a2f258f2421edde1ae4bbd067e913e74373",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0014",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A woman sitting on her floor, surrounded by multiple screens flickering with static and conflicting data. The room is dark, cold, and claustrophobic.",
+    "file_path": "assets/images/img_0014.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 14,
+      "checksum": "ead1fe1f67be30716a2e716b34adeb1e6ec7ae661f524719acf8122f5aa846bb",
+      "model": "realism",
+      "task_id": "bc63de14-9d4d-4a23-8d1b-3a2ad982edc9",
+      "prompt_preview": "A woman sitting on her floor, surrounded by multiple screens flickering with static and conflicting "
+    },
+    "created_at": "2026-07-03T02:59:22.082201+00:00"
+  }
+}

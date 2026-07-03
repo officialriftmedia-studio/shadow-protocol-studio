@@ -1,0 +1,24 @@
+{
+  "hash": "cd4952244b7b224926246b49239217808411c1f3b5e84ccb0b27a4b4cb9e068d",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0009",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A woman sitting in a dark room, looking over her shoulder with a sense of dread. The shadows are deep and oppressive, with only faint, flickering light from a computer monitor.",
+    "file_path": "assets/images/img_0009.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 9,
+      "checksum": "0906744f78c87caa0ea0d0bc9c71a31a9c5c7bfa8d87b78d0d706409dbcc2a1f",
+      "model": "realism",
+      "task_id": "3a9bc984-cb34-4ae6-a3d4-0b1ec0875745",
+      "prompt_preview": "A woman sitting in a dark room, looking over her shoulder with a sense of dread. The shadows are dee"
+    },
+    "created_at": "2026-07-03T02:57:47.316419+00:00"
+  }
+}

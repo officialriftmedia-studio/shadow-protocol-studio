@@ -1,0 +1,24 @@
+{
+  "hash": "70afd3985fb8d740ecec09683e611dbbea3a2c09142614bee656f54b7b162249",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0012",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "A woman sitting alone in a dark, messy apartment, looking at a screen that reveals her identity has been stolen. Her face is pale and desaturated, reflecting the horror of her reality collapsing.",
+    "file_path": "assets/images/img_0012.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 12,
+      "checksum": "d78ea35c354127c7f8864ff7b627b377109c1f5f340d3e1e62b042c38381b9b8",
+      "model": "realism",
+      "task_id": "82ff0108-8514-47d0-8d14-77993b050bfa",
+      "prompt_preview": "A woman sitting alone in a dark, messy apartment, looking at a screen that reveals her identity has "
+    },
+    "created_at": "2026-07-03T02:58:42.154072+00:00"
+  }
+}

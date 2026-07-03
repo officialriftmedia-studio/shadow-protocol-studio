@@ -1,0 +1,25 @@
+{
+  "hash": "07e9b20b534e8849b22867b77b4e595a9b0cf69261b39ee7768827a759bf82f5",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0004_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "It began not with a bang, but with a whisper. A transposed digit. A birthdate off by a single day.",
+    "file_path": "assets/voice/voice_scene0004_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 4,
+      "segment_index": 0,
+      "checksum": "925bb6856e9d292013533725a0cf19a9431e2d5fe764669361463a84d296dd33",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 7.33,
+      "text_preview": "It began not with a bang, but with a whisper. A transposed digit. A birthdate off by a single day."
+    },
+    "created_at": "2026-07-03T02:35:21.897841+00:00"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "hash": "8a4e737ac1ad07ed3833e76324bc72ae4358a09fce417e72e81b689f14d72f5b",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0005_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "But the dust particle refused to settle. Elena's internal correction failed. And then, it began to spread.",
+    "file_path": "assets/voice/voice_scene0005_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 5,
+      "segment_index": 0,
+      "checksum": "bd4335f5b9bd495f0e9d0928fe5f278f81f390c6d945fe4289504f26ddfe6fe3",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 7.63,
+      "text_preview": "But the dust particle refused to settle. Elena's internal correction failed. And then, it began to s"
+    },
+    "created_at": "2026-07-03T02:35:29.535160+00:00"
+  }
+}

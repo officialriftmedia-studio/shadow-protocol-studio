@@ -1,0 +1,25 @@
+{
+  "hash": "56401858eda54af4b98c83f3425cc61590a496398225ee7d1380d7b2fa3e8e1d",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0003_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "As a senior cybersecurity analyst for OmniCorp, she was a guardian of that order, meticulously auditing the invisible threads that held everything together. She trusted the system, because she underst",
+    "file_path": "assets/voice/voice_scene0003_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 3,
+      "segment_index": 1,
+      "checksum": "fc5591e1941bacf3f94b44deefc845cd99f794d8b7310fdbc0f39751aa4158f2",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 13.55,
+      "text_preview": "As a senior cybersecurity analyst for OmniCorp, she was a guardian of that order, meticulously audit"
+    },
+    "created_at": "2026-07-03T02:35:18.601693+00:00"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "hash": "5716de790236099a8e99fd538587c7e55bff6ed81b95d628263c77198667745c",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0010",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "Dawn light filtering through window blinds into a dark apartment, mixing with the harsh glow of computer monitors. Complex network diagrams are visible on the screens.",
+    "file_path": "assets/images/img_0010.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 10,
+      "checksum": "35912dc839aeb28a9f572ef86b360889410874aa0dc1a403e6cba12f44844a9e",
+      "model": "realism",
+      "task_id": "bebd2c88-5f94-43c6-afcc-6deaf22a9b15",
+      "prompt_preview": "Dawn light filtering through window blinds into a dark apartment, mixing with the harsh glow of comp"
+    },
+    "created_at": "2026-07-03T02:58:05.621372+00:00"
+  }
+}

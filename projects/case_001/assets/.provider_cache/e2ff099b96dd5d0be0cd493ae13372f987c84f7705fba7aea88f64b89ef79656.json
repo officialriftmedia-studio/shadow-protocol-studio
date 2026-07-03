@@ -1,0 +1,24 @@
+{
+  "hash": "e2ff099b96dd5d0be0cd493ae13372f987c84f7705fba7aea88f64b89ef79656",
+  "provider": "magnific_image",
+  "model": "realism",
+  "data": {
+    "asset_id": "img_0004",
+    "type": "image",
+    "source_stage": "image_generator",
+    "provider": "magnific_image",
+    "model": "realism",
+    "prompt": "Close-up of a computer monitor displaying a wall of scrolling green and blue code. A single digit on the screen is highlighted in a jarring, bright red color, causing a slight frown on the analyst's f",
+    "file_path": "assets/images/img_0004.jpg",
+    "mime_type": "image/jpeg",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 4,
+      "checksum": "1b24c67646528674aed916f09585bdcf1165c54d7c2288f02b172c0aee211186",
+      "model": "realism",
+      "task_id": "88710307-0c9b-49d8-8978-e8e10d7d1ba9",
+      "prompt_preview": "Close-up of a computer monitor displaying a wall of scrolling green and blue code. A single digit on"
+    },
+    "created_at": "2026-07-03T02:56:08.870882+00:00"
+  }
+}

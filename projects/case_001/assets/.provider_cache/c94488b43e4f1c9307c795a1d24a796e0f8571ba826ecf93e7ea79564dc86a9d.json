@@ -1,0 +1,25 @@
+{
+  "hash": "c94488b43e4f1c9307c795a1d24a796e0f8571ba826ecf93e7ea79564dc86a9d",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0004_seg0001",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "A minor inconsistency within her own HR profile, buried deep in a routine audit of employee records. For Elena, it was a glitch, an anomaly in the otherwise perfect matrix she oversaw daily. A digital",
+    "file_path": "assets/voice/voice_scene0004_seg0001.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 4,
+      "segment_index": 1,
+      "checksum": "5e77e025ad475ee1235def5543dbd07c332aa85dc45f4e50f512bc5eda15bb97",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 16.72,
+      "text_preview": "A minor inconsistency within her own HR profile, buried deep in a routine audit of employee records."
+    },
+    "created_at": "2026-07-03T02:35:26.121432+00:00"
+  }
+}

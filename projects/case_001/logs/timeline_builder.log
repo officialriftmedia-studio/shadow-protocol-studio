@@ -1,0 +1,3 @@
+  CHECKPOINT: timeline_builder — LLM: 0 calls, 0 tokens (prompt=0 + completion=0), $0.0000
+  Wrote render/timeline.json (16 scenes)
+  Wrote render/chapters.txt

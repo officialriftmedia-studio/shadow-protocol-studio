@@ -1,0 +1,25 @@
+{
+  "hash": "a88d7027c9e31a97e98d3a055728b8cf1c50ad620aa8763f325d7cb87c8054cc",
+  "provider": "piper_voice",
+  "model": "en_US-amy-medium",
+  "data": {
+    "asset_id": "voice_scene0002_seg0000",
+    "type": "voice",
+    "source_stage": "voice_generator",
+    "provider": "piper_voice",
+    "model": "en_US-amy-medium",
+    "prompt": "But to understand how Elena Vasquez arrived at this precipice, we must go back. To a time before the ghost in the machine took hold. Three days earlier...",
+    "file_path": "assets/voice/voice_scene0002_seg0000.wav",
+    "mime_type": "audio/wav",
+    "status": "completed",
+    "metadata": {
+      "scene_id": 2,
+      "segment_index": 0,
+      "checksum": "0527cf6bd93588c00f084219815e6398aecd63e65e98dd8617576e096e4de8b8",
+      "model": "piper-en_US-amy-low",
+      "duration_seconds": 10.14,
+      "text_preview": "But to understand how Elena Vasquez arrived at this precipice, we must go back. To a time before the"
+    },
+    "created_at": "2026-07-03T02:35:11.474131+00:00"
+  }
+}

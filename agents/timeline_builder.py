@@ -19,7 +19,7 @@ from shadow_protocol.lib.schema_validator import validate_output
 
 DEFAULT_DURATION = 15.0
 DEFAULT_TRANSITION = "fade"
-DEFAULT_CAMERA_MOTION = "slow_zoom_in"
+DEFAULT_CAMERA_MOTION = "static"
 SUPPORTED_IMAGE_EXTS = {".png", ".jpg", ".jpeg"}
 SUPPORTED_AUDIO_EXTS = {".wav", ".mp3", ".m4a", ".aac"}
 
